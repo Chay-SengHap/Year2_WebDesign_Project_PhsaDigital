@@ -1,62 +1,78 @@
-    <!--Header-->
-    <header class="bg-white shadow-sm border-b border-gray-200">
-        <div class="container mx-auto px-4 py-4">
- 
-            <!-- Top section: logo + right icons -->
-            <div class="flex items-center justify-between">
-                <!-- Logo -->
-                <div class="flex items-center space-x-3">
-                    <img src="../img/logo/katrok1.png
-                    " alt="logo" class="w-12 h-12 object-contain">
-                    <span class="text-xl font-bold text-green-600">PHSA DIGITAL</span>
-                </div>
+<!-- HEADER -->
+<header class="bg-white shadow-sm border-b border-gray-200">
+    <div class="container mx-auto px-4 py-4">
 
-                <!-- Search bar (centered) -->
-                <div class="flex-1 max-w-xl relative hidden sm:block">
-                    <input type="search" placeholder="Search item" class="w-full pl-12 pr-32 py-3 border border-gray-300 rounded-full 
-                    focus:outline-none focus:ring-2 focus:ring-green-500 bg-gray-50">
+        <!-- Top section -->
+        <div class="flex items-center justify-between">
 
-                    <button class="absolute right-2 top-1/2 transform -translate-y-1/2 
-                    bg-green-500 text-white px-6 py-2 rounded-full hover:bg-green-600 transition">
-                        Search
-                    </button>
-                </div>
+            <!-- Logo -->
+            <div class="flex items-center space-x-3">
+                <img src="../img/logo/katrok1.png" class="w-12 h-12 object-contain" alt="logo">
+                <img src="../img/logo/PHSA_DIGITAL_name.png" class="h-12 object-contain" alt="name">
+            </div>
 
-                <!-- Right icons -->
-                <div class="flex items-center space-x-4">
+            <!-- Search Bar -->
+            <div class="hidden sm:block flex-1 max-w-xl relative">
+                <input type="search" placeholder="Search item"
+                    class="w-full pl-12 pr-32 py-3 border border-gray-300 rounded-full 
+                           focus:outline-none focus:ring-2 focus:ring-green-500 bg-gray-50">
 
-                    <!-- Favorite -->
-                    <button class="p-2 text-gray-600 hover:text-red-500 relative">
-                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z">
-                            </path>
-                        </svg>
-                        <span
-                            class="absolute -top-1 -right-1 bg-red-500 text-white text-xs rounded-full w-5 h-5 flex items-center justify-center">0</span>
-                    </button>
+                <button
+                    class="absolute right-2 top-1/2 -translate-y-1/2 bg-green-500 text-white px-6 py-2 rounded-full hover:bg-green-600 transition">
+                    Search
+                </button>
+            </div>
 
-                    <!-- Cart -->
-                    <button class="p-2 text-gray-600 hover:text-green-600 relative">
-                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M3 3h2l.4 2M7 13h10l4-8H5.4m0 0L7 13m0 0l-1.5 1.5M7 13l-1.5-1.5m0 0L3 3m0 0h2m0 0l.4 2M7 13h10l4-8H5.4">
-                            </path>
-                        </svg>
-                        <span
-                            class="absolute -top-1 -right-1 bg-green-500 text-white text-xs rounded-full w-5 h-5 flex items-center justify-center">1</span>
-                    </button>
+            <!-- Right Icons -->
+            <div class="flex items-center space-x-4">
 
-                    <!-- Profile -->
-                    <button class="p-2 text-gray-600 hover:text-green-600">
-                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path>
-                        </svg>
-                    </button>
-                </div>
+                <!-- Favorite -->
+                <button class="p-2 text-gray-600 hover:text-red-500 relative">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path>
+                    </svg>
+                    <span
+                        class="absolute -top-1 -right-1 bg-red-500 text-white text-xs rounded-full w-5 h-5 flex items-center justify-center">0</span>
+                </button>
+
+                <!-- Cart -->
+                <button class="p-2 text-gray-600 hover:text-green-600 relative">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M3 3h2l.4 2M7 13h10l4-8H5.4"></path>
+                    </svg>
+                    <span
+                        class="absolute -top-1 -right-1 bg-green-500 text-white text-xs rounded-full w-5 h-5 flex items-center justify-center">0</span>
+                </button>
+
+                <!-- Profile -->
+                <button class="p-2 text-gray-600 hover:text-green-600">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path>
+                    </svg>
+                </button>
+
+                <!-- Mobile Menu -->
+                <button class="sm:hidden p-2" id="menu-btn">
+                    <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+
             </div>
         </div>
-    </header>
-    
-     
+
+        <!-- Mobile Search -->
+        <div class="sm:hidden mt-3">
+            <input type="search" placeholder="Search item"
+                class="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-green-500">
+        </div>
+
+    </div>
+</header>
+
+
+
