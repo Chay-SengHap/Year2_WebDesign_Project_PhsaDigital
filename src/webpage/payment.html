@@ -1,0 +1,167 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../output.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <script defer src="https://unpkg.com/alpinejs@3.2.3/dist/cdn.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/flowbite@4.0.1/dist/flowbite.min.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+</head>
+<body class="font-[Montserrat]">
+  
+    <!--Header-->
+     <div data-include="../components/header.html"></div>
+     <div data-include="../components/sub_header.html"> </div>
+     <!--Payment Body-->
+<div class="w-full bg-white shadow p-4 sm:p-6 md:p-8 lg:p-10  sm:mt-6 md:mt-10 max-w-full lg:max-w-6xl mx-auto px-4 py-4 rounded-lg">
+
+    <!-- Header -->
+    <div class="flex flex-col justify-between items-center mb-6">
+        <h1 class="text-3xl sm:text-2xl font-bold text-gray-900">Check Out</h1>
+        <p class="text-xl sm:text-sm text-gray-500 mt-1 sm:mt-0">
+            Home / Shopping Cart / <span class="text-green-600 font-semibold">Check Out</span>
+        </p>
+    </div>
+
+    <h2 class="text-lg font-semibold ml-40 mr-40 sm:mb-4 text-gray-600">Select Payment Method</h2>
+
+    <!-- Grid Layout -->
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 ml-40 mr-40 p-5">
+
+        <!-- LEFT: PAYMENT SECTION -->
+        <div class="lg:col-span-2">
+
+
+
+            <!-- Payment Options -->
+            <div class="space-y-3">
+
+                <!-- Bank options (responsive layout) -->
+                <label class="flex items-center gap-3 p-3 border rounded-lg cursor-pointer hover:bg-gray-50">
+                    <input type="radio" name="payment" class="text-green-600">
+                    <img src="../img/logo/aba.png" class="w-8 sm:w-10 h-5 object-contain">
+                    <span class="text-sm sm:text-base font-medium">ABA Bank</span>
+                </label>
+
+                <label class="flex items-center gap-3 p-3 border rounded-lg cursor-pointer hover:bg-gray-50">
+                    <input type="radio" name="payment" class="text-green-600">
+                    <img src="../img/logo/acleda.png" class="w-8 sm:w-10 h-5 object-contain">
+                    <span class="text-sm sm:text-base font-medium">ACLEDA</span>
+                </label>
+
+                <label class="flex items-center gap-3 p-3 border rounded-lg cursor-pointer hover:bg-gray-50">
+                    <input type="radio" name="payment" class="text-green-600">
+                    <img src="../img/logo/visa.png" class="w-8 sm:w-10 h-5 object-contain">
+                    <span class="text-sm sm:text-base font-medium">•••• •••• •••• 9999</span>
+                </label>
+
+                <label class="flex items-center gap-3 p-3 border rounded-lg cursor-pointer hover:bg-gray-50">
+                    <input type="radio" name="payment" class="text-green-600">
+                    <img src="../img/logo/Cash.png" class="w-6 sm:w-7 h-6 sm:h-7">
+                    <span class="text-sm sm:text-base font-medium">Cash on Delivery</span>
+                </label>
+            </div>
+
+            <!-- Add Card -->
+            <div class="border rounded-lg p-4 sm:p-5 mt-5 bg-gray-50">
+                <label class="flex items-center gap-2">
+                    <input type="radio" name="payment" class="text-green-600">
+                    <span class="font-medium text-sm sm:text-base">Add New Credit/Debit Card</span>
+                </label>
+
+                <div class="mt-4 space-y-4">
+                    <input type="text" placeholder="Card Holder Name"
+                        class="w-full p-3 border rounded-lg focus:ring-2 focus:ring-green-500">
+
+                    <input type="text" placeholder="Card Number"
+                        class="w-full p-3 border rounded-lg focus:ring-2 focus:ring-green-500">
+
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                        <input type="text" placeholder="Expiry Date"
+                            class="p-3 border rounded-lg focus:ring-2 focus:ring-green-500">
+
+                        <input type="text" placeholder="CVV *"
+                            class="p-3 border rounded-lg focus:ring-2 focus:ring-green-500">
+                    </div>
+
+                    <label class="flex items-center gap-2">
+                        <input type="checkbox">
+                        <span class="text-sm text-gray-900">Save card for future payment</span>
+                    </label>
+
+                    <button class="bg-green-500 hover:bg-green-600 text-white py-3 rounded-lg w-full transition">
+                        Save Card
+                    </button>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- RIGHT: ORDER SUMMARY -->
+        <div class="lg:sticky lg:top-10">
+
+            <div class="border rounded-lg p-5 sm:p-6 bg-white">
+
+                <h3 class="text-lg font-semibold mb-3">Order Summary</h3>
+
+                <div class="space-y-3 text-sm sm:text-base">
+                    <div class="flex justify-between">
+                        <span>Items</span>
+                        <span>×8</span>
+                    </div>
+
+                    <div class="flex justify-between">
+                        <span>Sub Total</span>
+                        <span>$2.50</span>
+                    </div>
+
+                    <div class="flex justify-between">
+                        <span>Shipping</span>
+                        <span>$0.00</span>
+                    </div>
+
+                    <div class="flex justify-between">
+                        <span>Taxes</span>
+                        <span>$0.00</span>
+                    </div>
+
+                    <div class="flex justify-between">
+                        <span>Coupon Discount</span>
+                        <span>$0.00</span>
+                    </div>
+
+                    <hr class="my-2">
+
+                    <div class="flex justify-between text-lg font-bold">
+                        <span>Total</span>
+                        <span>$20.00</span>
+                    </div>
+                </div>
+
+                <button class="w-full mt-5 bg-green-500 text-white py-3 rounded-lg font-semibold hover:bg-green-600">
+                    Confirm Payment
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+    <!-- Footer -->
+  <div data-include="../components/footer.html"></div>
+
+
+</body>
+
+</html>
+
+</body>
+</html>
