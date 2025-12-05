@@ -7,12 +7,13 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
 </head>
 <body class="font-[Montserrat]">
   <!-- Header -->
   <div class="bg-gray-50">
   <!-- Header -->
-  <header class=" bg-white shadow-sm">
+  <header class=" bg-white shadow-sm fixed top-0 left-0 w-full z-50">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <!-- Top Section: Logo, Search, and Right Icons -->
       <div class="flex items-center justify-between py-3 gap-4">
@@ -165,9 +166,296 @@
     </header>
   </div>
 
-   
+   <!-- Hero Section -->
+  <main class="pt-24 md:pt-34 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <!-- for navigate 1 to another category -->
+    <section>
+      <div class="flex justify-between items-center mx-auto max-w-7xl my-auto px-4 sm:px-6 lg:px-8 py-3">
+        <h3 class="font-[600] text-xl">Shop by Catagories</h3>
+        <div>
+          <button class="bg-green-400 w-8 h-8 md:w-10 md:h-10 rounded-[50%] text-white hover:bg-green-500">
+            
+            <i class="fa-solid fa-angle-left" style="color: #ffffff;"></i>
+          </button>
+          <button class="bg-green-400  hover:bg-green-500 w-8 h-8 md:w-10 md:h-10 rounded-[50%] text-white">
+            <i class="fa-solid fa-angle-right" style="color: #ffffff;"></i>
+          </button>
+        </div>
 
+      </div>
+
+
+
+
+
+    </section>
+
+    <!-- Category -->
+    <section class="grid grid-cols-2 md:grid-cols-4 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 gap-4">
+      <div class="bg-gray-200 hover:bg-gray-300 bg-opacity-10 w-full h-full md:h-[75%] flex flex-col justify-center items-center md:p-10 p-5 rounded-lg">
+        <img class="w-15 h-15 md:w-20 md:h-20" src="../img/cate_image/meat.png" alt="">
+        <div>
+          <h2 class="font-bold te">Meat</h2>
+        </div>
+      </div>
+      <div class="bg-gray-200 bg-opacity-10 w-full h-full md:h-[75%] flex flex-col justify-center items-center md:p-10 p-5 rounded-lg">
+        <img class="w-15 h-15 md:w-20 md:h-20" src="../img/cate_image/fish-market.png" alt="">
+        <div>
+          <h2 class="font-bold te">Fish</h2>
+        </div>
+      </div>
+      <div class="bg-gray-200 bg-opacity-10 w-full h-full md:h-[75%] flex flex-col justify-center items-center md:p-10 p-5 rounded-lg">
+        <img class="w-15 h-15 md:w-20 md:h-20" src="../img/cate_image/food.png" alt="">
+        <div>
+          <h2 class="font-bold te">Snack</h2>
+        </div>
+      </div>
+      <div class="bg-gray-200 bg-opacity-10 w-full h-full md:h-[75%] flex flex-col justify-center items-center md:p-10 p-5 rounded-lg">
+        <img class="w-15 h-15 md:w-20 md:h-20" src="../img/cate_image/seasoning.png" alt="">
+        <div>
+          <h2 class="font-bold te">Seasoning</h2>
+        </div>
+      </div>
+      
+    </section>
+
+    <!-- Meat Section -->
+    <section>
+      <div class="flex justify-between items-center mx-auto max-w-7xl my-auto px-4 sm:px-6 lg:px-8 py-3">
+        <h3 class="font-[600] text-xl">Meat Section</h3>
+        <div>
+          <button class="bg-green-400 w-8 h-8 md:w-10 md:h-10 rounded-[50%] text-white hover:bg-green-500">
+            
+            <i class="fa-solid fa-angle-left" style="color: #ffffff;"></i>
+          </button>
+          <button class="bg-green-400  hover:bg-green-500 w-8 h-8 md:w-10 md:h-10 rounded-[50%] text-white">
+            <i class="fa-solid fa-angle-right" style="color: #ffffff;"></i>
+          </button>
+        </div>
+
+      </div>
+    </section>
+    <section ">
+      <div class="bg-white">
+        <div class="mx-auto max-w-2xl px-4 py-4 sm:px-6 sm:py-8 lg:max-w-7xl lg:px-8">
+          <h2 class="sr-only">Products</h2>
+      
+          <div id="meatSection" class="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
+            
+          </div>
+        </div>
+      </div>
+
+
+
+    </section>
+
+    <!-- Fish Section -->
+     <section>
+      <div class="flex justify-between items-center mx-auto max-w-7xl my-auto px-4 sm:px-6 lg:px-8 py-3">
+        <h3 class="font-[600] text-xl">Fish Section</h3>
+        <div>
+          <button class="addtoCart w-8 h-8 md:w-10 md:h-10 rounded-[50%] text-white hover:bg-green-500">
+            
+            <i class="fa-solid fa-angle-left" style="color: #ffffff;"></i>
+          </button>
+          <button class="addtoCart w-8 h-8 md:w-10 md:h-10 rounded-[50%] text-white">
+            <i class="fa-solid fa-angle-right" style="color: #ffffff;"></i>
+          </button>
+        </div>
+
+      </div>
+    </section>
+     <section ">
+      <div class="bg-white">
+        <div class="mx-auto max-w-2xl px-4 py-4 sm:px-6 sm:py-8 lg:max-w-7xl lg:px-8">
+          <h2 class="sr-only">Products</h2>
+      
+          <div id="fishSection" class="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
+            
+          </div>
+        </div>
+      </div>
+
+
+
+    </section>
     
+      <!-- Snack -->
+     <section>
+      <div class="flex justify-between items-center mx-auto max-w-7xl my-auto px-4 sm:px-6 lg:px-8 py-3">
+        <h3 class="font-[600] text-xl">Snack Section</h3>
+        <div>
+          <button class="addtoCart w-8 h-8 md:w-10 md:h-10 rounded-[50%] text-white hover:bg-green-500">
+            
+            <i class="fa-solid fa-angle-left" style="color: #ffffff;"></i>
+          </button>
+          <button class="addtoCart w-8 h-8 md:w-10 md:h-10 rounded-[50%] text-white">
+            <i class="fa-solid fa-angle-right" style="color: #ffffff;"></i>
+          </button>
+        </div>
+
+      </div>
+    </section>
+     <section ">
+      <div class="bg-white">
+        <div class="mx-auto max-w-2xl px-4 py-4 sm:px-6 sm:py-8 lg:max-w-7xl lg:px-8">
+          <h2 class="sr-only">Products</h2>
+      
+          <div id="snackSection" class="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
+            
+          </div>
+        </div>
+      </div>
+
+
+
+    </section>
+      <!-- Seasoning-->
+     <section>
+      <div class="flex justify-between items-center mx-auto max-w-7xl my-auto px-4 sm:px-6 lg:px-8 py-3">
+        <h3 class="font-[600] text-xl">Seasoning Section</h3>
+        <div>
+          <button class="addtoCart w-8 h-8 md:w-10 md:h-10 rounded-[50%] text-white hover:bg-green-500">
+            
+            <i class="fa-solid fa-angle-left" style="color: #ffffff;"></i>
+          </button>
+          <button class="addtoCart w-8 h-8 md:w-10 md:h-10 rounded-[50%] text-white">
+            <i class="fa-solid fa-angle-right" style="color: #ffffff;"></i>
+          </button>
+        </div>
+
+      </div>
+    </section>
+     <section ">
+      <div class="bg-white">
+        <div class="mx-auto max-w-2xl px-4 py-4 sm:px-6 sm:py-8 lg:max-w-7xl lg:px-8">
+          <h2 class="sr-only">Products</h2>
+      
+          <div id="seasoningSection" class="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
+            
+          </div>
+        </div>
+      </div>
+
+
+
+    </section>
+
+
+
+
+
+  </main>
+
+
+
+
+  <!-- Footer -->
+    <div data-include="../components/footer.html"></div>
+
+
+    <script src="../js/include.js"></script>
+    <script>
+      fetch('../cart/grocery.json')
+      .then(res => res.json())
+      .then(data =>{
+
+        const meatSection = document.getElementById('meatSection')
+        const fishSection = document.getElementById('fishSection')
+        const snackSection = document.getElementById('snackSection')
+        const seasoningSection = document.getElementById('seasoningSection')
+
+        data.meat.map(item =>{
+          const card = document.createElement('div')
+          card.innerHTML = `
+            <a href="#" class="group">
+              <img src="${item.img}"
+                alt="${item.title}"
+                class="aspect-square w-full rounded-lg bg-gray-200 object-cover group-hover:opacity-75 xl:aspect-7/8" />
+                <div class="flex flex-col gap-2">
+                  <div>
+                    <h3 class="mt-4 text-sm text-gray-700">${item.title}</h3>
+                    <p class="mt-1 text-lg font-medium text-gray-900">$${item.price}</p>
+                  </div>
+                  <div class="flex w-full">
+                    <Button class="w-full bg-[#38cb82] hover:bg-[#41dc8e] p-1 rounded-lg font-medium text-white">Add to Cart</Button>
+                  </div>
+                </div>
+            </a>
+          
+          `
+          meatSection.appendChild(card)
+        })
+        data.fish.map(item =>{
+          const card = document.createElement('div')
+          card.innerHTML = `
+            <a href="#" class="group">
+              <img src="${item.img}"
+                alt="${item.title}"
+                class="aspect-square w-full rounded-lg bg-gray-200 object-cover group-hover:opacity-75 xl:aspect-7/8" />
+                <div class="flex flex-col gap-2">
+                  <div>
+                    <h3 class="mt-4 text-sm text-gray-700">${item.title}</h3>
+                    <p class="mt-1 text-lg font-medium text-gray-900">$${item.price}</p>
+                  </div>
+                  <div class="flex w-full">
+                    <Button class="w-full bg-[#38cb82] hover:bg-[#41dc8e] p-1 rounded-lg font-medium text-white">Add to Cart</Button>
+                  </div>
+                </div>
+            </a>
+          
+          `
+          fishSection.appendChild(card)
+        })
+        data.snack.map(item =>{
+          const card = document.createElement('div')
+          card.innerHTML = `
+            <a href="#" class="group">
+              <img src="${item.img}"
+                alt="${item.title}"
+                class="aspect-square w-full rounded-lg bg-gray-200 object-cover group-hover:opacity-75 xl:aspect-7/8" />
+                <div class="flex flex-col gap-2">
+                  <div>
+                    <h3 class="mt-4 text-sm text-gray-700">${item.title}</h3>
+                    <p class="mt-1 text-lg font-medium text-gray-900">$${item.price}</p>
+                  </div>
+                  <div class="flex w-full">
+                    <Button class="w-full bg-[#38cb82] hover:bg-[#41dc8e] p-1 rounded-lg font-medium text-white">Add to Cart</Button>
+                  </div>
+                </div>
+            </a>
+          
+          `
+          snackSection.appendChild(card)
+        })
+        data.seasoning.map(item =>{
+          const card = document.createElement('div')
+          card.innerHTML = `
+            <a href="#" class="group">
+              <img src="${item.img}"
+                alt="${item.title}"
+                class="aspect-square w-full rounded-lg bg-gray-200 object-cover group-hover:opacity-75 xl:aspect-7/8" />
+                <div class="flex flex-col gap-2">
+                  <div>
+                    <h3 class="mt-4 text-sm text-gray-700">${item.title}</h3>
+                    <p class="mt-1 text-lg font-medium text-gray-900">$${item.price}</p>
+                  </div>
+                  <div class="flex w-full">
+                    <Button class="w-full bg-[#38cb82] hover:bg-[#41dc8e] p-1 rounded-lg font-medium text-white">Add to Cart</Button>
+                  </div>
+                </div>
+            </a>
+          
+          `
+          seasoningSection.appendChild(card)
+        })
+
+      })
+
+
+
+    </script>
 </body>
 
 </html>

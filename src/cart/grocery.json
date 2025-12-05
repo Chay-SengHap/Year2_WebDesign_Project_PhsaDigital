@@ -46,7 +46,7 @@
       "id": 7,
       "title": "Prosciutto",
       "short_description": "Dry-cured Italian ham, usually sliced thin and served raw.",
-      "img": "/assets/images/meat/prosciutto.jpg",
+      "img": "https://i.pinimg.com/1200x/c5/6c/74/c56c745e50d558193f74c056abecd45f.jpg",
       "price": 8.00
     },
     {
@@ -74,14 +74,14 @@
       "id": 11,
       "title": "Chorizo Sausage (Spanish)",
       "short_description": "Highly seasoned pork sausage, cured or smoked, often spicy.",
-      "img": "/assets/images/meat/chorizo_sausage.jpg",
+      "img": "https://i.pinimg.com/1200x/61/19/b9/6119b9fb78b37821c11c53a2a4961c6e.jpg",
       "price": 4.50
     },
     {
       "id": 12,
       "title": "Turkey Breast",
       "short_description": "Very lean white meat, a staple for deli slices or holiday meals.",
-      "img": "https://i.pinimg.com/1200x/61/19/b9/6119b9fb78b37821c11c53a2a4961c6e.jpg",
+      "img": "https://i.pinimg.com/736x/4d/14/eb/4d14ebeb52b3fa0b779b7018c7928674.jpg",
       "price": 6.00
     }
   ],
@@ -90,21 +90,21 @@
       "id": 13,
       "title": "Salmon Fillet",
       "short_description": "Rich in Omega-3s, excellent for baking or pan-searing.",
-      "img": "https://i.pinimg.com/73x/0b/38/bf/0b38bf18802e7aea99eb52e4ff22e2f5.jpg",
+      "img": "https://i.pinimg.com/1200x/cc/e8/13/cce8136d5f6885b53a11ff911eb7fe5c.jpg",
       "price": 14.00
     },
     {
       "id": 14,
       "title": "Albacore Tuna",
       "short_description": "Firm, white meat fish, highly valued for its mild flavor.",
-      "img": "https://i.pinimg.com/73x/6f/f8/6a/6ff86aaa0ae7318565907f1ec785c2b5.jpg",
+      "img": "https://i.pinimg.com/736x/6f/f8/6a/6ff86aaa0ae7318565907f1ec785c2b5.jpg",
       "price": 9.00
     },
     {
       "id": 15,
       "title": "Cod Loin",
       "short_description": "Flaky, mild white fish, often used in fish and chips or chowder.",
-      "img": "https://i.pinimg.com/73x/ca/a3/14/caa314da41dbc0d13feb7eb34a48d885.jpg",
+      "img": "https://i.pinimg.com/736x/e5/b7/5d/e5b75daaa0d7b5a4247a4edde819f45c.jpg",
       "price": 8.50
     },
     {
@@ -132,14 +132,14 @@
       "id": 19,
       "title": "Halibut",
       "short_description": "Large flatfish with firm, white, dense meat, excellent for grilling.",
-      "img": "https://i.pinimg.com/73x/6d/ed/dc/6deddc7d2173d69005af911a07b0ff75.jpg",
+      "img": "https://i.pinimg.com/736x/e2/23/5a/e2235a4ecfcf74ef3c9e9cd7fdf995ab.jpg",
       "price": 16.00
     },
     {
       "id": 20,
       "title": "Trout (Rainbow)",
       "short_description": "Freshwater fish with a delicate flavor, often baked whole.",
-      "img": "https://i.pinimg.com/73x/fe/d6/1c/fed61caa02e735822030a3de3c51c8b1.jpg",
+      "img": "https://i.pinimg.com/736x/fe/d6/1c/fed61caa02e735822030a3de3c51c8b1.jpg",
       "price": 6.50
     },
     {
@@ -153,7 +153,7 @@
       "id": 22,
       "title": "Sardines (Canned)",
       "short_description": "Small, oily fish packed with calcium and Omega-3s, often canned.",
-      "img": "https://i.pinimg.com/73x/a1/c5/0d/a1c50d04d268db7b609822a68bfbe058.jpg",
+      "img": "https://i.pinimg.com/736x/a1/c5/0d/a1c50d04d268db7b609822a68bfbe058.jpg",
       "price": 1.50
     },
     {
@@ -167,7 +167,7 @@
       "id": 24,
       "title": "Perch",
       "short_description": "Lean, flaky white fish, commonly found in freshwater lakes.",
-      "img": "https://i.pinimg.com/73x/54/4d/e0/544de0f3d496d49cb9bb8a2da37d4632.jpg",
+      "img": "https://images.heb.com/is/image/HEBGrocery/003160030-1",
       "price": 3.00
     }
   ],
