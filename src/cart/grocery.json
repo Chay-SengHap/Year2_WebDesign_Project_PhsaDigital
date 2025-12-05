@@ -1,0 +1,604 @@
+{
+  "meat": [
+    {
+      "id": 1,
+      "title": "Beef Sirloin",
+      "short_description": "Lean, flavorful cut, great for grilling or pan-searing.",
+      "img": "https://target.scene7.com/is/image/Target/GUEST_c2fa703e-539b-4228-bb19-9c83b95ffb22?wid=1200&hei=1200&qlt=80",
+      "price": 9.50
+    },
+    {
+      "id": 2,
+      "title": "Chicken Thighs",
+      "short_description": "Juicy dark meat, budget-friendly and perfect for roasting or stewing.",
+      "img": "https://i.pinimg.com/736x/cf/f5/a9/cff5a97dc1a5922ecf0af063d1422ce8.jpg",
+      "price": 3.50
+    },
+    {
+      "id": 3,
+      "title": "Pork Tenderloin",
+      "short_description": "Versatile, lean, and quick-cooking cut of pork.",
+      "img": "https://i.pinimg.com/1200x/2c/f1/90/2cf1903046dd81ec38041ecd4609b4ff.jpg",
+      "price": 5.00
+    },
+    {
+      "id": 4,
+      "title": "Lamb Chops",
+      "short_description": "Tender and rich cut, often seasoned with rosemary and garlic.",
+      "img": "https://i.pinimg.com/736x/9f/2f/57/9f2f57ec3ca98b80ee07ecf8170e8590.jpg",
+      "price": 11.00
+    },
+    {
+      "id": 5,
+      "title": "Ground Turkey",
+      "short_description": "A low-fat substitute for ground beef in many recipes.",
+      "img": "https://i.pinimg.com/1200x/01/78/20/017820a20e2b7ab6bf193b0416f3a485.jpg",
+      "price": 5.50
+    },
+    {
+      "id": 6,
+      "title": "Bacon (Sliced)",
+      "short_description": "Cured pork belly, known for its distinct salty and savory flavor.",
+      "img": "https://i.pinimg.com/736x/e6/a3/bc/e6a3bc623361d5c1ad54848aa8518310.jpg",
+      "price": 4.00
+    },
+    {
+      "id": 7,
+      "title": "Prosciutto",
+      "short_description": "Dry-cured Italian ham, usually sliced thin and served raw.",
+      "img": "/assets/images/meat/prosciutto.jpg",
+      "price": 8.00
+    },
+    {
+      "id": 8,
+      "title": "Veal Cutlets",
+      "short_description": "Thin slices of young cattle meat, excellent for quick pan-frying.",
+      "img": "https://i.pinimg.com/1200x/60/cf/19/60cf190e88739b58595917fef580c989.jpg",
+      "price": 10.00
+    },
+    {
+      "id": 9,
+      "title": "Duck Breast",
+      "short_description": "Rich, fatty poultry cut that crisps up beautifully when pan-seared.",
+      "img": "https://i.pinimg.com/736x/73/fe/e6/73fee681f7097e5a82b9802103fbe9b7.jpg",
+      "price": 7.50
+    },
+    {
+      "id": 10,
+      "title": "T-Bone Steak",
+      "short_description": "A steak that includes both tenderloin and strip loin sections.",
+      "img": "https://i.pinimg.com/1200x/d8/86/0d/d8860d46076b10c355fc7c15f2d304d8.jpg",
+      "price": 12.00
+    },
+    {
+      "id": 11,
+      "title": "Chorizo Sausage (Spanish)",
+      "short_description": "Highly seasoned pork sausage, cured or smoked, often spicy.",
+      "img": "/assets/images/meat/chorizo_sausage.jpg",
+      "price": 4.50
+    },
+    {
+      "id": 12,
+      "title": "Turkey Breast",
+      "short_description": "Very lean white meat, a staple for deli slices or holiday meals.",
+      "img": "https://i.pinimg.com/1200x/61/19/b9/6119b9fb78b37821c11c53a2a4961c6e.jpg",
+      "price": 6.00
+    }
+  ],
+  "fish": [
+    {
+      "id": 13,
+      "title": "Salmon Fillet",
+      "short_description": "Rich in Omega-3s, excellent for baking or pan-searing.",
+      "img": "https://i.pinimg.com/73x/0b/38/bf/0b38bf18802e7aea99eb52e4ff22e2f5.jpg",
+      "price": 14.00
+    },
+    {
+      "id": 14,
+      "title": "Albacore Tuna",
+      "short_description": "Firm, white meat fish, highly valued for its mild flavor.",
+      "img": "https://i.pinimg.com/73x/6f/f8/6a/6ff86aaa0ae7318565907f1ec785c2b5.jpg",
+      "price": 9.00
+    },
+    {
+      "id": 15,
+      "title": "Cod Loin",
+      "short_description": "Flaky, mild white fish, often used in fish and chips or chowder.",
+      "img": "https://i.pinimg.com/73x/ca/a3/14/caa314da41dbc0d13feb7eb34a48d885.jpg",
+      "price": 8.50
+    },
+    {
+      "id": 16,
+      "title": "Tilapia",
+      "short_description": "Inexpensive, mild-flavored freshwater fish that's easy to cook.",
+      "img": "https://i.pinimg.com/1200x/6d/eb/9d/6deb9d78720cc95e1dca28e22ee8bee3.jpg",
+      "price": 2.50
+    },
+    {
+      "id": 17,
+      "title": "Mackerel",
+      "short_description": "Strongly flavored, oily fish packed with nutrients.",
+      "img": "https://i.pinimg.com/1200x/8e/0b/e7/8e0be76a469e7ca9391c97e62cb305ab.jpg",
+      "price": 3.00
+    },
+    {
+      "id": 18,
+      "title": "Haddock",
+      "short_description": "White fish similar to cod, known for its slightly sweeter flavor.",
+      "img": "https://i.pinimg.com/1200x/85/a6/43/85a643f3bccfe01d40b4b6ae75289b39.jpg",
+      "price": 7.00
+    },
+    {
+      "id": 19,
+      "title": "Halibut",
+      "short_description": "Large flatfish with firm, white, dense meat, excellent for grilling.",
+      "img": "https://i.pinimg.com/73x/6d/ed/dc/6deddc7d2173d69005af911a07b0ff75.jpg",
+      "price": 16.00
+    },
+    {
+      "id": 20,
+      "title": "Trout (Rainbow)",
+      "short_description": "Freshwater fish with a delicate flavor, often baked whole.",
+      "img": "https://i.pinimg.com/73x/fe/d6/1c/fed61caa02e735822030a3de3c51c8b1.jpg",
+      "price": 6.50
+    },
+    {
+      "id": 21,
+      "title": "Swordfish Steak",
+      "short_description": "Dense, meaty fish, popular for grilling due to its steak-like texture.",
+      "img": "https://www.kroger.com/product/images/xlarge/front/0001111062920",
+      "price": 11.00
+    },
+    {
+      "id": 22,
+      "title": "Sardines (Canned)",
+      "short_description": "Small, oily fish packed with calcium and Omega-3s, often canned.",
+      "img": "https://i.pinimg.com/73x/a1/c5/0d/a1c50d04d268db7b609822a68bfbe058.jpg",
+      "price": 1.50
+    },
+    {
+      "id": 23,
+      "title": "Snapper (Red)",
+      "short_description": "Mild, slightly sweet white fish, great for roasting or frying.",
+      "img": "https://i.pinimg.com/1200x/94/95/ba/9495ba5809e56a06a92909602271ef36.jpg",
+      "price": 5.00
+    },
+    {
+      "id": 24,
+      "title": "Perch",
+      "short_description": "Lean, flaky white fish, commonly found in freshwater lakes.",
+      "img": "https://i.pinimg.com/73x/54/4d/e0/544de0f3d496d49cb9bb8a2da37d4632.jpg",
+      "price": 3.00
+    }
+  ],
+  "seasoning": [
+    {
+      "id": 25,
+      "title": "Sea Salt",
+      "short_description": "Coarse crystals providing a clean, essential salty flavor.",
+      "img": "https://i.pinimg.com/73x/3b/cc/8a/3bcc8a1c694f81b282734409544a0cbe.jpg",
+      "price": 1.00
+    },
+    {
+      "id": 26,
+      "title": "Black Pepper (Ground)",
+      "short_description": "The most universal spice, adds essential sharpness to any dish.",
+      "img": "https://i.pinimg.com/1200x/e0/e6/de/e0e6de510332cefc0acad777b9c23eb7.jpg",
+      "price": 2.00
+    },
+    {
+      "id": 27,
+      "title": "Dried Oregano",
+      "short_description": "Aromatic herb essential for Mediterranean and Italian dishes.",
+      "img": "https://i.pinimg.com/73x/ae/36/7c/ae367c96881932085977f2b80f438a57.jpg",
+      "price": 1.50
+    },
+    {
+      "id": 28,
+      "title": "Smoked Paprika",
+      "short_description": "Adds a deep, smoky flavor and rich red color to meat and vegetables.",
+      "img": "https://i.pinimg.com/1200x/8d/bb/47/8dbb479c013ad3093d4222d9f0e99b53.jpg",
+      "price": 2.50
+    },
+    {
+      "id": 29,
+      "title": "Garlic Powder",
+      "short_description": "Convenient, concentrated dried garlic for adding a savory base.",
+      "img": "https://i.pinimg.com/1200x/ae/b1/52/aeb152050798d80e6dce12489cfbab9f.jpg",
+      "price": 1.25
+    },
+    {
+      "id": 30,
+      "title": "Cumin",
+      "short_description": "Earthy, nutty spice used extensively in Mexican, Indian, and Middle Eastern cuisine.",
+      "img": "https://i.pinimg.com/73x/27/d5/52/27d5526b3f806e124132b9ba391e4d0c.jpg",
+      "price": 2.00
+    },
+    {
+      "id": 31,
+      "title": "Turmeric (Ground)",
+      "short_description": "Spice known for its vibrant yellow color and earthy, slightly bitter flavor.",
+      "img": "https://i.pinimg.com/1200x/f1/c2/86/f1c2865fa48039aa2b598a1105cb58ac.jpg",
+      "price": 1.00
+    },
+    {
+      "id": 32,
+      "title": "Basil (Dried)",
+      "short_description": "Sweet, aromatic herb, a key component in pesto and tomato sauces.",
+      "img": "https://i.pinimg.com/1200x/b7/60/92/b76092e2a3dde4375979648ae3fbb7b6.jpg",
+      "price": 1.50
+    },
+    {
+      "id": 33,
+      "title": "Chili Powder",
+      "short_description": "A blend of dried chili peppers, cumin, and oregano, often used in Tex-Mex.",
+      "img": "https://i.pinimg.com/73x/3b/67/f3/3b67f3e24f4f2c9bb773bea325ead8e3.jpg",
+      "price": 2.00
+    },
+    {
+      "id": 34,
+      "title": "Thyme (Dried)",
+      "short_description": "Subtle, slightly minty herb that pairs well with poultry and soups.",
+      "img": "https://i.pinimg.com/73x/91/03/06/910306868bf8e852850bcca8cb8e3d08.jpg",
+      "price": 1.50
+    },
+    {
+      "id": 35,
+      "title": "Bay Leaves",
+      "short_description": "Aromatic leaves used to infuse broths, soups, and stews with flavor.",
+      "img": "/assets/images/seasoning/bay_leaves.jpg",
+      "price": 1.00
+    },
+    {
+      "id": 36,
+      "title": "Onion Powder",
+      "short_description": "Concentrated flavor of dried onion, adds a savory depth without moisture.",
+      "img": "https://i.pinimg.com/1200x/8f/e3/c7/8fe3c7286fde4f8b08786a606f00336d.jpg",
+      "price": 1.25
+    }
+  ],
+  "snack": [
+    {
+      "id": 37,
+      "title": "Potato Chips",
+      "short_description": "Thinly sliced, fried potato crisp with various seasonings.",
+      "img": "https://i.pinimg.com/1200x/b9/be/03/b9be03f5a04c5d13d164a722816f9dee.jpg",
+      "price": 1.25
+    },
+    {
+      "id": 38,
+      "title": "Pretzels",
+      "short_description": "Crunchy, salted baked dough, great for dipping.",
+      "img": "https://i.pinimg.com/1200x/79/97/ae/7997aede5c33d42ebb5718e1e94bacc9.jpg",
+      "price": 1.50
+    },
+    {
+      "id": 39,
+      "title": "Granola Bar",
+      "short_description": "Oats and grains bound with honey or syrup, good for quick energy.",
+      "img": "/assets/images/snack/granola_bar.jpg",
+      "price": 0.75
+    },
+    {
+      "id": 40,
+      "title": "Mixed Nuts",
+      "short_description": "Assortment of almonds, walnuts, and cashews for a protein boost.",
+      "img": "https://i.pinimg.com/1200x/db/a0/66/dba06609e4ca34fe0e62c3030c9b6698.jpg",
+      "price": 3.50
+    },
+    {
+      "id": 41,
+      "title": "Popcorn (Air-popped)",
+      "short_description": "Light and fluffy whole grain snack, often enjoyed at the movies.",
+      "img": "https://i.pinimg.com/1200x/c8/d7/2f/c8d72f9d695805f2d40aa433c8245820.jpg",
+      "price": 1.00
+    },
+    {
+      "id": 42,
+      "title": "Yogurt Pretzels",
+      "short_description": "Pretzels coated in a sweet, tangy yogurt-flavored layer.",
+      "img": "https://i.pinimg.com/73x/54/a4/eb/54a4ebbb158d4d172fd29e4d5a26f586.jpg",
+      "price": 2.00
+    },
+    {
+      "id": 43,
+      "title": "Dried Apricots",
+      "short_description": "Chewy, naturally sweet dried fruit, rich in fiber.",
+      "img": "https://i.pinimg.com/73x/39/20/87/392087351220a50417d9da34c6bf2fdb.jpg",
+      "price": 2.50
+    },
+    {
+      "id": 44,
+      "title": "Rice Cakes",
+      "short_description": "Puffed rice shaped into a disk, a crunchy, low-calorie base for toppings.",
+      "img": "https://i.pinimg.com/1200x/b8/ca/cf/b8cacf931ce89236fcf4d032f55be4c2.jpg",
+      "price": 1.75
+    },
+    {
+      "id": 45,
+      "title": "Trail Mix",
+      "short_description": "A blend of nuts, seeds, and dried fruit for hiking or travel.",
+      "img": "https://i.pinimg.com/1200x/5f/8b/1d/5f8b1da5a89ded4539c6a72d718ef374.jpg",
+      "price": 3.00
+    },
+    {
+      "id": 46,
+      "title": "Cheese Crackers",
+      "short_description": "Savory, oven-baked crackers flavored with real cheese.",
+      "img": "https://i.pinimg.com/1200x/14/34/40/1434405642cc004bf8c246a62abd2109.jpg",
+      "price": 1.50
+    },
+    {
+      "id": 47,
+      "title": "Beef Jerky",
+      "short_description": "Lean strips of beef dried and cured, a high-protein portable snack.",
+      "img": "https://www.snackyays.com/cdn/shop/files/YAYS_SPICY_FRONT_V2.jpg?v=1764201696&width=533",
+      "price": 4.00
+    },
+    {
+      "id": 48,
+      "title": "Edamame (Roasted)",
+      "short_description": "Soybeans in the pod, roasted and salted for a crunchy, healthy snack.",
+      "img": "https://i.pinimg.com/1200x/ae/32/51/ae3251eb64b56ada13ac69cc0d5e9154.jpg",
+      "price": 2.50
+    }
+  ],
+  "vegetable": [
+    {
+      "id": 49,
+      "title": "Broccoli Florets",
+      "short_description": "Nutrient-rich green vegetable, great steamed or roasted.",
+      "img": "https://i.pinimg.com/73x/27/1d/be/271dbec537825677ed513c6c3a0d7c0f.jpg",
+      "price": 1.50
+    },
+    {
+      "id": 50,
+      "title": "Carrots",
+      "short_description": "Crunchy root vegetable, high in Vitamin A, sweet when cooked.",
+      "img": "https://i.pinimg.com/73x/9a/be/83/9abe838fa6a765d8f7236f1427a2ece4.jpg",
+      "price": 1.00
+    },
+    {
+      "id": 51,
+      "title": "Spinach",
+      "short_description": "Leafy green, versatile for salads, smoothies, or sautéing.",
+      "img": "https://i.pinimg.com/73x/1a/f1/4c/1af14c21d8424ec614d2a7df1786327f.jpg",
+      "price": 0.75
+    },
+    {
+      "id": 52,
+      "title": "Sweet Potato",
+      "short_description": "Starchy, sweet root vegetable, popular as a side dish or fries.",
+      "img": "https://i.pinimg.com/73x/b1/32/a4/b132a46a8fc1d73d3468981f651407ba.jpg",
+      "price": 1.00
+    },
+    {
+      "id": 53,
+      "title": "Bell Pepper (Red)",
+      "short_description": "Sweetest variety of bell pepper, excellent for salads or stuffing.",
+      "img": "https://i.pinimg.com/73x/4b/83/85/4b838581e131d506136f1b7b91e24301.jpg",
+      "price": 1.50
+    },
+    {
+      "id": 54,
+      "title": "Onion",
+      "short_description": "An essential aromatic bulb used as a base for almost all savory dishes.",
+      "img": "https://i.pinimg.com/73x/22/ee/fa/22eefa90dd9daf630c31dc52df805ada.jpg",
+      "price": 0.75
+    },
+    {
+      "id": 55,
+      "title": "Zucchini",
+      "short_description": "Mild summer squash, great for grilling, baking, or spiralizing into noodles.",
+      "img": "https://i.pinimg.com/73x/31/12/a0/3112a0e2944b0e4a23b85f46ebfb633b.jpg",
+      "price": 1.25
+    },
+    {
+      "id": 56,
+      "title": "Kale (Curly)",
+      "short_description": "Hardy, nutrient-dense leafy green, often massaged for salads.",
+      "img": "https://i.pinimg.com/73x/1e/db/14/1edb14c42c344583b8c153b5e1728aa7.jpg",
+      "price": 1.00
+    },
+    {
+      "id": 57,
+      "title": "Asparagus",
+      "short_description": "Spring vegetable, popular roasted or grilled with a light snap.",
+      "img": "https://i.pinimg.com/1200x/e5/d7/2c/e5d72c693fb945009a0ab3d1979e0d27.jpg",
+      "price": 2.00
+    },
+    {
+      "id": 58,
+      "title": "Mushroom (Cremini)",
+      "short_description": "Versatile brown mushrooms with an earthy flavor, excellent sautéed.",
+      "img": "https://i.pinimg.com/1200x/fe/fc/80/fefc8023c428a61f440857f93736f210.jpg",
+      "price": 2.50
+    },
+    {
+      "id": 59,
+      "title": "Brussels Sprouts",
+      "short_description": "Small, crunchy cabbage-like vegetables, best roasted until crispy.",
+      "img": "https://i.pinimg.com/73x/27/83/79/27837919f3b96c16686100c34e4e1b5c.jpg",
+      "price": 2.00
+    },
+    {
+      "id": 60,
+      "title": "Cauliflower",
+      "short_description": "Cruciferous vegetable often used as a rice or potato substitute.",
+      "img": "https://i.pinimg.com/1200x/cf/6b/93/cf6b93ed0f0bc6a4bec1e3d33443c7ba.jpg",
+      "price": 1.50
+    }
+  ],
+  "seafood": [
+    {
+      "id": 61,
+      "title": "Shrimp (Prawns)",
+      "short_description": "Small crustaceans, quick to cook and versatile in many cuisines.",
+      "img": "https://i.pinimg.com/73x/6c/53/31/6c533161a3fd3ac59b54e3d31c34f757.jpg",
+      "price": 8.00
+    },
+    {
+      "id": 62,
+      "title": "Crab Legs (Snow)",
+      "short_description": "Sweet, delicate white meat, typically steamed and served with butter.",
+      "img": "https://i.pinimg.com/73x/e9/ff/38/e9ff382455a74c528f931f9c78949d30.jpg",
+      "price": 18.00
+    },
+    {
+      "id": 63,
+      "title": "Mussels",
+      "short_description": "Bivalve shellfish, often prepared by steaming in white wine sauce.",
+      "img": "https://i.pinimg.com/73x/07/85/54/078554271ee037c3ba87c6f1b6a57419.jpg",
+      "price": 5.00
+    },
+    {
+      "id": 64,
+      "title": "Clams (Littleneck)",
+      "short_description": "Hard-shelled shellfish, a key ingredient in clam chowder.",
+      "img": "https://i.pinimg.com/1200x/67/9f/a2/679fa27243692c9d86ffd36fb7a9f363.jpg",
+      "price": 6.00
+    },
+    {
+      "id": 65,
+      "title": "Scallops (Sea)",
+      "short_description": "Prized for their sweet, mild taste and tender texture, best seared quickly.",
+      "img": "https://i.pinimg.com/73x/d7/7d/33/d77d332b033d5f5c1ad70f4bbebf0553.jpg",
+      "price": 15.00
+    },
+    {
+      "id": 66,
+      "title": "Lobster Tail",
+      "short_description": "Highly prized shellfish known for its sweet, rich meat.",
+      "img": "https://i.pinimg.com/73x/f7/31/98/f7319823fcec32c65289781b51e772b8.jpg",
+      "price": 20.00
+    },
+    {
+      "id": 67,
+      "title": "Oysters (Raw)",
+      "short_description": "Bivalves often served on the half shell, delicate and briny.",
+      "img": "https://i.pinimg.com/1200x/55/34/03/55340398fa53898e42c42c09c0d781db.jpg",
+      "price": 10.00
+    },
+    {
+      "id": 68,
+      "title": "Calamari (Squid)",
+      "short_description": "Popular prepared fried or grilled, mild and slightly chewy meat.",
+      "img": "https://i.pinimg.com/73x/be/2a/58/be2a58756951eb79cd87d67743280b10.jpg",
+      "price": 7.00
+    },
+    {
+      "id": 69,
+      "title": "King Prawns",
+      "short_description": "Large variety of shrimp, great for skewers or curries.",
+      "img": "https://i.pinimg.com/73x/d7/b9/17/d7b917029aee5f99a53b480120a125dd.jpg",
+      "price": 12.00
+    },
+    {
+      "id": 70,
+      "title": "Abalone",
+      "short_description": "A mollusk known for its edible foot, considered a delicacy.",
+      "img": "https://i.pinimg.com/1200x/11/6c/92/116c926f37d5836298972dbde2f47a27.jpg",
+      "price": 25.00
+    },
+    {
+      "id": 71,
+      "title": "Sea Urchin (Uni)",
+      "short_description": "A prized sushi ingredient, known for its rich, custardy texture.",
+      "img": "https://i.pinimg.com/73x/6b/e2/de/6be2dedf15febea6a7d4a6e3a7c0c273.jpg",
+      "price": 22.00
+    },
+    {
+      "id": 72,
+      "title": "Crawfish (Crayfish)",
+      "short_description": "Small freshwater lobsters, a staple in Cajun and Creole cuisine.",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_rUWb3zgG7akTUde1K4OQs8-Y3pTT9jfdwg&s",
+      "price": 7.50
+    }
+  ],
+  "fruit": [
+    {
+      "id": 73,
+      "title": "Apple (Gala)",
+      "short_description": "A sweet, crisp apple variety, ideal for snacking and baking.",
+      "img": "https://i.pinimg.com/1200x/73/bc/81/73bc81da7760784d1da1139ed403687d.jpg",
+      "price": 1.50
+    },
+    {
+      "id": 74,
+      "title": "Banana",
+      "short_description": "Common tropical fruit, known for being a great source of potassium.",
+      "img": "https://i.pinimg.com/73x/b8/83/d3/b883d30e63e5f6b5966731dc2b443a97.jpg",
+      "price": 0.75
+    },
+    {
+      "id": 75,
+      "title": "Orange (Navel)",
+      "short_description": "A seedless and easy-to-peel citrus fruit.",
+      "img": "https://i.pinimg.com/73x/c4/db/87/c4db874c4f95d5873b21d9eff5cae2a8.jpg",
+      "price": 1.25
+    },
+    {
+      "id": 76,
+      "title": "Blueberries",
+      "short_description": "Small, dark berries, rich in antioxidants, great for oatmeal or pancakes.",
+      "img": "https://i.pinimg.com/73x/b7/19/90/b719900fcb6cff4798725f81bfc1f8b1.jpg",
+      "price": 3.50
+    },
+    {
+      "id": 77,
+      "title": "Avocado",
+      "short_description": "Creamy, nutrient-dense fruit used in savory dishes like guacamole and salads.",
+      "img": "https://i.pinimg.com/73x/b7/19/90/b719900fcb6cff4798725f81bfc1f8b1.jpg",
+      "price": 2.00
+    },
+    {
+      "id": 78,
+      "title": "Strawberry",
+      "short_description": "Bright red, sweet and slightly tart berry, perfect for desserts.",
+      "img": "https://i.pinimg.com/1200x/0c/2d/85/0c2d85cd4c47fb2d2817c24bb3943dd8.jpg",
+      "price": 2.50
+    },
+    {
+      "id": 79,
+      "title": "Watermelon",
+      "short_description": "Large, refreshing fruit with a high water content, ideal for summer.",
+      "img": "https://i.pinimg.com/73x/cb/a8/ab/cba8ab1fe07d68fc855cab0158d73285.jpg",
+      "price": 3.00
+    },
+    {
+      "id": 80,
+      "title": "Pineapple",
+      "short_description": "Tropical fruit with a sweet, tangy flavor and fibrous texture.",
+      "img": "https://i.pinimg.com/1200x/26/c4/20/26c4203bd4622e639fce38839868e8c7.jpg",
+      "price": 1.50
+    },
+    {
+      "id": 81,
+      "title": "Grapes (Red)",
+      "short_description": "Sweet, small fruits that grow in bunches, great for snacking.",
+      "img": "https://i.pinimg.com/73x/84/08/e1/8408e19c6aca3a556f3abbfa93b39ac6.jpg",
+      "price": 3.00
+    },
+    {
+      "id": 82,
+      "title": "Lemon",
+      "short_description": "Sour citrus fruit used primarily for its juice and zest.",
+      "img": "https://i.pinimg.com/73x/ea/bf/4a/eabf4a67153e5348274e1ced91d676f9.jpg",
+      "price": 0.50
+    },
+    {
+      "id": 83,
+      "title": "Mango",
+      "short_description": "Highly aromatic tropical fruit with a sweet, juicy pulp.",
+      "img": "https://i.pinimg.com/73x/dc/a6/e1/dca6e1f5cde9e64311b21a5ce321ea21.jpg",
+      "price": 1.50
+    },
+    {
+      "id": 84,
+      "title": "Kiwi",
+      "short_description": "Small fruit with fuzzy brown skin and vibrant green flesh.",
+      "img": "https://i.pinimg.com/73x/32/ec/c8/32ecc8e07c6e73f9765b996c1cd35b76.jpg",
+      "price": 1.75
+    }
+  ]
+}
