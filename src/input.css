@@ -11,3 +11,12 @@
 .border{
     @apply border-gray-200 border-2
 }
+.center{
+    @apply flex justify-center items-center
+}
+.between{
+    @apply flex justify-between
+}
+html{
+    @apply scroll-smooth
+}
