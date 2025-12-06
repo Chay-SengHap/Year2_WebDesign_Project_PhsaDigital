@@ -3,85 +3,85 @@
     {
       "id": 1,
       "title": "Beef Sirloin",
-      "short_description": "Lean, flavorful cut, great for grilling or pan-searing.",
+      "short_description": "A lean and highly flavorful primal cut of beef, perfectly suited for high-heat cooking methods like grilling or quick pan-searing. It offers a great balance of tenderness and robust beef taste.",
       "img": "https://target.scene7.com/is/image/Target/GUEST_c2fa703e-539b-4228-bb19-9c83b95ffb22?wid=1200&hei=1200&qlt=80",
       "price": 9.50
     },
     {
       "id": 2,
       "title": "Chicken Thighs",
-      "short_description": "Juicy dark meat, budget-friendly and perfect for roasting or stewing.",
+      "short_description": "These are the dark meat cuts of chicken, renowned for being inherently juicy and remaining moist during cooking. They are a budget-friendly option and are excellent for roasting, braising, or stewing.",
       "img": "https://i.pinimg.com/736x/cf/f5/a9/cff5a97dc1a5922ecf0af063d1422ce8.jpg",
       "price": 3.50
     },
     {
       "id": 3,
       "title": "Pork Tenderloin",
-      "short_description": "Versatile, lean, and quick-cooking cut of pork.",
+      "short_description": "An incredibly versatile, lean, and slender cut of pork that cooks very quickly. It readily absorbs marinades and seasonings, making it a great centerpiece for a fast, elegant meal.",
       "img": "https://i.pinimg.com/1200x/2c/f1/90/2cf1903046dd81ec38041ecd4609b4ff.jpg",
       "price": 5.00
     },
     {
       "id": 4,
       "title": "Lamb Chops",
-      "short_description": "Tender and rich cut, often seasoned with rosemary and garlic.",
+      "short_description": "Individual cuts of lamb that are famously tender and rich in flavor. They are often simply seasoned and pan-seared or grilled, frequently paired with herbs like rosemary and garlic for a classic dish.",
       "img": "https://i.pinimg.com/736x/9f/2f/57/9f2f57ec3ca98b80ee07ecf8170e8590.jpg",
       "price": 11.00
     },
     {
       "id": 5,
       "title": "Ground Turkey",
-      "short_description": "A low-fat substitute for ground beef in many recipes.",
+      "short_description": "A popular, low-fat alternative to ground beef, offering a milder flavor profile. It's an excellent choice for health-conscious consumers and works well in chilis, tacos, and meatballs.",
       "img": "https://i.pinimg.com/1200x/01/78/20/017820a20e2b7ab6bf193b0416f3a485.jpg",
       "price": 5.50
     },
     {
       "id": 6,
       "title": "Bacon (Sliced)",
-      "short_description": "Cured pork belly, known for its distinct salty and savory flavor.",
-      "img": "https://i.pinimg.com/736x/e6/a3/bc/e6a3bc623361d5c1ad54848aa8518310.jpg",
+      "short_description": "Thinly sliced, cured pork belly that is highly prized for its distinct salty, smoky, and savory flavor. A breakfast staple and a versatile ingredient for adding richness to countless recipes.",
+      "img": "https://i.pinimg.com/73x/e6/a3/bc/e6a3bc623361d5c1ad54848aa8518310.jpg",
       "price": 4.00
     },
     {
       "id": 7,
       "title": "Prosciutto",
-      "short_description": "Dry-cured Italian ham, usually sliced thin and served raw.",
+      "short_description": "A fine Italian dry-cured ham, typically sliced paper-thin and served uncooked. Its melt-in-your-mouth texture and delicate salty flavor make it perfect for charcuterie boards or wrapping around fruit.",
       "img": "https://i.pinimg.com/1200x/c5/6c/74/c56c745e50d558193f74c056abecd45f.jpg",
       "price": 8.00
     },
     {
       "id": 8,
       "title": "Veal Cutlets",
-      "short_description": "Thin slices of young cattle meat, excellent for quick pan-frying.",
+      "short_description": "Delicate, thin slices of meat from young cattle, prized for their mild flavor and tenderness. They are excellent for quick pan-frying preparations like Italian Scaloppine or Wiener Schnitzel.",
       "img": "https://i.pinimg.com/1200x/60/cf/19/60cf190e88739b58595917fef580c989.jpg",
       "price": 10.00
     },
     {
       "id": 9,
       "title": "Duck Breast",
-      "short_description": "Rich, fatty poultry cut that crisps up beautifully when pan-seared.",
-      "img": "https://i.pinimg.com/736x/73/fe/e6/73fee681f7097e5a82b9802103fbe9b7.jpg",
+      "short_description": "A rich and flavorful poultry cut, featuring a thick layer of fat that crisps up beautifully when pan-seared. It offers a taste profile that is often compared to a fine red meat.",
+      "img": "https://i.pinimg.com/73x/73/fe/e6/73fee681f7097e5a82b9802103fbe9b7.jpg",
       "price": 7.50
     },
     {
       "id": 10,
       "title": "T-Bone Steak",
-      "short_description": "A steak that includes both tenderloin and strip loin sections.",
+      "short_description": "A large steak that uniquely includes two premium cuts—the tenderloin and the strip loin—separated by a T-shaped bone. This provides a great flavor contrast in a single serving.",
       "img": "https://i.pinimg.com/1200x/d8/86/0d/d8860d46076b10c355fc7c15f2d304d8.jpg",
       "price": 12.00
     },
     {
       "id": 11,
       "title": "Chorizo Sausage (Spanish)",
-      "short_description": "Highly seasoned pork sausage, cured or smoked, often spicy.",
+      "short_description": "A highly seasoned, cured or smoked pork sausage, distinctly flavored with garlic and pimentón (Spanish paprika), which gives it a characteristic deep red color and often a spicy kick.",
       "img": "https://i.pinimg.com/1200x/61/19/b9/6119b9fb78b37821c11c53a2a4961c6e.jpg",
       "price": 4.50
     },
     {
       "id": 12,
       "title": "Turkey Breast",
-      "short_description": "Very lean white meat, a staple for deli slices or holiday meals.",
-      "img": "https://i.pinimg.com/736x/4d/14/eb/4d14ebeb52b3fa0b779b7018c7928674.jpg",
+      "short_description": "This is a very lean cut of white meat, widely utilized for healthy deli slices, roasts, and as the traditional centerpiece for holiday meals. It is valued for its mild flavor.",
+      "img": "https://i.pinimg.com/73x/4d/14/eb/4d14ebeb52b3fa0b779b7018c7928674.jpg",
       "price": 6.00
     }
   ],
@@ -89,84 +89,84 @@
     {
       "id": 13,
       "title": "Salmon Fillet",
-      "short_description": "Rich in Omega-3s, excellent for baking or pan-searing.",
+      "short_description": "A popular, oily fish fillet that is exceptionally rich in beneficial Omega-3 fatty acids. It has a distinctive, moderately strong flavor and is excellent prepared by baking, grilling, or pan-searing.",
       "img": "https://i.pinimg.com/1200x/cc/e8/13/cce8136d5f6885b53a11ff911eb7fe5c.jpg",
       "price": 14.00
     },
     {
       "id": 14,
       "title": "Albacore Tuna",
-      "short_description": "Firm, white meat fish, highly valued for its mild flavor.",
-      "img": "https://i.pinimg.com/736x/6f/f8/6a/6ff86aaa0ae7318565907f1ec785c2b5.jpg",
+      "short_description": "A premium, white-meat fish characterized by its firm texture and pleasantly mild flavor. It is highly valued for both fresh consumption and canning, making it a versatile kitchen ingredient.",
+      "img": "https://i.pinimg.com/73x/6f/f8/6a/6ff86aaa0ae7318565907f1ec785c2b5.jpg",
       "price": 9.00
     },
     {
       "id": 15,
       "title": "Cod Loin",
-      "short_description": "Flaky, mild white fish, often used in fish and chips or chowder.",
-      "img": "https://i.pinimg.com/736x/e5/b7/5d/e5b75daaa0d7b5a4247a4edde819f45c.jpg",
+      "short_description": "The thickest and most prized part of the cod fillet, known for its beautiful flakiness and mild white flesh. It's the traditional choice for classic fish and chips or hearty seafood chowder.",
+      "img": "https://i.pinimg.com/73x/e5/b7/5d/e5b75daaa0d7b5a4247a4edde819f45c.jpg",
       "price": 8.50
     },
     {
       "id": 16,
       "title": "Tilapia",
-      "short_description": "Inexpensive, mild-flavored freshwater fish that's easy to cook.",
+      "short_description": "An inexpensive and widely available freshwater fish. It has a very mild flavor and tender white flesh, making it one of the easiest and most versatile fish to cook and prepare.",
       "img": "https://i.pinimg.com/1200x/6d/eb/9d/6deb9d78720cc95e1dca28e22ee8bee3.jpg",
       "price": 2.50
     },
     {
       "id": 17,
       "title": "Mackerel",
-      "short_description": "Strongly flavored, oily fish packed with nutrients.",
+      "short_description": "A strongly flavored and oily fish that is incredibly dense with essential nutrients like Vitamin D and Omega-3s. Best enjoyed grilled, smoked, or marinated to complement its rich taste.",
       "img": "https://i.pinimg.com/1200x/8e/0b/e7/8e0be76a469e7ca9391c97e62cb305ab.jpg",
       "price": 3.00
     },
     {
       "id": 18,
       "title": "Haddock",
-      "short_description": "White fish similar to cod, known for its slightly sweeter flavor.",
+      "short_description": "A close relative of cod, this white fish is distinguished by its light, flaky texture and a slightly sweeter, milder flavor. It is commonly used in frying and in British-style fish recipes.",
       "img": "https://i.pinimg.com/1200x/85/a6/43/85a643f3bccfe01d40b4b6ae75289b39.jpg",
       "price": 7.00
     },
     {
       "id": 19,
       "title": "Halibut",
-      "short_description": "Large flatfish with firm, white, dense meat, excellent for grilling.",
-      "img": "https://i.pinimg.com/736x/e2/23/5a/e2235a4ecfcf74ef3c9e9cd7fdf995ab.jpg",
+      "short_description": "This large flatfish yields firm, white, dense meat that holds up exceptionally well to high heat. Its steak-like texture and clean flavor make it a top choice for grilling and roasting.",
+      "img": "https://i.pinimg.com/73x/e2/23/5a/e2235a4ecfcf74ef3c9e9cd7fdf995ab.jpg",
       "price": 16.00
     },
     {
       "id": 20,
       "title": "Trout (Rainbow)",
-      "short_description": "Freshwater fish with a delicate flavor, often baked whole.",
-      "img": "https://i.pinimg.com/736x/fe/d6/1c/fed61caa02e735822030a3de3c51c8b1.jpg",
+      "short_description": "A freshwater fish with beautiful, colorful skin and a delicate, nutty flavor. Due to its size and bone structure, it is often prepared and baked whole with herbs and lemon.",
+      "img": "https://i.pinimg.com/73x/fe/d6/1c/fed61caa02e735822030a3de3c51c8b1.jpg",
       "price": 6.50
     },
     {
       "id": 21,
       "title": "Swordfish Steak",
-      "short_description": "Dense, meaty fish, popular for grilling due to its steak-like texture.",
+      "short_description": "A dense, meaty fish cut known for its low fat content and firm, steak-like texture. It's a favorite for grilling and broiling because it does not easily flake apart during cooking.",
       "img": "https://www.kroger.com/product/images/xlarge/front/0001111062920",
       "price": 11.00
     },
     {
       "id": 22,
       "title": "Sardines (Canned)",
-      "short_description": "Small, oily fish packed with calcium and Omega-3s, often canned.",
-      "img": "https://i.pinimg.com/736x/a1/c5/0d/a1c50d04d268db7b609822a68bfbe058.jpg",
+      "short_description": "Small, nutrient-dense oily fish that are a powerhouse of calcium and Omega-3s. They are typically sold canned in oil or water and are a convenient, healthy pantry staple.",
+      "img": "https://i.pinimg.com/73x/a1/c5/0d/a1c50d04d268db7b609822a68bfbe058.jpg",
       "price": 1.50
     },
     {
       "id": 23,
       "title": "Snapper (Red)",
-      "short_description": "Mild, slightly sweet white fish, great for roasting or frying.",
+      "short_description": "A beautifully colored fish known for its mild, slightly sweet white flesh. It's highly prized for versatility, working well when roasted whole, pan-fried, or used in ceviche.",
       "img": "https://i.pinimg.com/1200x/94/95/ba/9495ba5809e56a06a92909602271ef36.jpg",
       "price": 5.00
     },
     {
       "id": 24,
       "title": "Perch",
-      "short_description": "Lean, flaky white fish, commonly found in freshwater lakes.",
+      "short_description": "A lean, flaky white fish commonly harvested from freshwater lakes. Its delicate texture and clean flavor make it a wonderful choice for light pan-fried or baked preparations.",
       "img": "https://images.heb.com/is/image/HEBGrocery/003160030-1",
       "price": 3.00
     }
@@ -175,84 +175,84 @@
     {
       "id": 25,
       "title": "Sea Salt",
-      "short_description": "Coarse crystals providing a clean, essential salty flavor.",
+      "short_description": "Coarse, unrefined salt crystals harvested from evaporated seawater. It provides a clean, essential salty flavor and a satisfying crunch when used as a finishing salt.",
       "img": "https://i.pinimg.com/73x/3b/cc/8a/3bcc8a1c694f81b282734409544a0cbe.jpg",
       "price": 1.00
     },
     {
       "id": 26,
       "title": "Black Pepper (Ground)",
-      "short_description": "The most universal spice, adds essential sharpness to any dish.",
+      "short_description": "The most fundamental and universal spice, derived from dried berries of the pepper plant. It adds an essential sharp, pungent heat and aromatic complexity to virtually any dish.",
       "img": "https://i.pinimg.com/1200x/e0/e6/de/e0e6de510332cefc0acad777b9c23eb7.jpg",
       "price": 2.00
     },
     {
       "id": 27,
       "title": "Dried Oregano",
-      "short_description": "Aromatic herb essential for Mediterranean and Italian dishes.",
+      "short_description": "A highly aromatic herb with a slightly bitter, peppery flavor that intensifies when dried. It is absolutely essential for authentic Mediterranean, Greek, and Italian cuisine.",
       "img": "https://i.pinimg.com/73x/ae/36/7c/ae367c96881932085977f2b80f438a57.jpg",
       "price": 1.50
     },
     {
       "id": 28,
       "title": "Smoked Paprika",
-      "short_description": "Adds a deep, smoky flavor and rich red color to meat and vegetables.",
+      "short_description": "Made from peppers that are dried over an oak wood fire, it delivers a deep, intensely smoky flavor and a rich, appealing red color, perfect for meats, stews, and potato dishes.",
       "img": "https://i.pinimg.com/1200x/8d/bb/47/8dbb479c013ad3093d4222d9f0e99b53.jpg",
       "price": 2.50
     },
     {
       "id": 29,
       "title": "Garlic Powder",
-      "short_description": "Convenient, concentrated dried garlic for adding a savory base.",
+      "short_description": "A convenient, concentrated form of dried, ground garlic. It provides a savory base and powerful flavor boost to rubs, marinades, and sauces without adding extra moisture.",
       "img": "https://i.pinimg.com/1200x/ae/b1/52/aeb152050798d80e6dce12489cfbab9f.jpg",
       "price": 1.25
     },
     {
       "id": 30,
       "title": "Cumin",
-      "short_description": "Earthy, nutty spice used extensively in Mexican, Indian, and Middle Eastern cuisine.",
+      "short_description": "An earthy, nutty, and warm-flavored spice derived from the seed of a flowering plant. It is used extensively and is fundamental to Mexican, Indian, Middle Eastern, and North African cuisines.",
       "img": "https://i.pinimg.com/73x/27/d5/52/27d5526b3f806e124132b9ba391e4d0c.jpg",
       "price": 2.00
     },
     {
       "id": 31,
       "title": "Turmeric (Ground)",
-      "short_description": "Spice known for its vibrant yellow color and earthy, slightly bitter flavor.",
+      "short_description": "A spice known for its vibrant golden-yellow color and its distinct earthy, slightly bitter, and peppery flavor. It is a vital component in many curry powders and traditional health remedies.",
       "img": "https://i.pinimg.com/1200x/f1/c2/86/f1c2865fa48039aa2b598a1105cb58ac.jpg",
       "price": 1.00
     },
     {
       "id": 32,
       "title": "Basil (Dried)",
-      "short_description": "Sweet, aromatic herb, a key component in pesto and tomato sauces.",
+      "short_description": "A sweet, intensely aromatic herb that is a cornerstone of Italian cooking. When dried, its flavor is highly concentrated, making it a key component in pestos, pasta sauces, and Caprese salads.",
       "img": "https://i.pinimg.com/1200x/b7/60/92/b76092e2a3dde4375979648ae3fbb7b6.jpg",
       "price": 1.50
     },
     {
       "id": 33,
       "title": "Chili Powder",
-      "short_description": "A blend of dried chili peppers, cumin, and oregano, often used in Tex-Mex.",
+      "short_description": "A carefully crafted blend of dried, ground chili peppers, often mixed with other spices like cumin and oregano. It is the signature seasoning used heavily in Tex-Mex and chili con carne dishes.",
       "img": "https://i.pinimg.com/73x/3b/67/f3/3b67f3e24f4f2c9bb773bea325ead8e3.jpg",
       "price": 2.00
     },
     {
       "id": 34,
       "title": "Thyme (Dried)",
-      "short_description": "Subtle, slightly minty herb that pairs well with poultry and soups.",
+      "short_description": "A subtle, slightly minty and earthy herb with a gentle aromatic profile. It pairs wonderfully with roasted chicken, root vegetables, stews, and is often included in a bouquet garni.",
       "img": "https://i.pinimg.com/73x/91/03/06/910306868bf8e852850bcca8cb8e3d08.jpg",
       "price": 1.50
     },
     {
       "id": 35,
       "title": "Bay Leaves",
-      "short_description": "Aromatic leaves used to infuse broths, soups, and stews with flavor.",
+      "short_description": "Whole, aromatic leaves used to slowly infuse a delicate, almost floral, herbal flavor into simmering broths, rich soups, stews, and slow-cooked sauces before being removed prior to serving.",
       "img": "/assets/images/seasoning/bay_leaves.jpg",
       "price": 1.00
     },
     {
       "id": 36,
       "title": "Onion Powder",
-      "short_description": "Concentrated flavor of dried onion, adds a savory depth without moisture.",
+      "short_description": "The dehydrated and ground form of onion, which provides a deep, concentrated savory flavor. It's excellent for adding onion depth to recipes without introducing any additional moisture or bulk.",
       "img": "https://i.pinimg.com/1200x/8f/e3/c7/8fe3c7286fde4f8b08786a606f00336d.jpg",
       "price": 1.25
     }
@@ -261,84 +261,84 @@
     {
       "id": 37,
       "title": "Potato Chips",
-      "short_description": "Thinly sliced, fried potato crisp with various seasonings.",
+      "short_description": "Ultra-thinly sliced potatoes that are deep-fried or baked until crisp, and finished with a variety of seasonings. They are the quintessential crunchy, savory snack for any occasion.",
       "img": "https://i.pinimg.com/1200x/b9/be/03/b9be03f5a04c5d13d164a722816f9dee.jpg",
       "price": 1.25
     },
     {
       "id": 38,
       "title": "Pretzels",
-      "short_description": "Crunchy, salted baked dough, great for dipping.",
+      "short_description": "A classic baked dough snack, characterized by its unique knot shape, crunchy texture, and generous sprinkle of coarse salt. They are perfect eaten alone or as a vehicle for dipping sauces.",
       "img": "https://i.pinimg.com/1200x/79/97/ae/7997aede5c33d42ebb5718e1e94bacc9.jpg",
       "price": 1.50
     },
     {
       "id": 39,
       "title": "Granola Bar",
-      "short_description": "Oats and grains bound with honey or syrup, good for quick energy.",
+      "short_description": "A convenient, handheld snack made from rolled oats, grains, and nuts, typically bound together with honey or syrup. It’s an easy, portable source of quick energy for busy days.",
       "img": "/assets/images/snack/granola_bar.jpg",
       "price": 0.75
     },
     {
       "id": 40,
       "title": "Mixed Nuts",
-      "short_description": "Assortment of almonds, walnuts, and cashews for a protein boost.",
+      "short_description": "A heart-healthy assortment typically including almonds, walnuts, cashews, and pecans. This combination offers a satisfying crunch, essential fats, and a significant protein boost.",
       "img": "https://i.pinimg.com/1200x/db/a0/66/dba06609e4ca34fe0e62c3030c9b6698.jpg",
       "price": 3.50
     },
     {
       "id": 41,
       "title": "Popcorn (Air-popped)",
-      "short_description": "Light and fluffy whole grain snack, often enjoyed at the movies.",
+      "short_description": "A classic whole-grain snack created by rapidly heating corn kernels until they puff into light, fluffy pieces. It's a low-calorie base that can be seasoned savory or sweet, often enjoyed at the movies.",
       "img": "https://i.pinimg.com/1200x/c8/d7/2f/c8d72f9d695805f2d40aa433c8245820.jpg",
       "price": 1.00
     },
     {
       "id": 42,
       "title": "Yogurt Pretzels",
-      "short_description": "Pretzels coated in a sweet, tangy yogurt-flavored layer.",
+      "short_description": "Crunchy pretzels fully coated in a smooth, sweet, and slightly tangy yogurt-flavored confectionary layer. This snack provides a satisfying contrast between salty crunch and sweet coating.",
       "img": "https://i.pinimg.com/73x/54/a4/eb/54a4ebbb158d4d172fd29e4d5a26f586.jpg",
       "price": 2.00
     },
     {
       "id": 43,
       "title": "Dried Apricots",
-      "short_description": "Chewy, naturally sweet dried fruit, rich in fiber.",
+      "short_description": "Naturally sweet and pleasantly chewy dried fruit, rich in dietary fiber and essential vitamins. They are a wonderful snack or addition to baking, cereals, and trail mixes.",
       "img": "https://i.pinimg.com/73x/39/20/87/392087351220a50417d9da34c6bf2fdb.jpg",
       "price": 2.50
     },
     {
       "id": 44,
       "title": "Rice Cakes",
-      "short_description": "Puffed rice shaped into a disk, a crunchy, low-calorie base for toppings.",
+      "short_description": "Light, crunchy disks made from puffed whole-grain rice. They serve as a low-calorie, gluten-free base that is often topped with avocado, nut butter, or cheese for a quick meal.",
       "img": "https://i.pinimg.com/1200x/b8/ca/cf/b8cacf931ce89236fcf4d032f55be4c2.jpg",
       "price": 1.75
     },
     {
       "id": 45,
       "title": "Trail Mix",
-      "short_description": "A blend of nuts, seeds, and dried fruit for hiking or travel.",
+      "short_description": "A classic, high-energy snack blend featuring a mixture of nuts, seeds, and dried fruit, often with the addition of chocolate or candy. It's an ideal portable fuel source for hiking or travel.",
       "img": "https://i.pinimg.com/1200x/5f/8b/1d/5f8b1da5a89ded4539c6a72d718ef374.jpg",
       "price": 3.00
     },
     {
       "id": 46,
       "title": "Cheese Crackers",
-      "short_description": "Savory, oven-baked crackers flavored with real cheese.",
+      "short_description": "Savory, oven-baked crackers that are richly flavored with real cheese and a hint of salt. They are perfect for snacking on their own or pairing with soups and dips.",
       "img": "https://i.pinimg.com/1200x/14/34/40/1434405642cc004bf8c246a62abd2109.jpg",
       "price": 1.50
     },
     {
       "id": 47,
       "title": "Beef Jerky",
-      "short_description": "Lean strips of beef dried and cured, a high-protein portable snack.",
+      "short_description": "Thin, lean strips of beef that have been marinated, dried, and cured to create a chewy, high-protein snack. Its concentrated savory flavor makes it an excellent portable meal replacement.",
       "img": "https://www.snackyays.com/cdn/shop/files/YAYS_SPICY_FRONT_V2.jpg?v=1764201696&width=533",
       "price": 4.00
     },
     {
       "id": 48,
       "title": "Edamame (Roasted)",
-      "short_description": "Soybeans in the pod, roasted and salted for a crunchy, healthy snack.",
+      "short_description": "Green soybeans in the pod, which are roasted and lightly salted. This preparation enhances their natural sweetness and gives them a satisfyingly crunchy texture, making them a healthy, fiber-rich snack.",
       "img": "https://i.pinimg.com/1200x/ae/32/51/ae3251eb64b56ada13ac69cc0d5e9154.jpg",
       "price": 2.50
     }
@@ -347,84 +347,84 @@
     {
       "id": 49,
       "title": "Broccoli Florets",
-      "short_description": "Nutrient-rich green vegetable, great steamed or roasted.",
+      "short_description": "The edible flower heads and tender stems of the broccoli plant. This nutrient-rich green vegetable is highly versatile, perfect for steaming, stir-frying, or roasting until tender-crisp.",
       "img": "https://i.pinimg.com/73x/27/1d/be/271dbec537825677ed513c6c3a0d7c0f.jpg",
       "price": 1.50
     },
     {
       "id": 50,
       "title": "Carrots",
-      "short_description": "Crunchy root vegetable, high in Vitamin A, sweet when cooked.",
+      "short_description": "A familiar, vibrant orange root vegetable that is rich in beta-carotene (Vitamin A). They are crunchy when raw, becoming distinctly sweet and tender when roasted or cooked into stews.",
       "img": "https://i.pinimg.com/73x/9a/be/83/9abe838fa6a765d8f7236f1427a2ece4.jpg",
       "price": 1.00
     },
     {
       "id": 51,
       "title": "Spinach",
-      "short_description": "Leafy green, versatile for salads, smoothies, or sautéing.",
+      "short_description": "A popular, tender leafy green that is incredibly versatile. It can be eaten raw in salads, quickly wilted and sautéed, or blended seamlessly into smoothies for a nutritional boost.",
       "img": "https://i.pinimg.com/73x/1a/f1/4c/1af14c21d8424ec614d2a7df1786327f.jpg",
       "price": 0.75
     },
     {
       "id": 52,
       "title": "Sweet Potato",
-      "short_description": "Starchy, sweet root vegetable, popular as a side dish or fries.",
+      "short_description": "A starchy, orange root vegetable with an inherent sweetness that develops further upon cooking. It is a highly popular and nutritious alternative to regular potatoes for baking, mashing, or cutting into fries.",
       "img": "https://i.pinimg.com/73x/b1/32/a4/b132a46a8fc1d73d3468981f651407ba.jpg",
       "price": 1.00
     },
     {
       "id": 53,
       "title": "Bell Pepper (Red)",
-      "short_description": "Sweetest variety of bell pepper, excellent for salads or stuffing.",
+      "short_description": "The fully ripened and sweetest variety of bell pepper, characterized by its deep red color and high Vitamin C content. They are excellent raw in salads, roasted, or stuffed and baked.",
       "img": "https://i.pinimg.com/73x/4b/83/85/4b838581e131d506136f1b7b91e24301.jpg",
       "price": 1.50
     },
     {
       "id": 54,
       "title": "Onion",
-      "short_description": "An essential aromatic bulb used as a base for almost all savory dishes.",
+      "short_description": "An essential aromatic bulb that forms the flavor foundation for nearly all savory dishes worldwide. When cooked, its sharpness mellows into a deep, pleasing sweetness.",
       "img": "https://i.pinimg.com/73x/22/ee/fa/22eefa90dd9daf630c31dc52df805ada.jpg",
       "price": 0.75
     },
     {
       "id": 55,
       "title": "Zucchini",
-      "short_description": "Mild summer squash, great for grilling, baking, or spiralizing into noodles.",
+      "short_description": "A mild-flavored summer squash with thin green skin. It is incredibly versatile, ideal for grilling, baking into breads, or spiralizing into low-carb pasta noodles.",
       "img": "https://i.pinimg.com/73x/31/12/a0/3112a0e2944b0e4a23b85f46ebfb633b.jpg",
       "price": 1.25
     },
     {
       "id": 56,
       "title": "Kale (Curly)",
-      "short_description": "Hardy, nutrient-dense leafy green, often massaged for salads.",
+      "short_description": "A very hardy and intensely nutrient-dense leafy green. Due to its tough texture, it is often massaged with dressing for raw salads or baked into chips until crispy.",
       "img": "https://i.pinimg.com/73x/1e/db/14/1edb14c42c344583b8c153b5e1728aa7.jpg",
       "price": 1.00
     },
     {
       "id": 57,
       "title": "Asparagus",
-      "short_description": "Spring vegetable, popular roasted or grilled with a light snap.",
+      "short_description": "A premium spring vegetable known for its elegant spears and light, distinct flavor. It is most popular when simply roasted or grilled to a perfect, light snap.",
       "img": "https://i.pinimg.com/1200x/e5/d7/2c/e5d72c693fb945009a0ab3d1979e0d27.jpg",
       "price": 2.00
     },
     {
       "id": 58,
       "title": "Mushroom (Cremini)",
-      "short_description": "Versatile brown mushrooms with an earthy flavor, excellent sautéed.",
+      "short_description": "Also known as baby bellas, these brown mushrooms offer a deeper, more earthy and savory flavor than white button mushrooms. They are excellent when sautéed, roasted, or added to sauces.",
       "img": "https://i.pinimg.com/1200x/fe/fc/80/fefc8023c428a61f440857f93736f210.jpg",
       "price": 2.50
     },
     {
       "id": 59,
       "title": "Brussels Sprouts",
-      "short_description": "Small, crunchy cabbage-like vegetables, best roasted until crispy.",
+      "short_description": "Small, crunchy vegetables from the cabbage family that, when properly prepared, have a delicious, slightly bitter, nutty flavor. They are best roasted at high heat until the outer leaves are crispy and caramelized.",
       "img": "https://i.pinimg.com/73x/27/83/79/27837919f3b96c16686100c34e4e1b5c.jpg",
       "price": 2.00
     },
     {
       "id": 60,
       "title": "Cauliflower",
-      "short_description": "Cruciferous vegetable often used as a rice or potato substitute.",
+      "short_description": "A versatile, white cruciferous vegetable with a neutral flavor. It has become a popular low-carb substitute for grains and starches, often riced, mashed, or roasted whole.",
       "img": "https://i.pinimg.com/1200x/cf/6b/93/cf6b93ed0f0bc6a4bec1e3d33443c7ba.jpg",
       "price": 1.50
     }
@@ -433,84 +433,84 @@
     {
       "id": 61,
       "title": "Shrimp (Prawns)",
-      "short_description": "Small crustaceans, quick to cook and versatile in many cuisines.",
+      "short_description": "Small, tender crustaceans prized for their quick cooking time and sweet, mild flavor. They are incredibly versatile and are a staple ingredient across countless international cuisines, from scampi to curries.",
       "img": "https://i.pinimg.com/73x/6c/53/31/6c533161a3fd3ac59b54e3d31c34f757.jpg",
       "price": 8.00
     },
     {
       "id": 62,
       "title": "Crab Legs (Snow)",
-      "short_description": "Sweet, delicate white meat, typically steamed and served with butter.",
+      "short_description": "Long, thin legs from the Snow Crab, containing sweet, delicate white meat. They are typically sold pre-cooked and are best served steamed or boiled, often with melted butter and lemon.",
       "img": "https://i.pinimg.com/73x/e9/ff/38/e9ff382455a74c528f931f9c78949d30.jpg",
       "price": 18.00
     },
     {
       "id": 63,
       "title": "Mussels",
-      "short_description": "Bivalve shellfish, often prepared by steaming in white wine sauce.",
+      "short_description": "Dark-shelled bivalve shellfish with a tender, slightly chewy texture and a distinct briny, sweet flavor. They are most commonly prepared by steaming them open in a flavorful broth, such as white wine and garlic.",
       "img": "https://i.pinimg.com/73x/07/85/54/078554271ee037c3ba87c6f1b6a57419.jpg",
       "price": 5.00
     },
     {
       "id": 64,
       "title": "Clams (Littleneck)",
-      "short_description": "Hard-shelled shellfish, a key ingredient in clam chowder.",
+      "short_description": "A type of hard-shelled shellfish that is excellent for steaming, grilling, or adding to sauces. Their natural brininess and texture make them a key ingredient in clam chowder and pasta dishes.",
       "img": "https://i.pinimg.com/1200x/67/9f/a2/679fa27243692c9d86ffd36fb7a9f363.jpg",
       "price": 6.00
     },
     {
       "id": 65,
       "title": "Scallops (Sea)",
-      "short_description": "Prized for their sweet, mild taste and tender texture, best seared quickly.",
+      "short_description": "A highly prized mollusk renowned for its sweet, mild taste and incredibly tender texture. Their high-quality meat is best showcased when pan-seared quickly to achieve a beautiful, caramelized crust.",
       "img": "https://i.pinimg.com/73x/d7/7d/33/d77d332b033d5f5c1ad70f4bbebf0553.jpg",
       "price": 15.00
     },
     {
       "id": 66,
       "title": "Lobster Tail",
-      "short_description": "Highly prized shellfish known for its sweet, rich meat.",
+      "short_description": "The most desired part of the lobster, known for its sweet, rich, and firm white meat. It is a luxurious shellfish, typically broiled, steamed, or grilled and often served with clarified butter.",
       "img": "https://i.pinimg.com/73x/f7/31/98/f7319823fcec32c65289781b51e772b8.jpg",
       "price": 20.00
     },
     {
       "id": 67,
       "title": "Oysters (Raw)",
-      "short_description": "Bivalves often served on the half shell, delicate and briny.",
+      "short_description": "Bivalve mollusks known for their unique, delicate, and highly briny flavor, which varies by region. They are most famously served raw on the half shell with a simple mignonette or a squeeze of lemon.",
       "img": "https://i.pinimg.com/1200x/55/34/03/55340398fa53898e42c42c09c0d781db.jpg",
       "price": 10.00
     },
     {
       "id": 68,
       "title": "Calamari (Squid)",
-      "short_description": "Popular prepared fried or grilled, mild and slightly chewy meat.",
+      "short_description": "The mild and slightly chewy meat of the squid, popular across the globe. It is a versatile seafood, commonly prepared either deep-fried in rings or grilled into tender pieces.",
       "img": "https://i.pinimg.com/73x/be/2a/58/be2a58756951eb79cd87d67743280b10.jpg",
       "price": 7.00
     },
     {
       "id": 69,
       "title": "King Prawns",
-      "short_description": "Large variety of shrimp, great for skewers or curries.",
+      "short_description": "A significantly larger variety of shrimp, prized for its impressive size and substantial bite. Its size makes it excellent for grilling on skewers, adding to seafood boils, or integrating into rich curries.",
       "img": "https://i.pinimg.com/73x/d7/b9/17/d7b917029aee5f99a53b480120a125dd.jpg",
       "price": 12.00
     },
     {
       "id": 70,
       "title": "Abalone",
-      "short_description": "A mollusk known for its edible foot, considered a delicacy.",
+      "short_description": "A unique mollusk known for its large, edible 'foot' and iridescent shell. It is considered a rare and expensive delicacy in many Asian and Pacific cuisines, prized for its firm texture and rich flavor.",
       "img": "https://i.pinimg.com/1200x/11/6c/92/116c926f37d5836298972dbde2f47a27.jpg",
       "price": 25.00
     },
     {
       "id": 71,
       "title": "Sea Urchin (Uni)",
-      "short_description": "A prized sushi ingredient, known for its rich, custardy texture.",
+      "short_description": "The gonads of the sea urchin, a prized delicacy in sushi and fine dining. It is known for its intense, rich, and complex custardy texture with a distinctly sweet, briny flavor of the ocean.",
       "img": "https://i.pinimg.com/73x/6b/e2/de/6be2dedf15febea6a7d4a6e3a7c0c273.jpg",
       "price": 22.00
     },
     {
       "id": 72,
       "title": "Crawfish (Crayfish)",
-      "short_description": "Small freshwater lobsters, a staple in Cajun and Creole cuisine.",
+      "short_description": "Small freshwater lobsters, primarily a staple in Cajun and Creole cuisine. They are known for their distinct sweet, slightly earthy flavor and are typically prepared in large, seasoned boils.",
       "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_rUWb3zgG7akTUde1K4OQs8-Y3pTT9jfdwg&s",
       "price": 7.50
     }
@@ -519,84 +519,84 @@
     {
       "id": 73,
       "title": "Apple (Gala)",
-      "short_description": "A sweet, crisp apple variety, ideal for snacking and baking.",
+      "short_description": "A popular, medium-sized apple variety known for its bright red and yellow striped skin. It offers a consistently sweet, crisp flavor and is versatile, great for healthy snacking and reliable for baking.",
       "img": "https://i.pinimg.com/1200x/73/bc/81/73bc81da7760784d1da1139ed403687d.jpg",
       "price": 1.50
     },
     {
       "id": 74,
       "title": "Banana",
-      "short_description": "Common tropical fruit, known for being a great source of potassium.",
+      "short_description": "One of the world's most common and accessible tropical fruits. It is famously known for being an excellent natural source of potassium and is a perfect, soft fruit for quick energy and smoothies.",
       "img": "https://i.pinimg.com/73x/b8/83/d3/b883d30e63e5f6b5966731dc2b443a97.jpg",
       "price": 0.75
     },
     {
       "id": 75,
       "title": "Orange (Navel)",
-      "short_description": "A seedless and easy-to-peel citrus fruit.",
+      "short_description": "A well-known citrus fruit easily identifiable by the 'navel' formation at the blossom end. It is naturally seedless, easy to peel, and has a sweet, low-acid juice, making it perfect for eating out of hand.",
       "img": "https://i.pinimg.com/73x/c4/db/87/c4db874c4f95d5873b21d9eff5cae2a8.jpg",
       "price": 1.25
     },
     {
       "id": 76,
       "title": "Blueberries",
-      "short_description": "Small, dark berries, rich in antioxidants, great for oatmeal or pancakes.",
+      "short_description": "Small, dark blue berries renowned for being packed with antioxidants. They possess a mildly sweet and slightly tangy flavor, making them great for topping oatmeal, baking into muffins, or blending.",
       "img": "https://i.pinimg.com/73x/b7/19/90/b719900fcb6cff4798725f81bfc1f8b1.jpg",
       "price": 3.50
     },
     {
       "id": 77,
       "title": "Avocado",
-      "short_description": "Creamy, nutrient-dense fruit used in savory dishes like guacamole and salads.",
+      "short_description": "A creamy, nutrient-dense fruit with a large central pit and distinctive green skin. Its high fat content and mild flavor make it a staple ingredient in savory preparations, most famously in guacamole and salads.",
       "img": "https://i.pinimg.com/73x/b7/19/90/b719900fcb6cff4798725f81bfc1f8b1.jpg",
       "price": 2.00
     },
     {
       "id": 78,
       "title": "Strawberry",
-      "short_description": "Bright red, sweet and slightly tart berry, perfect for desserts.",
+      "short_description": "A bright red, sweet, and slightly tart aggregate accessory fruit. Its universally appealing flavor and beautiful color make it perfect for eating fresh, decorating desserts, or making preserves.",
       "img": "https://i.pinimg.com/1200x/0c/2d/85/0c2d85cd4c47fb2d2817c24bb3943dd8.jpg",
       "price": 2.50
     },
     {
       "id": 79,
       "title": "Watermelon",
-      "short_description": "Large, refreshing fruit with a high water content, ideal for summer.",
+      "short_description": "A very large, supremely refreshing fruit characterized by its high water content. Its sweet, juicy red or pink flesh makes it the quintessential fruit for cooling down during the hot summer months.",
       "img": "https://i.pinimg.com/73x/cb/a8/ab/cba8ab1fe07d68fc855cab0158d73285.jpg",
       "price": 3.00
     },
     {
       "id": 80,
       "title": "Pineapple",
-      "short_description": "Tropical fruit with a sweet, tangy flavor and fibrous texture.",
+      "short_description": "A tropical fruit with a distinctive prickly rind and sweet, tangy, aromatic flesh. It is known for containing the enzyme bromelain, and its complex flavor is great both fresh and grilled.",
       "img": "https://i.pinimg.com/1200x/26/c4/20/26c4203bd4622e639fce38839868e8c7.jpg",
       "price": 1.50
     },
     {
       "id": 81,
       "title": "Grapes (Red)",
-      "short_description": "Sweet, small fruits that grow in bunches, great for snacking.",
+      "short_description": "Small, sweet fruits that grow in generous clusters on a vine. Red grapes are particularly enjoyable for snacking and are often used in the production of red wine and juices.",
       "img": "https://i.pinimg.com/73x/84/08/e1/8408e19c6aca3a556f3abbfa93b39ac6.jpg",
       "price": 3.00
     },
     {
       "id": 82,
       "title": "Lemon",
-      "short_description": "Sour citrus fruit used primarily for its juice and zest.",
+      "short_description": "An intensely sour and acidic citrus fruit, primarily valued for its highly fragrant juice and zest. It is an indispensable ingredient for adding brightness and acidity to both cooking and baking.",
       "img": "https://i.pinimg.com/73x/ea/bf/4a/eabf4a67153e5348274e1ced91d676f9.jpg",
       "price": 0.50
     },
     {
       "id": 83,
       "title": "Mango",
-      "short_description": "Highly aromatic tropical fruit with a sweet, juicy pulp.",
+      "short_description": "A highly aromatic, succulent tropical fruit with a large flat pit. It has a uniquely sweet, juicy pulp and is celebrated as a key ingredient in countless desserts, drinks, and savory chutneys.",
       "img": "https://i.pinimg.com/73x/dc/a6/e1/dca6e1f5cde9e64311b21a5ce321ea21.jpg",
       "price": 1.50
     },
     {
       "id": 84,
       "title": "Kiwi",
-      "short_description": "Small fruit with fuzzy brown skin and vibrant green flesh.",
+      "short_description": "A small, oval fruit with fuzzy brown skin that hides a vibrant, emerald-green flesh. It offers a refreshing blend of sweet and tart flavors, often with tiny, edible black seeds.",
       "img": "https://i.pinimg.com/73x/32/ec/c8/32ecc8e07c6e73f9765b996c1cd35b76.jpg",
       "price": 1.75
     }

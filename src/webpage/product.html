@@ -266,7 +266,7 @@
 
       </div>
     </section>
-     <section ">
+     <section>
       <div class="bg-white">
         <div class="mx-auto max-w-2xl px-4 py-4 sm:px-6 sm:py-8 lg:max-w-7xl lg:px-8">
           <h2 class="sr-only">Products</h2>
@@ -327,12 +327,101 @@
 
       </div>
     </section>
-     <section ">
+     <section >
       <div class="bg-white">
         <div class="mx-auto max-w-2xl px-4 py-4 sm:px-6 sm:py-8 lg:max-w-7xl lg:px-8">
           <h2 class="sr-only">Products</h2>
       
           <div id="seasoningSection" class="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
+            
+          </div>
+        </div>
+      </div>
+
+
+    </section>
+    <!-- Vegetable Section -->
+     <section>
+      <div class="flex justify-between items-center mx-auto max-w-7xl my-auto px-4 sm:px-6 lg:px-8 py-3">
+        <h3 class="font-[600] text-xl">Vegetable Section</h3>
+        <div>
+          <button class="addtoCart w-8 h-8 md:w-10 md:h-10 rounded-[50%] text-white hover:bg-green-500">
+            
+            <i class="fa-solid fa-angle-left" style="color: #ffffff;"></i>
+          </button>
+          <button class="addtoCart w-8 h-8 md:w-10 md:h-10 rounded-[50%] text-white">
+            <i class="fa-solid fa-angle-right" style="color: #ffffff;"></i>
+          </button>
+        </div>
+
+      </div>
+    </section>
+     <section >
+      <div class="bg-white">
+        <div class="mx-auto max-w-2xl px-4 py-4 sm:px-6 sm:py-8 lg:max-w-7xl lg:px-8">
+          <h2 class="sr-only">Products</h2>
+      
+          <div id="vegetableSection" class="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
+            
+          </div>
+        </div>
+      </div>
+
+
+
+    </section>
+    <!-- Seafood Section -->
+     <section>
+      <div class="flex justify-between items-center mx-auto max-w-7xl my-auto px-4 sm:px-6 lg:px-8 py-3">
+        <h3 class="font-[600] text-xl">Seafood Section</h3>
+        <div>
+          <button class="addtoCart w-8 h-8 md:w-10 md:h-10 rounded-[50%] text-white hover:bg-green-500">
+            
+            <i class="fa-solid fa-angle-left" style="color: #ffffff;"></i>
+          </button>
+          <button class="addtoCart w-8 h-8 md:w-10 md:h-10 rounded-[50%] text-white">
+            <i class="fa-solid fa-angle-right" style="color: #ffffff;"></i>
+          </button>
+        </div>
+
+      </div>
+    </section>
+     <section >
+      <div class="bg-white">
+        <div class="mx-auto max-w-2xl px-4 py-4 sm:px-6 sm:py-8 lg:max-w-7xl lg:px-8">
+          <h2 class="sr-only">Products</h2>
+      
+          <div id="seafoodSection" class="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
+            
+          </div>
+        </div>
+      </div>
+
+
+
+    </section>
+    <!-- Fruits Section -->
+     <section>
+      <div class="flex justify-between items-center mx-auto max-w-7xl my-auto px-4 sm:px-6 lg:px-8 py-3">
+        <h3 class="font-[600] text-xl">Fruits Section</h3>
+        <div>
+          <button class="addtoCart w-8 h-8 md:w-10 md:h-10 rounded-[50%] text-white hover:bg-green-500">
+            
+            <i class="fa-solid fa-angle-left" style="color: #ffffff;"></i>
+          </button>
+          <button class="addtoCart w-8 h-8 md:w-10 md:h-10 rounded-[50%] text-white">
+            <i class="fa-solid fa-angle-right" style="color: #ffffff;"></i>
+          </button>
+        </div>
+
+      </div>
+    </section>
+     <section >
+      <div class="bg-white">
+        <div class="mx-auto max-w-2xl px-4 py-4 sm:px-6 sm:py-8 lg:max-w-7xl lg:px-8">
+          <h2 class="sr-only">Products</h2>
+      
+          <div id="fruitSection" class="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
             
           </div>
         </div>
@@ -365,11 +454,15 @@
         const fishSection = document.getElementById('fishSection')
         const snackSection = document.getElementById('snackSection')
         const seasoningSection = document.getElementById('seasoningSection')
+        const vegetableSection = document.getElementById('vegetableSection')
+        const seafoodSection = document.getElementById('seafoodSection')
+        const fruitSection = document.getElementById('fruitSection')
 
         data.meat.map(item =>{
           const card = document.createElement('div')
+          
           card.innerHTML = `
-            <a href="#" class="group">
+            <a href="./productdetail.html?id=${item.id}" class="group">
               <img src="${item.img}"
                 alt="${item.title}"
                 class="aspect-square w-full rounded-lg bg-gray-200 object-cover group-hover:opacity-75 xl:aspect-7/8" />
@@ -390,7 +483,7 @@
         data.fish.map(item =>{
           const card = document.createElement('div')
           card.innerHTML = `
-            <a href="#" class="group">
+            <a href="./productdetail.html?id=${item.id}" class="group">
               <img src="${item.img}"
                 alt="${item.title}"
                 class="aspect-square w-full rounded-lg bg-gray-200 object-cover group-hover:opacity-75 xl:aspect-7/8" />
@@ -411,7 +504,7 @@
         data.snack.map(item =>{
           const card = document.createElement('div')
           card.innerHTML = `
-            <a href="#" class="group">
+            <a href="./productdetail.html?id=${item.id}" class="group">
               <img src="${item.img}"
                 alt="${item.title}"
                 class="aspect-square w-full rounded-lg bg-gray-200 object-cover group-hover:opacity-75 xl:aspect-7/8" />
@@ -432,7 +525,7 @@
         data.seasoning.map(item =>{
           const card = document.createElement('div')
           card.innerHTML = `
-            <a href="#" class="group">
+            <a href="./productdetail.html?id=${item.id}" class="group">
               <img src="${item.img}"
                 alt="${item.title}"
                 class="aspect-square w-full rounded-lg bg-gray-200 object-cover group-hover:opacity-75 xl:aspect-7/8" />
@@ -449,6 +542,69 @@
           
           `
           seasoningSection.appendChild(card)
+        })
+        data.vegetable.map(item =>{
+          const card = document.createElement('div')
+          card.innerHTML = `
+            <a href="./productdetail.html?id=${item.id}" class="group">
+              <img src="${item.img}"
+                alt="${item.title}"
+                class="aspect-square w-full rounded-lg bg-gray-200 object-cover group-hover:opacity-75 xl:aspect-7/8" />
+                <div class="flex flex-col gap-2">
+                  <div>
+                    <h3 class="mt-4 text-sm text-gray-700">${item.title}</h3>
+                    <p class="mt-1 text-lg font-medium text-gray-900">$${item.price}</p>
+                  </div>
+                  <div class="flex w-full">
+                    <Button class="w-full bg-[#38cb82] hover:bg-[#41dc8e] p-1 rounded-lg font-medium text-white">Add to Cart</Button>
+                  </div>
+                </div>
+            </a>
+          
+          `
+          vegetableSection.appendChild(card)
+        })
+        data.seafood.map(item =>{
+          const card = document.createElement('div')
+          card.innerHTML = `
+            <a href="./productdetail.html?id=${item.id}" class="group">
+              <img src="${item.img}"
+                alt="${item.title}"
+                class="aspect-square w-full rounded-lg bg-gray-200 object-cover group-hover:opacity-75 xl:aspect-7/8" />
+                <div class="flex flex-col gap-2">
+                  <div>
+                    <h3 class="mt-4 text-sm text-gray-700">${item.title}</h3>
+                    <p class="mt-1 text-lg font-medium text-gray-900">$${item.price}</p>
+                  </div>
+                  <div class="flex w-full">
+                    <Button class="w-full bg-[#38cb82] hover:bg-[#41dc8e] p-1 rounded-lg font-medium text-white">Add to Cart</Button>
+                  </div>
+                </div>
+            </a>
+          
+          `
+          seafoodSection.appendChild(card)
+        })
+        data.fruit.map(item =>{
+          const card = document.createElement('div')
+          card.innerHTML = `
+            <a href="./productdetail.html?id=${item.id}" class="group">
+              <img src="${item.img}"
+                alt="${item.title}"
+                class="aspect-square w-full rounded-lg bg-gray-200 object-cover group-hover:opacity-75 xl:aspect-7/8" />
+                <div class="flex flex-col gap-2">
+                  <div>
+                    <h3 class="mt-4 text-sm text-gray-700">${item.title}</h3>
+                    <p class="mt-1 text-lg font-medium text-gray-900">$${item.price}</p>
+                  </div>
+                  <div class="flex w-full">
+                    <Button class="w-full bg-[#38cb82] hover:bg-[#41dc8e] p-1 rounded-lg font-medium text-white">Add to Cart</Button>
+                  </div>
+                </div>
+            </a>
+          
+          `
+          fruitSection.appendChild(card)
         })
 
       })
