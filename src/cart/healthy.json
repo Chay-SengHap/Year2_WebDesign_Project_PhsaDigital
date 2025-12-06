@@ -1,0 +1,388 @@
+{
+  "healthySets": [
+    {
+      "id": 85,
+      "title": "Healthy Sets",
+      "price": 2.50,
+      "img": "../img/cate_image/healthy-cat.jpg",
+      "ingredients": [
+        {
+          "name": "Greens (Mixed Lettuce)",
+          "quantity": "About 2 cups"
+        },
+        {
+          "name": "Egg",
+          "quantity": "1"
+        },
+        {
+          "name": "Avocado",
+          "quantity": "1/4 medium"
+        },
+        {
+          "name": "Red Beans",
+          "quantity": "1/4 cup cooked"
+        },
+        {
+          "name": "Purple Corn / Chips",
+          "quantity": "5–6 pieces"
+        },
+        {
+          "name": "Salt & Pepper",
+          "quantity": "To taste"
+        }
+      ]
+    },
+    {
+      "id": 86,
+      "title": "Protein Power Bowl",
+      "price": 3.25,
+      "img": "../img/cate_image/protein-bowl.jpg",
+      "ingredients": [
+        {
+          "name": "Grilled Chicken Breast",
+          "quantity": "3 oz"
+        },
+        {
+          "name": "Quinoa",
+          "quantity": "1/2 cup cooked"
+        },
+        {
+          "name": "Broccoli",
+          "quantity": "1 cup steamed"
+        },
+        {
+          "name": "Cherry Tomatoes",
+          "quantity": "6–8 pieces"
+        },
+        {
+          "name": "Hummus",
+          "quantity": "2 tbsp"
+        },
+        {
+          "name": "Lemon Juice",
+          "quantity": "1 tbsp"
+        }
+      ]
+    },
+    {
+      "id": 87,
+      "title": "Mediterranean Delight",
+      "price": 2.95,
+      "img": "../img/cate_image/mediterranean.jpg",
+      "ingredients": [
+        {
+          "name": "Mixed Greens",
+          "quantity": "2 cups"
+        },
+        {
+          "name": "Feta Cheese",
+          "quantity": "1 oz crumbled"
+        },
+        {
+          "name": "Cucumber",
+          "quantity": "1/2 cup diced"
+        },
+        {
+          "name": "Kalamata Olives",
+          "quantity": "6 pieces"
+        },
+        {
+          "name": "Red Onion",
+          "quantity": "2 tbsp sliced"
+        },
+        {
+          "name": "Olive Oil & Vinegar",
+          "quantity": "To taste"
+        }
+      ]
+    },
+    {
+      "id": 88,
+      "title": "Veggie Sunrise Bowl",
+      "price": 2.75,
+      "img": "../img/cate_image/veggie-sunrise.jpg",
+      "ingredients": [
+        {
+          "name": "Spinach",
+          "quantity": "1.5 cups"
+        },
+        {
+          "name": "Poached Eggs",
+          "quantity": "2"
+        },
+        {
+          "name": "Sweet Potato",
+          "quantity": "1/2 cup roasted"
+        },
+        {
+          "name": "Bell Peppers",
+          "quantity": "1/4 cup mixed"
+        },
+        {
+          "name": "Pumpkin Seeds",
+          "quantity": "1 tbsp"
+        },
+        {
+          "name": "Hot Sauce",
+          "quantity": "Optional"
+        }
+      ]
+    },
+    {
+      "id": 89,
+      "title": "Asian Fusion Bowl",
+      "price": 3.50,
+      "img": "../img/cate_image/asian-fusion.jpg",
+      "ingredients": [
+        {
+          "name": "Brown Rice",
+          "quantity": "1/2 cup cooked"
+        },
+        {
+          "name": "Edamame",
+          "quantity": "1/3 cup"
+        },
+        {
+          "name": "Carrots",
+          "quantity": "1/4 cup shredded"
+        },
+        {
+          "name": "Cabbage",
+          "quantity": "1/2 cup purple"
+        },
+        {
+          "name": "Sesame Seeds",
+          "quantity": "1 tsp"
+        },
+        {
+          "name": "Soy Ginger Dressing",
+          "quantity": "2 tbsp"
+        }
+      ]
+    },
+    {
+      "id": 90,
+      "title": "Tropical Energy Bowl",
+      "price": 2.85,
+      "img": "../img/cate_image/tropical-bowl.jpg",
+      "ingredients": [
+        {
+          "name": "Kale",
+          "quantity": "2 cups chopped"
+        },
+        {
+          "name": "Mango",
+          "quantity": "1/4 cup diced"
+        },
+        {
+          "name": "Black Beans",
+          "quantity": "1/3 cup"
+        },
+        {
+          "name": "Corn",
+          "quantity": "1/4 cup"
+        },
+        {
+          "name": "Lime",
+          "quantity": "1 wedge"
+        },
+        {
+          "name": "Cilantro",
+          "quantity": "Fresh, to taste"
+        }
+      ]
+    },
+    {
+      "id": 91,
+      "title": "Garden Fresh Mix",
+      "price": 2.60,
+      "img": "../img/cate_image/garden-fresh.jpg",
+      "ingredients": [
+        {
+          "name": "Romaine Lettuce",
+          "quantity": "2 cups"
+        },
+        {
+          "name": "Hard Boiled Egg",
+          "quantity": "1"
+        },
+        {
+          "name": "Chickpeas",
+          "quantity": "1/4 cup"
+        },
+        {
+          "name": "Cucumber",
+          "quantity": "1/2 cup sliced"
+        },
+        {
+          "name": "Sunflower Seeds",
+          "quantity": "1 tbsp"
+        },
+        {
+          "name": "Balsamic Vinaigrette",
+          "quantity": "2 tbsp"
+        }
+      ]
+    },
+    {
+      "id": 92,
+      "title": "Southwestern Bowl",
+      "price": 3.10,
+      "img": "../img/cate_image/southwestern.jpg",
+      "ingredients": [
+        {
+          "name": "Mixed Greens",
+          "quantity": "2 cups"
+        },
+        {
+          "name": "Grilled Corn",
+          "quantity": "1/3 cup"
+        },
+        {
+          "name": "Black Beans",
+          "quantity": "1/4 cup"
+        },
+        {
+          "name": "Avocado",
+          "quantity": "1/4 medium"
+        },
+        {
+          "name": "Tortilla Strips",
+          "quantity": "Handful"
+        },
+        {
+          "name": "Chipotle Ranch",
+          "quantity": "2 tbsp"
+        }
+      ]
+    },
+    {
+      "id": 93,
+      "title": "Berry Blast Bowl",
+      "price": 2.90,
+      "img": "../img/cate_image/berry-blast.jpg",
+      "ingredients": [
+        {
+          "name": "Spring Mix",
+          "quantity": "2 cups"
+        },
+        {
+          "name": "Strawberries",
+          "quantity": "4–5 sliced"
+        },
+        {
+          "name": "Goat Cheese",
+          "quantity": "1 oz"
+        },
+        {
+          "name": "Walnuts",
+          "quantity": "2 tbsp chopped"
+        },
+        {
+          "name": "Red Onion",
+          "quantity": "1 tbsp thinly sliced"
+        },
+        {
+          "name": "Raspberry Vinaigrette",
+          "quantity": "2 tbsp"
+        }
+      ]
+    },
+    {
+      "id": 94,
+      "title": "Superfood Supreme",
+      "price": 3.40,
+      "img": "../img/cate_image/superfood.jpg",
+      "ingredients": [
+        {
+          "name": "Kale & Spinach Mix",
+          "quantity": "2 cups"
+        },
+        {
+          "name": "Salmon",
+          "quantity": "2 oz grilled"
+        },
+        {
+          "name": "Blueberries",
+          "quantity": "1/4 cup"
+        },
+        {
+          "name": "Almonds",
+          "quantity": "10–12 pieces"
+        },
+        {
+          "name": "Chia Seeds",
+          "quantity": "1 tsp"
+        },
+        {
+          "name": "Lemon Tahini Dressing",
+          "quantity": "2 tbsp"
+        }
+      ]
+    },
+    {
+      "id": 95,
+      "title": "Classic Caesar Bowl",
+      "price": 2.70,
+      "img": "../img/cate_image/caesar-bowl.jpg",
+      "ingredients": [
+        {
+          "name": "Romaine Hearts",
+          "quantity": "2 cups chopped"
+        },
+        {
+          "name": "Grilled Chicken",
+          "quantity": "2 oz"
+        },
+        {
+          "name": "Parmesan Cheese",
+          "quantity": "2 tbsp shaved"
+        },
+        {
+          "name": "Croutons",
+          "quantity": "1/4 cup"
+        },
+        {
+          "name": "Cherry Tomatoes",
+          "quantity": "4 halved"
+        },
+        {
+          "name": "Caesar Dressing",
+          "quantity": "2 tbsp"
+        }
+      ]
+    },
+    {
+      "id": 96,
+      "title": "Rainbow Veggie Bowl",
+      "price": 2.80,
+      "img": "../img/cate_image/rainbow-veggie.jpg",
+      "ingredients": [
+        {
+          "name": "Mixed Greens",
+          "quantity": "2 cups"
+        },
+        {
+          "name": "Beets",
+          "quantity": "1/4 cup roasted"
+        },
+        {
+          "name": "Carrots",
+          "quantity": "1/4 cup shredded"
+        },
+        {
+          "name": "Red Cabbage",
+          "quantity": "1/4 cup"
+        },
+        {
+          "name": "Yellow Bell Pepper",
+          "quantity": "1/4 cup diced"
+        },
+        {
+          "name": "Honey Mustard Dressing",
+          "quantity": "2 tbsp"
+        }
+      ]
+    }
+  ]
+}
