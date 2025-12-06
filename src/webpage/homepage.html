@@ -115,7 +115,7 @@
           </nav>
 
           <!-- Special Offer -->
-          <div class="flex items-center gap-2 text-orange-500 font-semibold text-sm flex-shrink-0">
+          <div class="flex items-center gap-2 text-orange-500 font-semibold text-sm shrink-0">
             <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
               <path
                 d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
@@ -174,11 +174,11 @@
     </header>
   </div>
   <main>
-    <!-- Hero -->
+    <!-- Hero --> 
     <section class="relative overflow-hidden ">
       <div class="relative h-[600px] md:h-[700px]">
         <img src="../img/cate_image/hero.jpg" alt="Fresh Groceries Banner"
-          class="absolute inset-0 w-90% h-auto object-cover mx-auto mt-20 rounded-lg" />
+          class="absolute inset-0 w-90% h-auto object-cover mx-auto mt-20 rounded-md backdrop-blur-xs" />
         <div class="absolute inset-0 flex flex-col items-center justify-center text-center px-4">
           <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4 p-4 rounded-lg">
             Fresh & Healthy Groceries
@@ -198,6 +198,7 @@
       </div>
     </section>
 
+    <!--Categories-->
     <section>
 
 
@@ -213,137 +214,150 @@
               <button class="w-3 h-3 bg-gray-300 rounded-full"></button>
               <button class="w-3 h-3 bg-gray-300 rounded-full"></button>
             </div>
-          </div>
-          <div class="flex flex-row gap-3 justify-between space-x-4 overflow-auto">
-            <!--Meats-->
-            <div id="meat"
-              class="bg-white hover:bg-green-400 text-dark font-semibold py-3 px-6 rounded-lg w-45% h-45% p-4 text-center cursor-pointer border border-gray-300">
-              <img src="../img/cate_image/bysrob.jpg" alt="Meats"
-                class="w-30% h-30% object-cover rounded-full mb-3 mx-auto">
-              <h3 class=" p-2 text-2xl font-semibold text-gray-800">Meats</h3>
-            </div>
-            <!--Veget-->
-            <div id="veget"
-              class="bg-white hover:bg-green-400 text-dark font-semibold py-3 px-6 rounded-lg w-45% h-45%  p-4 text-center cursor-pointer border border-gray-300">
-              <img src="../img/cate_image/bonlea.png" alt="Vegetables"
-                class="w-30% h-30% object-cover rounded-full mb-3 mx-auto">
-              <h3 class=" text-2xl font-semibold text-gray-800">Vegetables</h3>
-            </div>
-            <!--Fish-->
-            <div id="fish"
-              class="bg-white hover:bg-green-400 text-dark font-semibold py-3 px-6 rounded-lg w-45% h-45%  p-4 text-center cursor-pointer border border-gray-300">
-              <img src="../img/cate_image/fish-cate.jpg" alt="Fish"
-                class="w-30% h-30% object-cover rounded-full mb-3 mx-auto">
-              <h3 class="text-2xl font-semibold text-gray-800">Fish</h3>
-            </div>
-            <!--Snack-->
-            <div id="snack"
-              class="bg-white hover:bg-green-400 text-dark font-semibold py-3 px-6 rounded-lg w-45% h-45%  p-4 text-center cursor-pointer border border-gray-300">
-              <img src="../img/cate_image/snack.jpg" alt="Snacks"
-                class="w-30% h-30% object-cover rounded-full mb-3 mx-auto">
-              <h3 class="text-2xl font-semibold text-gray-800">Snacks</h3>
-            </div>
-            <!--Seaoning-->
-            <div id="seasoning"
-              class="bg-white hover:bg-green-400 text-dark font-semibold py-3 px-6 rounded-lg w-45% h-45%  p-4 text-center cursor-pointer border border-gray-300">
-              <img src="../img/cate_image/seasoning-1.jpg" alt="Spices"
-                class="w-30% h-30% object-cover rounded-full mb-3 mx-auto">
-              <h3 class="text-2xl font-semibold text-gray-800">Seasoning</h3>
-            </div>
+          </div> 
+          <div class="flex justify-center flex-wrap ">
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 place-items-center mx-auto w-full max-w-5xl">
 
-            <!--Seaoning-->
-            <div id="seasoning"
-              class="bg-white hover:bg-green-400 text-dark font-semibold py-3 px-6 rounded-lg w-45% h-45%  p-4 text-center cursor-pointer border border-gray-300">
-              <img src="../img/cate_image/fruit.jpg" alt="Spices"
-                class="w-30% h-30% object-cover rounded-full mb-3 mx-auto">
-              <h3 class="text-2xl font-semibold text-gray-800">Fruit</h3>
-            </div>
+  <!--Meats-->
+  <div class="bg-white hover:bg-gray-300 text-dark font-semibold py-3 px-6 rounded-lg p-4 text-center cursor-pointer border border-gray-300">
+    <img src="../img/cate_image/meat.png" class="w-24 h-24 object-cover rounded-full mb-3 mx-auto">
+    <h3 class="text-2xl font-semibold text-gray-800">Meats</h3>
+  </div>
+
+  <!--Veget-->
+  <div class="bg-white  hover:bg-gray-300 text-dark font-semibold py-3 px-6 rounded-lg p-4 text-center cursor-pointer border border-gray-300">
+    <img src="../img/cate_image/bonlea.png" class="w-24 h-24 object-cover rounded-full mb-3 mx-auto">
+    <h3 class="text-xl font-semibold text-gray-800">Vegetables</h3>
+  </div>
+
+  <!--Fish-->
+  <div class="bg-white  hover:bg-gray-300 text-dark font-semibold py-3 px-6 rounded-lg p-4 text-center cursor-pointer border border-gray-300">
+    <img src="../img/cate_image/fish-market.png" class="w-24 h-24 object-cover rounded-full mb-3 mx-auto">
+    <h3 class="text-2xl font-semibold text-gray-800">Fish</h3>
+  </div>
+
+  <!--Snack-->
+  <div class="bg-white  hover:bg-gray-300 text-dark font-semibold py-3 px-6 rounded-lg p-4 text-center cursor-pointer border border-gray-300">
+    <img src="../img/cate_image/snack.jpg" class="w-24 h-24 object-cover rounded-full mb-3 mx-auto">
+    <h3 class="text-2xl font-semibold text-gray-800">Snacks</h3>
+  </div>
+
+  <!--Seasoning-->
+  <div class="bg-white  hover:bg-gray-300 text-dark font-semibold py-3 px-6 rounded-lg p-4 text-center cursor-pointer border border-gray-300">
+    <img src="../img/cate_image/seasoning-1.jpg" class="w-24 h-24 object-cover rounded-full mb-3 mx-auto">
+    <h3 class="text-xl font-semibold text-gray-800">Seasoning</h3>
+  </div>
+
+  <!--Fruit-->
+  <div class="bg-white hover:bg-gray-300 text-dark font-semibold py-3 px-6 rounded-lg p-4 text-center cursor-pointer border border-gray-300">
+    <img src="../img/cate_image/fruit.jpg" class="w-24 h-24 object-cover rounded-full mb-3 mx-auto">
+    <h3 class="text-2xl font-semibold text-gray-800">Fruit</h3>
+  </div>
+
+</div>
+
           </div>
         </div>
       </section>
 
     </section>
 
+    <!--  RECOMMEND FOR YOU -->
+<section class="max-w-7xl mx-auto px-4 mt-10">
+  <h2 class="text-lg font-semibold mb-4">Recommend For You</h2>
 
-    <!-- ====================== RECOMMEND FOR YOU ======================= -->
-    <section class="max-w-7xl mx-auto px-4 mt-10">
-      <h2 class="text-lg font-semibold mb-4">Recommend For You</h2>
+  <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-3 gap-5">
 
-      <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-3 gap-5">
+    <!-- Meat Category: Beef Sirloin -->
+    <div class="border border-gray-300  rounded-xl p-3 flex flex-col cursor-pointer">
+      <img src="https://target.scene7.com/is/image/Target/GUEST_c2fa703e-539b-4228-bb19-9c83b95ffb22?wid=1200&hei=1200&qlt=80" alt="Beef Sirloin" class="rounded-lg object-contain h-40 w-full">
+      <h3 class="mt-3 mb-3 font-semibold">Beef Sirloin</h3>
+      <p class="text-orange-600 font-bold text-sm mt-3 mb-3">$9.50</p>
+      <button class="mt-auto bg-green-500 text-white text-sm px-4 py-1 rounded-full">
+        Add To Cart
+      </button>
+    </div>
+    
 
-        <!-- Product Card -->
-        <div class="border rounded-xl p-3 flex flex-col">
-          <img src="../cate_image/bysrob.jpg" class="rounded-lg object-contain h-40 w-full">
-          <h3 class="mt-3 font-semibold">Fried Chicken</h3>
-          <p class="text-orange-600 font-bold text-sm">$1.99</p>
-          <button class="mt-auto bg-green-500 text-white text-sm px-4 py-1 rounded-full">
-            Add To Cart
-          </button>
-        </div>
+    <!-- Vegetable Category: Broccoli Florets -->
+<div class="border border-gray-300  rounded-xl p-3 flex flex-col cursor-pointer">
+      <img src="https://i.pinimg.com/1200x/e5/d7/2c/e5d72c693fb945009a0ab3d1979e0d27.jpg" alt="Asparagus" class="rounded-lg object-contain h-40 w-full">
+      <h3 class="mt-3 mb-3 font-semibold">Asparagus</h3>
+      <p class="text-orange-600 mt-3 mb-3 font-bold text-sm">$2.00</p>
+      <button class="mt-auto bg-green-500 text-white text-sm px-4 py-1 rounded-full">
+        Add To Cart
+      </button>
+    </div>
 
-        <div class="border rounded-xl p-3 flex flex-col">
-          <img src="" class="rounded-lg object-contain h-40 w-full">
-          <h3 class="mt-3 font-semibold">Fried Chicken</h3>
-          <p class="text-orange-600 font-bold text-sm">$1.99</p>
-          <button class="mt-auto bg-green-500 text-white text-sm px-4 py-1 rounded-full">
-            Add To Cart
-          </button>
-        </div>
+    <!-- Fruit Category: Apple (Gala) -->
+    <div class="border border-gray-300  rounded-xl p-3 flex flex-col cursor-pointer">
+      <img src="https://i.pinimg.com/1200x/73/bc/81/73bc81da7760784d1da1139ed403687d.jpg" alt="Apple (Gala)" class="rounded-lg object-contain h-40 w-full">
+      <h3 class="mt-3 mb-3 font-semibold">Apple (Gala)</h3>
+      <p class="text-orange-600 mt-3 mb-3 font-bold text-sm">$1.50</p>
+      <button class="mt-auto bg-green-500 text-white text-sm px-4 py-1 rounded-full">
+        Add To Cart
+      </button>
+    </div>
 
-        <div class="border rounded-xl p-3 flex flex-col">
-          <img src="" class="rounded-lg object-contain h-40 w-full">
-          <h3 class="mt-3 font-semibold">Fried Chicken</h3>
-          <p class="text-orange-600 font-bold text-sm">$1.99</p>
-          <button class="mt-auto bg-green-500 text-white text-sm px-4 py-1 rounded-full">
-            Add To Cart
-          </button>
-        </div>
+    <!-- Snack Category: Potato Chips -->
+    <div class="border border-gray-300  rounded-xl p-3 flex flex-col cursor-pointer">
+      <img src="https://i.pinimg.com/1200x/b9/be/03/b9be03f5a04c5d13d164a722816f9dee.jpg" alt="Potato Chips" class="rounded-lg object-contain h-40 w-full">
+      <h3 class="mt-3 mb-3 font-semibold">Potato Chips</h3>
+      <p class="text-orange-600  mt-3 mb-3 font-bold text-sm">$1.25</p>
+      <button class="mt-auto bg-green-500 text-white text-sm px-4 py-1 rounded-full">
+        Add To Cart
+      </button>
+    </div>
 
-        <div class="border rounded-xl p-3 flex flex-col">
-          <img src="" class="rounded-lg object-contain h-40 w-full">
-          <h3 class="mt-3 font-semibold">Fried Chicken</h3>
-          <p class="text-orange-600 font-bold text-sm">$1.99</p>
-          <button class="mt-auto bg-green-500 text-white text-sm px-4 py-1 rounded-full">
-            Add To Cart
-          </button>
-        </div>
+    <!-- Fish Category: Salmon Fillet -->
+    <div class="border border-gray-300  rounded-xl p-3 flex flex-col cursor-pointer">
+      <img src="https://i.pinimg.com/1200x/cc/e8/13/cce8136d5f6885b53a11ff911eb7fe5c.jpg" alt="Salmon Fillet" class="rounded-lg object-contain h-40 w-full">
+      <h3 class="mt-3 mb-3 font-semibold">Salmon Fillet</h3>
+      <p class="text-orange-600 mt-3 mb-3 font-bold text-sm">$14.00</p>
+      <button class="mt-auto bg-green-500 text-white text-sm px-4 py-1 rounded-full">
+        Add To Cart
+      </button>
+    </div>
 
-        <div class="border rounded-xl p-3 flex flex-col">
-          <img src="" class="rounded-lg object-contain h-40 w-full">
-          <h3 class="mt-3 font-semibold">Fried Chicken</h3>
-          <p class="text-orange-600 font-bold text-sm">$1.99</p>
-          <button class="mt-auto bg-green-500 text-white text-sm px-4 py-1 rounded-full">
-            Add To Cart
-          </button>
-        </div>
-
-        <div class="border rounded-xl p-3 flex flex-col">
-          <img src="" class="rounded-lg object-contain h-40 w-full">
-          <h3 class="mt-3 font-semibold">Fried Chicken</h3>
-          <p class="text-orange-600 font-bold text-sm">$1.99</p>
-          <button class="mt-auto bg-green-500 text-white text-sm px-4 py-1 rounded-full">
-            Add To Cart
-          </button>
-        </div>
-
-      </div>
-    </section>
+    <!-- Seafood Category: Shrimp (Prawns) -->
+<div class="border border-gray-300  rounded-xl p-3 flex flex-col cursor-pointer">
+      <img src="https://i.pinimg.com/1200x/67/9f/a2/679fa27243692c9d86ffd36fb7a9f363.jpg" alt="Clams (Littleneck)" class="rounded-lg object-contain h-40 w-full">
+      <h3 class="mt-3 mb-3 font-semibold">Clams (Littleneck)</h3>
+      <p class="text-orange-600 mt-3 mb-3 font-bold text-sm">$6.00</p>
+      <button class="mt-auto bg-green-500 text-white text-sm px-4 py-1 rounded-full">
+        Add To Cart
+      </button>
+    </div>
+  </div>
+</section>
 
 
     <!-- ====================== BEST OFFER ======================= -->
-    <section class="max-w-4xl mx-auto px-4 mt-14">
-      <h2 class="text-lg font-semibold mb-4">Best offer</h2>
+<section class="max-w-4xl mx-auto px-4 mt-14">
+  <div class="flex justify-between items-center mb-4">
+    <h2 class="text-lg font-semibold">Best offer</h2>
+    <div>
+      <button id="prev-offer" class="bg-green-400 w-8 h-8 md:w-10 md:h-10 rounded-[50%] text-white hover:bg-green-500 mr-2">
+        <i class="fa-solid fa-angle-left" style="color: #ffffff;"></i>
+      </button>
+      <button id="next-offer" class="bg-green-400 hover:bg-green-500 w-8 h-8 md:w-10 md:h-10 rounded-[50%] text-white">
+        <i class="fa-solid fa-angle-right" style="color: #ffffff;"></i>
+      </button>
+    </div>
+  </div>
 
-      <div class="border rounded-xl p-5 flex flex-col md:flex-row gap-5">
-
+  <div class="relative">
+    <div id="offer-container" class="flex overflow-x-auto scrollbar-hide gap-5 pb-4 snap-x snap-mandatory">
+      <!-- Healthy Sets Card -->
+      <div class="border border-gray-300 rounded-xl p-5 grid grid-cols-1 md:flex-row min-w-[300px] snap-center  ">
         <!-- Image -->
-        <img src="" class="w-full md:w-1/3 h-48 object-cover rounded-xl">
+        <img src="../img/cate_image/healthy-cat.jpg" alt="Healthy Sets" class="w-full md:w-1/3 h-48 object-cover rounded-xl mb-4 md:mb-0">
 
         <!-- Details -->
         <div class="flex-1">
           <h3 class="font-semibold text-lg mb-2">Healthy Sets</h3>
 
-          <div class="text-sm grid grid-cols-2 gap-y-1">
+          <div class="text-sm grid grid-cols-2 gap-y-2 gap-x-6 mb-4">
             <span>Greens (Mixed Lettuce)</span> <span>About 2 cups</span>
             <span>Egg</span> <span>1</span>
             <span>Avocado</span> <span>1/4 medium</span>
@@ -352,14 +366,42 @@
             <span>Salt & Pepper</span> <span>To taste</span>
           </div>
 
-          <p class="text-orange-600 text-lg font-bold mt-2">$2.50</p>
+          <p class="text-orange-600 text-lg font-bold mt-4 px-4 py-2 bg-gray-100 rounded">$2.50</p>
 
-          <button class="mt-3 bg-green-500 text-white px-5 py-2 rounded-full">
+          <button class="addtoCart mt-4 bg-green-500 text-white text-sm px-4 py-1 rounded-full cursor-pointer hover:bg-green-600 transition-colors">
             Add To Cart
           </button>
         </div>
       </div>
-    </section>
+
+      <!-- Budget Sets Card -->
+      <div class="border border-gray-300 rounded-xl p-5 grid grid-cols-1 md:flex-row min-w-[300px] snap-center ">
+        <!-- Image -->
+        <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Budget Sets" class="w-full md:w-1/3 h-48 object-cover rounded-xl mb-4 md:mb-0">
+
+        <!-- Details -->
+        <div class="flex-1">
+          <h3 class="font-semibold text-lg mb-2">Budget Sets</h3>
+
+          <div class="text-sm grid grid-cols-2 gap-y-2 gap-x-6 mb-4">
+            <span>Rice</span> <span>1 cup cooked</span>
+            <span>Carrots</span> <span>1 medium</span>
+            <span>Onion</span> <span>1/2 small</span>
+            <span>Tomato</span> <span>1 small</span>
+            <span>Chicken Broth</span> <span>1 cup</span>
+            <span>Salt & Pepper</span> <span>To taste</span>
+          </div>
+
+          <p class="text-orange-600 text-lg font-bold mt-4 px-4 py-2 bg-gray-100 rounded">$1.99</p>
+
+          <button class="addtoCart mt-4 bg-green-500 text-white text-sm px-4 py-1 rounded-full cursor-pointer hover:bg-green-600 transition-colors">
+            Add To Cart
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
 
     <!-- ====================== SPECIAL DISCOUNT ======================= -->
