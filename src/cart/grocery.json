@@ -345,21 +345,21 @@
   ],
   "vegetable": [
     {
-<<<<<<< HEAD
       "id": 49,
       "title": "Broccoli Florets",
       "short_description": "The edible flower heads and tender stems of the broccoli plant. This nutrient-rich green vegetable is highly versatile, perfect for steaming, stir-frying, or roasting until tender-crisp.",
       "img": "https://i.pinimg.com/73x/27/1d/be/271dbec537825677ed513c6c3a0d7c0f.jpg",
       "price": 1.50
     },
-=======
-    "id": 49,
-    "title": "Broccoli Florets",
-    "short_description": "Nutrient-rich green vegetable, great steamed or roasted.",
-    "img": "https://i.pinimg.com/1200x/e5/d7/2c/e5d72c693fb945009a0ab3d1979e0d27.jpg",  
-    "price": 1.50
-  },
->>>>>>> fea7b6088aab4f9caef90eabad4b89c7013bfaad
+    {
+
+      "id": 49,
+      "title": "Broccoli Florets",
+      "short_description": "Nutrient-rich green vegetable, great steamed or roasted.",
+      "img": "https://i.pinimg.com/1200x/e5/d7/2c/e5d72c693fb945009a0ab3d1979e0d27.jpg",  
+      "price": 1.50
+    }
+  ,
     {
       "id": 50,
       "title": "Carrots",
@@ -440,21 +440,20 @@
   ],
   "seafood": [
     {
-<<<<<<< HEAD
       "id": 61,
       "title": "Shrimp (Prawns)",
       "short_description": "Small, tender crustaceans prized for their quick cooking time and sweet, mild flavor. They are incredibly versatile and are a staple ingredient across countless international cuisines, from scampi to curries.",
       "img": "https://i.pinimg.com/73x/6c/53/31/6c533161a3fd3ac59b54e3d31c34f757.jpg",
       "price": 8.00
-    },
-=======
-    "id": 61,
-    "title": "Shrimp (Prawns)",
-    "short_description": "Small crustaceans, quick to cook and versatile in many cuisines.",
-    "img": "https://i.pinimg.com/1200x/67/9f/a2/679fa27243692c9d86ffd36fb7a9f363.jpg",  
-    "price": 8.00
-  },
->>>>>>> fea7b6088aab4f9caef90eabad4b89c7013bfaad
+    },{
+
+      "id": 61,
+      "title": "Shrimp (Prawns)",
+      "short_description": "Small crustaceans, quick to cook and versatile in many cuisines.",
+      "img": "https://i.pinimg.com/1200x/67/9f/a2/679fa27243692c9d86ffd36fb7a9f363.jpg",  
+      "price": 8.00
+    }
+  ,
     {
       "id": 62,
       "title": "Crab Legs (Snow)",

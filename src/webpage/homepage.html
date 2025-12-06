@@ -12,6 +12,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
     rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"/>
 
 </head>
 
@@ -204,69 +205,73 @@
 
 
       <!-- ====================== CATEGORY SLIDER ======================= -->
-
-      <section class="py-16 bg-white">
-        <div class="container mx-auto px-4">
-          <div class="flex items-center justify-between mb-8">
-            <h2 class="text-2xl font-bold text-gray-800">Shop by Categories</h2>
-            <div class="flex space-x-2">
-              <button class="w-3 h-3 bg-green-500 rounded-full"></button>
-              <button class="w-3 h-3 bg-gray-300 rounded-full"></button>
-              <button class="w-3 h-3 bg-gray-300 rounded-full"></button>
-            </div>
-          </div> 
-          <div class="flex justify-center flex-wrap ">
-<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 place-items-center mx-auto w-full max-w-5xl">
-
-  <!--Meats-->
-  <div class="bg-white hover:bg-gray-300 text-dark font-semibold py-3 px-6 rounded-lg p-4 text-center cursor-pointer border border-gray-300">
-    <img src="../img/cate_image/meat.png" class="w-24 h-24 object-cover rounded-full mb-3 mx-auto">
-    <h3 class="text-2xl font-semibold text-gray-800">Meats</h3>
-  </div>
-
-  <!--Veget-->
-  <div class="bg-white  hover:bg-gray-300 text-dark font-semibold py-3 px-6 rounded-lg p-4 text-center cursor-pointer border border-gray-300">
-    <img src="../img/cate_image/bonlea.png" class="w-24 h-24 object-cover rounded-full mb-3 mx-auto">
-    <h3 class="text-xl font-semibold text-gray-800">Vegetables</h3>
-  </div>
-
-  <!--Fish-->
-  <div class="bg-white  hover:bg-gray-300 text-dark font-semibold py-3 px-6 rounded-lg p-4 text-center cursor-pointer border border-gray-300">
-    <img src="../img/cate_image/fish-market.png" class="w-24 h-24 object-cover rounded-full mb-3 mx-auto">
-    <h3 class="text-2xl font-semibold text-gray-800">Fish</h3>
-  </div>
-
-  <!--Snack-->
-  <div class="bg-white  hover:bg-gray-300 text-dark font-semibold py-3 px-6 rounded-lg p-4 text-center cursor-pointer border border-gray-300">
-    <img src="../img/cate_image/snack.jpg" class="w-24 h-24 object-cover rounded-full mb-3 mx-auto">
-    <h3 class="text-2xl font-semibold text-gray-800">Snacks</h3>
-  </div>
-
-  <!--Seasoning-->
-  <div class="bg-white  hover:bg-gray-300 text-dark font-semibold py-3 px-6 rounded-lg p-4 text-center cursor-pointer border border-gray-300">
-    <img src="../img/cate_image/seasoning-1.jpg" class="w-24 h-24 object-cover rounded-full mb-3 mx-auto">
-    <h3 class="text-xl font-semibold text-gray-800">Seasoning</h3>
-  </div>
-
-  <!--Fruit-->
-  <div class="bg-white hover:bg-gray-300 text-dark font-semibold py-3 px-6 rounded-lg p-4 text-center cursor-pointer border border-gray-300">
-    <img src="../img/cate_image/fruit.jpg" class="w-24 h-24 object-cover rounded-full mb-3 mx-auto">
-    <h3 class="text-2xl font-semibold text-gray-800">Fruit</h3>
-  </div>
-
-</div>
-
-          </div>
+      <section>
+      <div class="flex justify-between items-center mx-auto max-w-7xl my-auto px-4 sm:px-6 lg:px-8 py-3">
+        <h3 class="font-[600] text-xl">Shop by Catagories</h3>
+        <div>
+          <button class="bg-green-400 w-8 h-8 md:w-10 md:h-10 rounded-[50%] text-white hover:bg-green-500">
+            
+            <i class="fa-solid fa-angle-left" style="color: #ffffff;"></i>
+          </button>
+          <button class="bg-green-400  hover:bg-green-500 w-8 h-8 md:w-10 md:h-10 rounded-[50%] text-white">
+            <i class="fa-solid fa-angle-right" style="color: #ffffff;"></i>
+          </button>
         </div>
-      </section>
+
+      </div>
+
+
+
+
 
     </section>
+      <section class="grid grid-cols-2 md:grid-cols-4 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 gap-4">
+      <div class="category bg-opacity-10 w-full h-full md:h-[75%] flex flex-col justify-center items-center md:p-10 p-5 rounded-lg">
+        <img class="w-15 h-15 md:w-20 md:h-20" src="../img/cate_image/meat.png" alt="">
+        <div>
+          <h2 class="font-bold te">Meat</h2>
+        </div>
+      </div>
+      <div class="category bg-opacity-10 w-full h-full md:h-[75%] flex flex-col justify-center items-center md:p-10 p-5 rounded-lg">
+        <img class="w-15 h-15 md:w-20 md:h-20" src="../img/cate_image/fish-market.png" alt="">
+        <div>
+          <h2 class="font-bold te">Fish</h2>
+        </div>
+      </div>
+      <div class="category bg-opacity-10 w-full h-full md:h-[75%] flex flex-col justify-center items-center md:p-10 p-5 rounded-lg">
+        <img class="w-15 h-15 md:w-20 md:h-20" src="../img/cate_image/food.png" alt="">
+        <div>
+          <h2 class="font-bold te">Snack</h2>
+        </div>
+      </div>
+      <div class="category bg-opacity-10 w-full h-full md:h-[75%] flex flex-col justify-center items-center md:p-10 p-5 rounded-lg">
+        <img class="w-15 h-15 md:w-20 md:h-20" src="../img/cate_image/seasoning.png" alt="">
+        <div>
+          <h2 class="font-bold te">Seasoning</h2>
+        </div>
+      </div>
+      
+    </section>
+      </section>
+
 
     <!--  RECOMMEND FOR YOU -->
-<section class="max-w-7xl mx-auto px-4 mt-10">
-  <h2 class="text-lg font-semibold mb-4">Recommend For You</h2>
+<section class="">
+  <div class="flex justify-between items-center mx-auto max-w-7xl my-auto px-4 sm:px-6 lg:px-8 py-3">
+    <h2 class="text-lg font-semibold mb-4">Recommend For You</h2>
+    <div>
+          <button class="bg-green-400 w-8 h-8 md:w-10 md:h-10 rounded-[50%] text-white hover:bg-green-500">
+            
+            <i class="fa-solid fa-angle-left" style="color: #ffffff;"></i>
+          </button>
+          <button class="bg-green-400  hover:bg-green-500 w-8 h-8 md:w-10 md:h-10 rounded-[50%] text-white">
+            <i class="fa-solid fa-angle-right" style="color: #ffffff;"></i>
+          </button>
+        </div>
 
-  <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-3 gap-5">
+  </div>
+
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 gap-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
 
     <!-- Meat Category: Beef Sirloin -->
     <div class="border border-gray-300  rounded-xl p-3 flex flex-col cursor-pointer">

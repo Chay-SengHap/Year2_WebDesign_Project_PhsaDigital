@@ -5,3 +5,9 @@
     @apply bg-[#38cb82] hover:bg-[#41dc8e]
 }
 
+.category{
+    @apply bg-gray-200 hover:bg-gray-300 
+}
+.border{
+    @apply border-gray-200 border-2
+}
