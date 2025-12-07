@@ -1,27 +1,30 @@
 <!doctype html>
 <html>
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="../output.css" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
 </head>
+
 <body class="font-[Montserrat]">
   <div class="bg-gray-50">
-  <!-- Header -->
-  <header class="bg-white shadow-sm">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <!-- Top Section: Logo, Search, and Right Icons -->
-      <div class="flex items-center justify-between py-3 gap-4">
-        <!-- Left: Logo -->
-        <div class="flex items-center gap-2 shrink-0">
-          
-          <div class="flex flex-col">
-            <img class="w-45" src="../img/logo/PHSA_DIGITAL.png" alt="">
+    <!-- Header -->
+    <header class="bg-white shadow-sm">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <!-- Top Section: Logo, Search, and Right Icons -->
+        <div class="flex items-center justify-between py-3 gap-4">
+          <!-- Left: Logo -->
+          <div class="flex items-center gap-2 shrink-0">
+
+            <div class="flex flex-col">
+              <img class="w-45" src="../img/logo/PHSA_DIGITAL.png" alt="">
+            </div>
           </div>
-        </div>
 
           <!-- Improved search bar styling - cleaner and more modern -->
           <!-- Center: Search Bar (Hidden on mobile, shown on md+) -->
@@ -39,7 +42,7 @@
 
           <!-- Right: Icons and Profile -->
           <div class="flex items-center gap-4 sm:gap-6">
-            
+
             <!-- Cart Icon -->
 
             <button class="text-gray-600 hover:text-orange-500 transition relative">
@@ -164,61 +167,69 @@
     </header>
   </div>
 
-<section class="max-w-6xl mx-auto px-4 py-8">
+  <section class="max-w-6xl mx-auto px-4 py-8">
 
-<!--Profile-->
-  <div class="flex flex-col items-center justify-between border-b pb-6"> 
-    <h2 class="font-bold text-3xl">Profile</h2>
-    <p><a href="homepage.html">Home</a> / <a href="profile.html"></a>Profile</p>
-  </div>
+    <!--Profile-->
+    <div class="flex flex-col items-center justify-between border-b pb-6">
+      <h2 class="font-bold text-3xl">Profile</h2>
+      <p><a href="homepage.html">Home</a> / <a href="profile.html"></a>Profile</p>
+    </div>
 
-  <div class="grid grid-cols-2 mx-auto pb-6">
-    <div class="">
-      <div class="flex flex-col justify-start p-6 m-4 gap-5 ">
-        <button class="border border-gray-300  px-4 py-6 w-auto rounded-3xl bg-green-400 font-bold text-white text-xl">Personal Information</button>
-        <button  class="border border-gray-300  px-4 py-6 rounded-3xl bg-white font-bold text-dark text-xl">My Orders</button>
-        <button  class="border border-gray-300  px-4 py-6 rounded-3xl bg-white font-bold text-dark text-xl">Log Out</button>
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-6 max-w-6xl mx-auto py-10 px-4">
+      <div class="flex flex-col p-6 gap-5 bg-white rounded-xl shadow-sm border border-gray-200">
+        <button
+          class="border border-gray-300 px-4 py-4 rounded-3xl bg-green-500 text-white font-semibold text-lg shadow-sm">
+          Personal Information
+        </button>
+        <button
+          class="border border-gray-300 px-4 py-4 rounded-3xl bg-white text-gray-800 font-semibold text-lg hover:bg-gray-50 transition-colors">
+          My Orders
+        </button>
+        <button
+          class="border border-gray-300 px-4 py-4 rounded-3xl bg-white text-gray-800 font-semibold text-lg hover:bg-gray-50 transition-colors">
+          Log Out
+        </button>
       </div>
-    </div>   
       <div class="border border-gray-300 m-4">
 
       </div>
-  </div>
+    </div>
 
 
-  <!-- Footer Info -->
-  <div class="mt-8 grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
-    <div class="flex flex-col items-center">
-      <div class="b w-12 h-12  flex items-center justify-center mb-2">
+    <!-- Footer Info -->
+    <div class="mt-8 grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
+      <div class="flex flex-col items-center">
+        <div class="b w-12 h-12  flex items-center justify-center mb-2">
           <img src="../img/logo/Successful Delivery.png" alt="">
+        </div>
+        <h4 class="font-semibold">Free Shipping</h4>
+        <p class="text-sm text-gray-500">above $105</p>
       </div>
-      <h4 class="font-semibold">Free Shipping</h4>
-      <p class="text-sm text-gray-500">above $105</p>
-    </div>
-    
-    <div class="flex flex-col items-center">
-      <div class="b w-12 h-12  flex items-center justify-center mb-2">
+
+      <div class="flex flex-col items-center">
+        <div class="b w-12 h-12  flex items-center justify-center mb-2">
           <img src="../img/logo/Wallet.png" alt="">
+        </div>
+        <h4 class="font-semibold">Flexible Payment</h4>
+        <p class="text-sm text-gray-500">Multiple secure options</p>
       </div>
-      <h4 class="font-semibold">Flexible Payment</h4>
-      <p class="text-sm text-gray-500">Multiple secure options</p>
-    </div>
-    
-    <div class="flex flex-col items-center">
-      <div class="b w-12 h-12  flex items-center justify-center mb-2">
+
+      <div class="flex flex-col items-center">
+        <div class="b w-12 h-12  flex items-center justify-center mb-2">
           <img src="../img/logo/service.png" alt="">
+        </div>
+        <h4 class="font-semibold">24/7 Support</h4>
+        <p class="text-sm text-gray-500">We are online all days</p>
       </div>
-      <h4 class="font-semibold">24/7 Support</h4>
-      <p class="text-sm text-gray-500">We are online all days</p>
     </div>
-  </div>
-</section>
+  </section>
   <div data-include="../components/footer.html"></div>
   <script src="../js/include.js"></script>
-    
+
 </body>
 
 </html>
 
 </body>
+
 </html>
