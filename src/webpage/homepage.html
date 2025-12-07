@@ -181,18 +181,18 @@
   </div>
   <main>
     <!-- Hero --> 
-    <section class="relative overflow-hidden ">
+    <section class="relative w-full h-[500px] md:h-[650px] lg:h-[750px] overflow-hidden my-5">
       <div class="relative h-[600px] md:h-[700px]">
         <img src="../img/cate_image/hero.jpg" alt="Fresh Groceries Banner"
-          class="absolute inset-0 w-90% h-auto object-cover mx-auto mt-20 rounded-md backdrop-blur-xs" />
-        <div class="absolute inset-0 flex flex-col items-center justify-center text-center px-4">
-          <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4 p-4 rounded-lg">
+          class="absolute inset-0 w-[80%] h-full  object-cover mx-auto mt-20 rounded-md backdrop-blur-xs" />
+        <div class="relative z-10 h-full flex flex-col items-center justify-center text-center px-4">
+          <h1 class="text-3xl md:text-5xl lg:text-6xl font-bold text-white  mb-4 p-4 rounded-lg">
             Fresh & Healthy Groceries
           </h1>
-          <p class="text-lg font-semibold md:text-xl text-white mb-8 p-4 rounded-lg">
+          <p class="text-base font-semibold md:text-xl lg:text-2xl text-white  max-w-xl drop-shadow-lg mb-8 mt-4 p-4 rounded-lg">
             Get the best quality products delivered to your doorstep. New arrivals every week!
           </p>
-          <div>
+          <div class=" mt-8 flex flex-col sm:flex-row gap-4">
             <a href="#"
               class="bg-green-600 hover:bg-green-700 text-white font-semibold py-3 px-6 rounded-full transition">%20
               Off New Arrivals</a>
@@ -212,7 +212,7 @@
       <!-- ====================== CATEGORY SLIDER ======================= -->
       <section id="category">
       <div class="flex justify-between items-center mx-auto max-w-7xl my-auto px-4 sm:px-6 lg:px-8 py-3">
-        <h3 class="font-[600] text-xl">Shop by Catagories</h3>
+        <h3 class="font-semibold text-xl">Shop by Catagories</h3>
         <div>
           <button class="bg-green-400 w-8 h-8 md:w-10 md:h-10 rounded-[50%] text-white hover:bg-green-500">
             
@@ -501,11 +501,11 @@
 
         <!-- Right Image -->
         <div class="relative flex-1 flex justify-center items-center">
-          <div class="absolute top-0 right-0 bg-orange-500 text-white text-xs font-bold px-3 py-2 rounded-full">
+          <!-- <div class="absolute top-0 right-0 bg-orange-500 text-white text-xs font-bold px-3 py-2 rounded-full">
             Up to 45%
-          </div>
-
-          <img src="" class="w-64 h-64 object-contain rounded-full border-4 border-green-500">
+          </div> -->
+          <img src="../img/logo/special offer.png" class="w-64 h-64 object-contain rounded-full  bg-green-400">
+          <button class="absolute bottom-0 right-[20%] bg-orange-400 w-30 h-15  text-white  text-xl font-bold p-2 rounded-full shadow-mg">Up To 45%</button>
         </div>
       </div>
 
