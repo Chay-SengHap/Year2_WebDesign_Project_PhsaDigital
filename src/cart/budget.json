@@ -4,7 +4,7 @@
       "id": 1,
       "title": "Egg Fried Rice",
       "price": 1.80,
-      "image": "img/budget1.jpg",
+      "image": "https://images.unsplash.com/photo-1687020836451-41977907509e?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0",
       "ingredients": ["Rice", "Egg", "Carrot", "Onion"],
       "description": "A simple and budget-friendly meal made with leftover rice, eggs, and light seasoning. It’s filling, easy to prepare, and perfect for students or anyone who needs a quick, cheap meal without sacrificing taste.",
       "benefits": ["Very affordable", "Good energy source", "Quick and easy to prepare"]
@@ -13,7 +13,7 @@
       "id": 2,
       "title": "Chicken Rice (Budget)",
       "price": 2.00,
-      "image": "img/budget2.jpg",
+      "image": "https://images.unsplash.com/photo-1569058242252-623df46b5025?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0",
       "ingredients": ["Rice", "Chicken", "Cucumber"],
       "description": "A basic and budget-friendly chicken rice meal with tender chicken and fresh cucumber. It’s simple, clean, and provides enough protein to keep you satisfied throughout the day.",
       "benefits": ["Good protein at low cost", "Everyday simple meal", "Affordable and filling"]
@@ -22,7 +22,7 @@
       "id": 3,
       "title": "Vegetable Fried Noodles",
       "price": 1.50,
-      "image": "img/budget3.jpg",
+      "image": "https://images.unsplash.com/photo-1758979690131-11e2aa0b142b?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0",
       "ingredients": ["Noodles", "Carrot", "Cabbage", "Soy sauce"],
       "description": "A cheap and delicious stir-fried noodle dish made with basic vegetables. Despite its low price, it still delivers good flavor and enough energy to keep you going.",
       "benefits": ["Very affordable", "Quick to cook", "Provides carbs for energy"]
@@ -31,7 +31,7 @@
       "id": 4,
       "title": "Bread & Omelette",
       "price": 1.20,
-      "image": "img/budget4.jpg",
+      "image": "https://images.unsplash.com/photo-1712316383878-e7a25aa9359c?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0",
       "ingredients": ["Bread", "Egg", "Butter"],
       "description": "A simple breakfast set that combines crispy bread with a fresh omelette. Perfect for mornings when you need something cheap, fast, and satisfying.",
       "benefits": ["Cheap breakfast option", "Good protein from eggs", "Great for busy mornings"]
@@ -40,7 +40,7 @@
       "id": 5,
       "title": "Rice & Cabbage Soup",
       "price": 1.40,
-      "image": "img/budget5.jpg",
+      "image": "https://plus.unsplash.com/premium_photo-1711125003511-c045deed346e?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0",
       "ingredients": ["Rice", "Cabbage", "Garlic", "Salt"],
       "description": "A comforting budget meal made of warm soup and rice. It’s very light, easy to digest, and great for days when you want something simple.",
       "benefits": ["Very cheap and filling", "Good when sick", "Easy to digest"]
@@ -49,7 +49,7 @@
       "id": 6,
       "title": "Budget Pork Stir Fry",
       "price": 2.30,
-      "image": "img/budget6.jpg",
+      "image": "https://plus.unsplash.com/premium_photo-1661484606396-e5d964e23baf?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0",
       "ingredients": ["Pork", "Garlic", "Onion", "Rice"],
       "description": "A more affordable meat dish featuring stir-fried pork and rice. This set provides good protein while keeping the overall price low.",
       "benefits": ["Protein-rich meal", "Budget-friendly meat option", "Flavorful and satisfying"]
@@ -58,7 +58,7 @@
       "id": 7,
       "title": "Instant Noodle with Egg",
       "price": 1.00,
-      "image": "img/budget7.jpg",
+      "image": "https://images.unsplash.com/photo-1761125065373-05a8e2f85cd5?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0",
       "ingredients": ["Instant noodles", "Egg"],
       "description": "A fast, cheap, and classic meal for students. Adding an egg boosts the protein and makes the meal more filling while still keeping the cost extremely low.",
       "benefits": ["Ultra cheap meal", "Quick 3-minute cooking", "More filling with added egg"]
@@ -67,7 +67,7 @@
       "id": 8,
       "title": "Stir-fried Morning Glory",
       "price": 1.70,
-      "image": "img/budget8.jpg",
+      "image": "https://images.unsplash.com/photo-1659954868251-2396e28529b7?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0",
       "ingredients": ["Morning glory", "Garlic", "Fish sauce"],
       "description": "A popular Cambodian side dish made with fresh morning glory stir-fried in garlic. Affordable yet full of flavor and nutrients.",
       "benefits": ["Good source of vitamins", "Cheap healthy option", "Very tasty despite low cost"]
@@ -76,7 +76,7 @@
       "id": 9,
       "title": "Chicken Porridge",
       "price": 1.60,
-      "image": "img/budget9.jpg",
+      "image": "https://images.unsplash.com/photo-1763627719029-d7122ae87e8f?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0",
       "ingredients": ["Rice", "Chicken", "Ginger"],
       "description": "A warm bowl of porridge made with soft rice and shredded chicken. It’s comforting, budget-friendly, and great for breakfast or sick days.",
       "benefits": ["Easy to digest", "Warm and comforting", "Affordable protein"]
@@ -85,7 +85,7 @@
       "id": 10,
       "title": "Budget Veggie Mix",
       "price": 1.30,
-      "image": "img/budget10.jpg",
+      "image": "https://plus.unsplash.com/premium_photo-1694895244957-f4e993071af9?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0",
       "ingredients": ["Carrot", "Potato", "Onion"],
       "description": "A cheap vegetable mix that can be eaten with rice or noodles. Simple ingredients, simple flavor, but very filling for the price.",
       "benefits": ["Low-cost veggies", "Rich in basic nutrients", "Good for budget diets"]
@@ -94,7 +94,7 @@
       "id": 11,
       "title": "Rice with Fried Egg",
       "price": 1.10,
-      "image": "img/budget11.jpg",
+      "image": "https://images.unsplash.com/photo-1687020835955-59528e8c91dd?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0",
       "ingredients": ["Rice", "Egg", "Soy sauce"],
       "description": "A classic budget meal combination that’s quick and comforting. Perfect for days when money is tight but you still need something warm and satisfying.",
       "benefits": ["Super cheap", "Simple ingredients", "Good energy source"]
@@ -103,7 +103,7 @@
       "id": 12,
       "title": "Cheap Noodle Soup",
       "price": 1.50,
-      "image": "img/budget12.jpg",
+      "image": "https://images.unsplash.com/photo-1664337873053-840ea51d271d?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0",
       "ingredients": ["Noodles", "Green onion", "Broth"],
       "description": "A light and inexpensive noodle soup made with simple ingredients. It's warm, filling, and perfect for a budget-friendly lunch or dinner.",
       "benefits": ["Low cost", "Warm and comforting", "Easy to prepare"]

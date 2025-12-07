@@ -4,384 +4,168 @@
       "id": 85,
       "title": "Healthy Sets",
       "price": 2.50,
-      "img": "../img/cate_image/healthy-cat.jpg",
+      "img": "https://images.unsplash.com/photo-1546069901-eacef0df6022",
       "ingredients": [
-        {
-          "name": "Greens (Mixed Lettuce)",
-          "quantity": "About 2 cups"
-        },
-        {
-          "name": "Egg",
-          "quantity": "1"
-        },
-        {
-          "name": "Avocado",
-          "quantity": "1/4 medium"
-        },
-        {
-          "name": "Red Beans",
-          "quantity": "1/4 cup cooked"
-        },
-        {
-          "name": "Purple Corn / Chips",
-          "quantity": "5–6 pieces"
-        },
-        {
-          "name": "Salt & Pepper",
-          "quantity": "To taste"
-        }
+        { "name": "Greens (Mixed Lettuce)", "quantity": "About 2 cups" },
+        { "name": "Egg", "quantity": "1" },
+        { "name": "Avocado", "quantity": "1/4 medium" },
+        { "name": "Red Beans", "quantity": "1/4 cup cooked" },
+        { "name": "Purple Corn / Chips", "quantity": "5–6 pieces" },
+        { "name": "Salt & Pepper", "quantity": "To taste" }
       ]
     },
     {
       "id": 86,
       "title": "Protein Power Bowl",
       "price": 3.25,
-      "img": "../img/cate_image/protein-bowl.jpg",
+      "img": "https://th.bing.com/th/id/OSK.01db985dd0e2e56f497312122feb0c33?w=200&h=126&c=7&rs=1&qlt=80&o=6&cdv=1&cb=ucfimg1&dpr=1.3&pid=16.1&ucfimg=1",
       "ingredients": [
-        {
-          "name": "Grilled Chicken Breast",
-          "quantity": "3 oz"
-        },
-        {
-          "name": "Quinoa",
-          "quantity": "1/2 cup cooked"
-        },
-        {
-          "name": "Broccoli",
-          "quantity": "1 cup steamed"
-        },
-        {
-          "name": "Cherry Tomatoes",
-          "quantity": "6–8 pieces"
-        },
-        {
-          "name": "Hummus",
-          "quantity": "2 tbsp"
-        },
-        {
-          "name": "Lemon Juice",
-          "quantity": "1 tbsp"
-        }
+        { "name": "Grilled Chicken Breast", "quantity": "3 oz" },
+        { "name": "Quinoa", "quantity": "1/2 cup cooked" },
+        { "name": "Broccoli", "quantity": "1 cup steamed" },
+        { "name": "Cherry Tomatoes", "quantity": "6–8 pieces" },
+        { "name": "Hummus", "quantity": "2 tbsp" },
+        { "name": "Lemon Juice", "quantity": "1 tbsp" }
       ]
     },
     {
       "id": 87,
       "title": "Mediterranean Delight",
       "price": 2.95,
-      "img": "../img/cate_image/mediterranean.jpg",
+      "img": "https://images.unsplash.com/photo-1506084868230-bb9d95c24759",
       "ingredients": [
-        {
-          "name": "Mixed Greens",
-          "quantity": "2 cups"
-        },
-        {
-          "name": "Feta Cheese",
-          "quantity": "1 oz crumbled"
-        },
-        {
-          "name": "Cucumber",
-          "quantity": "1/2 cup diced"
-        },
-        {
-          "name": "Kalamata Olives",
-          "quantity": "6 pieces"
-        },
-        {
-          "name": "Red Onion",
-          "quantity": "2 tbsp sliced"
-        },
-        {
-          "name": "Olive Oil & Vinegar",
-          "quantity": "To taste"
-        }
+        { "name": "Mixed Greens", "quantity": "2 cups" },
+        { "name": "Feta Cheese", "quantity": "1 oz crumbled" },
+        { "name": "Cucumber", "quantity": "1/2 cup diced" },
+        { "name": "Kalamata Olives", "quantity": "6 pieces" },
+        { "name": "Red Onion", "quantity": "2 tbsp sliced" },
+        { "name": "Olive Oil & Vinegar", "quantity": "To taste" }
       ]
     },
     {
       "id": 88,
       "title": "Veggie Sunrise Bowl",
       "price": 2.75,
-      "img": "../img/cate_image/veggie-sunrise.jpg",
+      "img": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd",
       "ingredients": [
-        {
-          "name": "Spinach",
-          "quantity": "1.5 cups"
-        },
-        {
-          "name": "Poached Eggs",
-          "quantity": "2"
-        },
-        {
-          "name": "Sweet Potato",
-          "quantity": "1/2 cup roasted"
-        },
-        {
-          "name": "Bell Peppers",
-          "quantity": "1/4 cup mixed"
-        },
-        {
-          "name": "Pumpkin Seeds",
-          "quantity": "1 tbsp"
-        },
-        {
-          "name": "Hot Sauce",
-          "quantity": "Optional"
-        }
+        { "name": "Spinach", "quantity": "1.5 cups" },
+        { "name": "Poached Eggs", "quantity": "2" },
+        { "name": "Sweet Potato", "quantity": "1/2 cup roasted" },
+        { "name": "Bell Peppers", "quantity": "1/4 cup mixed" },
+        { "name": "Pumpkin Seeds", "quantity": "1 tbsp" },
+        { "name": "Hot Sauce", "quantity": "Optional" }
       ]
     },
     {
       "id": 89,
       "title": "Asian Fusion Bowl",
       "price": 3.50,
-      "img": "../img/cate_image/asian-fusion.jpg",
+      "img": "https://th.bing.com/th/id/OIP.9gR_87KBqJHojrxPN_RX9QHaEJ?w=292&h=180&c=7&r=0&o=7&cb=ucfimg2&dpr=1.3&pid=1.7&rm=3&ucfimg=1",
       "ingredients": [
-        {
-          "name": "Brown Rice",
-          "quantity": "1/2 cup cooked"
-        },
-        {
-          "name": "Edamame",
-          "quantity": "1/3 cup"
-        },
-        {
-          "name": "Carrots",
-          "quantity": "1/4 cup shredded"
-        },
-        {
-          "name": "Cabbage",
-          "quantity": "1/2 cup purple"
-        },
-        {
-          "name": "Sesame Seeds",
-          "quantity": "1 tsp"
-        },
-        {
-          "name": "Soy Ginger Dressing",
-          "quantity": "2 tbsp"
-        }
+        { "name": "Brown Rice", "quantity": "1/2 cup cooked" },
+        { "name": "Edamame", "quantity": "1/3 cup" },
+        { "name": "Carrots", "quantity": "1/4 cup shredded" },
+        { "name": "Cabbage", "quantity": "1/2 cup purple" },
+        { "name": "Sesame Seeds", "quantity": "1 tsp" },
+        { "name": "Soy Ginger Dressing", "quantity": "2 tbsp" }
       ]
     },
     {
       "id": 90,
       "title": "Tropical Energy Bowl",
       "price": 2.85,
-      "img": "../img/cate_image/tropical-bowl.jpg",
+      "img": "data:image/jpeg;base64,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",
       "ingredients": [
-        {
-          "name": "Kale",
-          "quantity": "2 cups chopped"
-        },
-        {
-          "name": "Mango",
-          "quantity": "1/4 cup diced"
-        },
-        {
-          "name": "Black Beans",
-          "quantity": "1/3 cup"
-        },
-        {
-          "name": "Corn",
-          "quantity": "1/4 cup"
-        },
-        {
-          "name": "Lime",
-          "quantity": "1 wedge"
-        },
-        {
-          "name": "Cilantro",
-          "quantity": "Fresh, to taste"
-        }
+        { "name": "Kale", "quantity": "2 cups chopped" },
+        { "name": "Mango", "quantity": "1/4 cup diced" },
+        { "name": "Black Beans", "quantity": "1/3 cup" },
+        { "name": "Corn", "quantity": "1/4 cup" },
+        { "name": "Lime", "quantity": "1 wedge" },
+        { "name": "Cilantro", "quantity": "Fresh, to taste" }
       ]
     },
     {
       "id": 91,
       "title": "Garden Fresh Mix",
       "price": 2.60,
-      "img": "../img/cate_image/garden-fresh.jpg",
+      "img": "https://images.unsplash.com/photo-1550304943-4f24f54ddde9",
       "ingredients": [
-        {
-          "name": "Romaine Lettuce",
-          "quantity": "2 cups"
-        },
-        {
-          "name": "Hard Boiled Egg",
-          "quantity": "1"
-        },
-        {
-          "name": "Chickpeas",
-          "quantity": "1/4 cup"
-        },
-        {
-          "name": "Cucumber",
-          "quantity": "1/2 cup sliced"
-        },
-        {
-          "name": "Sunflower Seeds",
-          "quantity": "1 tbsp"
-        },
-        {
-          "name": "Balsamic Vinaigrette",
-          "quantity": "2 tbsp"
-        }
+        { "name": "Romaine Lettuce", "quantity": "2 cups" },
+        { "name": "Hard Boiled Egg", "quantity": "1" },
+        { "name": "Chickpeas", "quantity": "1/4 cup" },
+        { "name": "Cucumber", "quantity": "1/2 cup sliced" },
+        { "name": "Sunflower Seeds", "quantity": "1 tbsp" },
+        { "name": "Balsamic Vinaigrette", "quantity": "2 tbsp" }
       ]
     },
     {
       "id": 92,
       "title": "Southwestern Bowl",
       "price": 3.10,
-      "img": "../img/cate_image/southwestern.jpg",
+      "img": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c",
       "ingredients": [
-        {
-          "name": "Mixed Greens",
-          "quantity": "2 cups"
-        },
-        {
-          "name": "Grilled Corn",
-          "quantity": "1/3 cup"
-        },
-        {
-          "name": "Black Beans",
-          "quantity": "1/4 cup"
-        },
-        {
-          "name": "Avocado",
-          "quantity": "1/4 medium"
-        },
-        {
-          "name": "Tortilla Strips",
-          "quantity": "Handful"
-        },
-        {
-          "name": "Chipotle Ranch",
-          "quantity": "2 tbsp"
-        }
+        { "name": "Mixed Greens", "quantity": "2 cups" },
+        { "name": "Grilled Corn", "quantity": "1/3 cup" },
+        { "name": "Black Beans", "quantity": "1/4 cup" },
+        { "name": "Avocado", "quantity": "1/4 medium" },
+        { "name": "Tortilla Strips", "quantity": "Handful" },
+        { "name": "Chipotle Ranch", "quantity": "2 tbsp" }
       ]
     },
     {
       "id": 93,
       "title": "Berry Blast Bowl",
       "price": 2.90,
-      "img": "../img/cate_image/berry-blast.jpg",
+      "img": "https://images.unsplash.com/photo-1498837167922-ddd27525d352",
       "ingredients": [
-        {
-          "name": "Spring Mix",
-          "quantity": "2 cups"
-        },
-        {
-          "name": "Strawberries",
-          "quantity": "4–5 sliced"
-        },
-        {
-          "name": "Goat Cheese",
-          "quantity": "1 oz"
-        },
-        {
-          "name": "Walnuts",
-          "quantity": "2 tbsp chopped"
-        },
-        {
-          "name": "Red Onion",
-          "quantity": "1 tbsp thinly sliced"
-        },
-        {
-          "name": "Raspberry Vinaigrette",
-          "quantity": "2 tbsp"
-        }
+        { "name": "Spring Mix", "quantity": "2 cups" },
+        { "name": "Strawberries", "quantity": "4–5 sliced" },
+        { "name": "Goat Cheese", "quantity": "1 oz" },
+        { "name": "Walnuts", "quantity": "2 tbsp chopped" },
+        { "name": "Red Onion", "quantity": "1 tbsp thinly sliced" },
+        { "name": "Raspberry Vinaigrette", "quantity": "2 tbsp" }
       ]
     },
     {
       "id": 94,
       "title": "Superfood Supreme",
       "price": 3.40,
-      "img": "../img/cate_image/superfood.jpg",
+      "img": "https://images.pexels.com/photos/5949666/pexels-photo-5949666.jpeg",
       "ingredients": [
-        {
-          "name": "Kale & Spinach Mix",
-          "quantity": "2 cups"
-        },
-        {
-          "name": "Salmon",
-          "quantity": "2 oz grilled"
-        },
-        {
-          "name": "Blueberries",
-          "quantity": "1/4 cup"
-        },
-        {
-          "name": "Almonds",
-          "quantity": "10–12 pieces"
-        },
-        {
-          "name": "Chia Seeds",
-          "quantity": "1 tsp"
-        },
-        {
-          "name": "Lemon Tahini Dressing",
-          "quantity": "2 tbsp"
-        }
+        { "name": "Kale & Spinach Mix", "quantity": "2 cups" },
+        { "name": "Salmon", "quantity": "2 oz grilled" },
+        { "name": "Blueberries", "quantity": "1/4 cup" },
+        { "name": "Almonds", "quantity": "10–12 pieces" },
+        { "name": "Chia Seeds", "quantity": "1 tsp" },
+        { "name": "Lemon Tahini Dressing", "quantity": "2 tbsp" }
       ]
     },
     {
       "id": 95,
       "title": "Classic Caesar Bowl",
       "price": 2.70,
-      "img": "../img/cate_image/caesar-bowl.jpg",
+      "img": "https://th.bing.com/th/id/OIP.KFtmgZ7lvl16WFKYQw6hegHaHa?w=192&h=192&c=7&r=0&o=7&cb=ucfimg2&dpr=1.3&pid=1.7&rm=3&ucfimg=1",
       "ingredients": [
-        {
-          "name": "Romaine Hearts",
-          "quantity": "2 cups chopped"
-        },
-        {
-          "name": "Grilled Chicken",
-          "quantity": "2 oz"
-        },
-        {
-          "name": "Parmesan Cheese",
-          "quantity": "2 tbsp shaved"
-        },
-        {
-          "name": "Croutons",
-          "quantity": "1/4 cup"
-        },
-        {
-          "name": "Cherry Tomatoes",
-          "quantity": "4 halved"
-        },
-        {
-          "name": "Caesar Dressing",
-          "quantity": "2 tbsp"
-        }
+        { "name": "Romaine Hearts", "quantity": "2 cups chopped" },
+        { "name": "Grilled Chicken", "quantity": "2 oz" },
+        { "name": "Parmesan Cheese", "quantity": "2 tbsp shaved" },
+        { "name": "Croutons", "quantity": "1/4 cup" },
+        { "name": "Cherry Tomatoes", "quantity": "4 halved" },
+        { "name": "Caesar Dressing", "quantity": "2 tbsp" }
       ]
     },
     {
       "id": 96,
       "title": "Rainbow Veggie Bowl",
       "price": 2.80,
-      "img": "../img/cate_image/rainbow-veggie.jpg",
+      "img": "https://images.unsplash.com/photo-1504674900247-0877df9cc836",
       "ingredients": [
-        {
-          "name": "Mixed Greens",
-          "quantity": "2 cups"
-        },
-        {
-          "name": "Beets",
-          "quantity": "1/4 cup roasted"
-        },
-        {
-          "name": "Carrots",
-          "quantity": "1/4 cup shredded"
-        },
-        {
-          "name": "Red Cabbage",
-          "quantity": "1/4 cup"
-        },
-        {
-          "name": "Yellow Bell Pepper",
-          "quantity": "1/4 cup diced"
-        },
-        {
-          "name": "Honey Mustard Dressing",
-          "quantity": "2 tbsp"
-        }
+        { "name": "Mixed Greens", "quantity": "2 cups" },
+        { "name": "Beets", "quantity": "1/4 cup roasted" },
+        { "name": "Carrots", "quantity": "1/4 cup shredded" },
+        { "name": "Red Cabbage", "quantity": "1/4 cup" },
+        { "name": "Yellow Bell Pepper", "quantity": "1/4 cup diced" },
+        { "name": "Honey Mustard Dressing", "quantity": "2 tbsp" }
       ]
     }
   ]
