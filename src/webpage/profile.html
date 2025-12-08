@@ -181,79 +181,147 @@
     <!--Left -->
     <div class="grid grid-cols-1 md:grid-cols-4 gap-6 max-w-6xl mx-auto py-10 px-4">
       <div class="flex flex-col p-6 gap-5 bg-white rounded-xl shadow-sm">
-        <button
+        <button id="personal-btn" data-target="personal-info"
           class="border border-gray-300 px-4 py-4 rounded-3xl bg-green-500 text-white font-semibold text-lg shadow-sm">
           Personal Information
         </button>
-        <button
+        <button id="orders-btn" data-target="my-orders"
           class="border border-gray-300 px-4 py-4 rounded-3xl bg-white text-gray-800 font-semibold text-lg hover:bg-gray-50 transition-colors">
           My Orders
         </button>
-        <button
+        <button id="logout-btn" data-target="log-out"
           class="border border-gray-300 px-4 py-4 rounded-3xl bg-white text-gray-800 font-semibold text-lg hover:bg-gray-50 transition-colors">
           Log Out
         </button>
       </div>
 
 
-      <!--Right-->
-    <div class="md:col-span-3 border border-gray-300 rounded-xl p-10 bg-white shadow-sm relative">
-      
-      <div class="flex justify-center mb-8 relative">
-        <img src="../img/logo/profile.png" alt="Profile Photo"
-             class="h-24 w-24 rounded-full object-cover border-2 border-gray-300">
-        <button class="absolute bottom-0 right-[45%] bg-green-500 text-white p-2 rounded-full shadow-lg hover:bg-green-600 transition-colors">
-        </button>
+      <!--Right-with each button-->
+      <!--Information profile-->
+      <div id="content-container" class="transition-opacity duration-200 w-auto md:col-span-3">
+        <div id="personal-info"
+          class="section-content border border-gray-300 rounded-xl p-10 bg-white shadow-sm active-section">
+
+          <!--profile logo-->
+          <div class="flex justify-center mb-8 relative">
+            <img src="../img/logo/profile.png" alt="Profile Photo"
+              class="h-24 w-24 rounded-full object-cover border-2 border-gray-300">
+            <button
+              class="absolute bottom-0 right-[45%] bg-green-500 text-white p-2 rounded-full shadow-lg hover:bg-green-600 transition-colors">
+            </button>
+          </div>
+
+          <!--Profile Form-->
+          <form id="profile-form" class="grid grid-cols-1 md:grid-cols-2 gap-6">
+
+            <div>
+              <label class="block font-semibold text-gray-700 mb-2">First Name *</label>
+              <input type="text" name="firstName" value="Dina" required
+                class="w-full border border-gray-300 rounded-full py-3 px-4 focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent">
+            </div>
+
+
+            <div>
+              <label class="block font-semibold text-gray-700 mb-2">Last Name *</label>
+              <input type="text" name="lastName" value="Seng" required
+                class="w-full border border-gray-300 rounded-full py-3 px-4 focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent">
+            </div>
+
+
+            <div class="md:col-span-2">
+              <label class="block font-semibold text-gray-700 mb-2">Email *</label>
+              <input type="email" name="email" value="DinaSeng@gmail.com" required
+                class="w-full border border-gray-300 rounded-full py-3 px-4 focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent">
+            </div>
+
+
+            <div class="md:col-span-2">
+              <label class="block font-semibold text-gray-700 mb-2">Password *</label>
+              <input type="password" name="password" value="32432423412" required
+                class="w-full border border-gray-300 rounded-full py-3 px-4 focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent">
+            </div>
+
+
+            <div class="md:col-span-2">
+              <label class="block font-semibold text-gray-700 mb-2">Phone Number *</label>
+              <input type="tel" name="phone" value="097 123 123" required
+                class="w-full border border-gray-300 rounded-full py-3 px-4 focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent">
+            </div>
+
+
+            <div class="md:col-span-2 flex justify-center mt-6">
+              <button type="submit"
+                class="bg-green-500 text-white font-semibold px-8 py-3 rounded-full hover:bg-green-600 transition-colors shadow-md">
+                Save Changes
+              </button>
+            </div>
+          </form>
+        </div>
+
+        <!--My Order-->
+        <div id="my-orders" class="section-content hidden border border-gray-300 rounded-xl p-10 bg-white shadow-sm">
+          <h2 class="text-2xl font-bold text-gray-600 mb-6">My Orders</h2>
+          <div class="space-y-4">
+            <div class="flex justify-between items-center p-4 bg-gray-50 rounded-lg">
+              <img
+                src="https://target.scene7.com/is/image/Target/GUEST_c2fa703e-539b-4228-bb19-9c83b95ffb22?wid=1200&hei=1200&qlt=80"
+                alt="" class="w-25 h-25 rouned object-cover ">
+              <div class="flex-1 mx-5">
+                <p class="font-semibold text-gray-700">Order #00124</p>
+                <p class="text-sm text-gray-500">Beef Sirloin • Dec 08, 2025</p>
+                <span class="text-green-600 font-semibold">Completed</span>
+              </div>
+              <button class="text-sm text-green-500 hover:underline">View Details</button>
+            </div>
+            <div class="flex justify-between items-center p-4 bg-gray-50 rounded-lg">
+              <img
+                src="https://i.pinimg.com/1200x/b9/be/03/b9be03f5a04c5d13d164a722816f9dee.jpg"
+                alt="" class="w-25 h-25 rouned object-cover ">
+              <div class="flex-1 mx-5">
+                <p class="font-semibold text-gray-700">Order #00125</p>
+                <p class="text-sm text-gray-500">Potato Chips • Dec 08, 2025</p>
+                <span class="text-yellow-600 font-semibold">Pending</span>
+              </div>
+              <button class="text-sm text-blue-500 hover:underline">Track Order</button>
+            </div>
+            <div class="flex justify-between items-center p-4 bg-gray-50 rounded-lg">
+              <img
+                src="https://i.pinimg.com/1200x/2c/f1/90/2cf1903046dd81ec38041ecd4609b4ff.jpg"
+                alt="" class="w-25 h-25 rouned object-cover ">
+              <div class="flex-1 mx-5" >
+                <p class="font-semibold text-gray-700">Order #00126</p>
+                <p class="text-sm text-gray-500">Pork Tonderloin • Dec 08, 2025</p>
+                <span class="text-red-600 font-semibold">Cancelled</span>
+              </div>
+              <button class="text-sm text-gray-500 hover:underline">Reorder</button>
+            </div>
+          </div>
+        </div>
+        <!--LogOut-->
+        <div id="log-out"
+          class="section-content hidden border border-gray-300 rounded-xl p-10 bg-white shadow-sm relative">
+          <div class="flex flex-col items-center justify-center text-center">
+            <div class="mb-6">
+              <svg class="mx-auto h-12 w-12 text-red-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
+              </svg>
+            </div>
+            <h2 class="text-2xl font-bold text-gray-700 mb-4">Log Out?</h2>
+            <p class="text-gray-600 mb-8">Are you sure you to log out of your account?</p>
+            <div class="flex gap-4">
+              <button id="comfirm-logout"
+                class="bg-red-500 text-white font-semibold px-8 py-3 rounded-full hover:bg-red-600 transition-colors shadow-md">
+                Yes, Log Out
+              </button>
+              <button id="cancel-logout"
+                class="bg-gray-300 text-gray-700 font-semibold px-8 py-3 rounded-full hover:bg-gray-400 transition-colors shadow-md">
+                Cancel
+            </div>
+          </div>
+        </div>
       </div>
-
-      
-      <form id="profile-form" class="grid grid-cols-1 md:grid-cols-2 gap-6">
-      
-        <div>
-          <label class="block font-semibold text-gray-700 mb-2">First Name *</label>
-          <input type="text" name="firstName" value="Dina" required
-                 class="w-full border border-gray-300 rounded-full py-3 px-4 focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent">
-        </div>
-
-      
-        <div>
-          <label class="block font-semibold text-gray-700 mb-2">Last Name *</label>
-          <input type="text" name="lastName" value="Seng" required
-                 class="w-full border border-gray-300 rounded-full py-3 px-4 focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent">
-        </div>
-
-      
-        <div class="md:col-span-2">
-          <label class="block font-semibold text-gray-700 mb-2">Email *</label>
-          <input type="email" name="email" value="DinaSeng@gmail.com" required
-                 class="w-full border border-gray-300 rounded-full py-3 px-4 focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent">
-        </div>
-
-      
-        <div class="md:col-span-2">
-          <label class="block font-semibold text-gray-700 mb-2">Password *</label>
-          <input type="password" name="password" value="32432423412" required
-                 class="w-full border border-gray-300 rounded-full py-3 px-4 focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent">
-        </div>
-
-      
-        <div class="md:col-span-2">
-          <label class="block font-semibold text-gray-700 mb-2">Phone Number *</label>
-          <input type="tel" name="phone" value="097 123 123" required
-                 class="w-full border border-gray-300 rounded-full py-3 px-4 focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent">
-        </div>
-
-      
-        <div class="md:col-span-2 flex justify-center mt-6">
-          <button type="submit" class="bg-green-500 text-white font-semibold px-8 py-3 rounded-full hover:bg-green-600 transition-colors shadow-md">
-            Save Changes
-          </button>
-        </div>
-      </form>
-          </div> 
     </div>
-
-
     <!-- Footer Info -->
     <div class="mt-8 grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
       <div class="flex flex-col items-center">
@@ -283,6 +351,72 @@
   </section>
   <div data-include="../components/footer.html"></div>
   <script src="../js/include.js"></script>
+
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+
+      const buttons = document.querySelectorAll('[data-target]');
+      const sections = document.querySelectorAll('.section-content');
+      const container = document.getElementById('content-container');
+
+      function showSection(targetId) {
+
+
+        container.classList.add('opacity-0');
+
+        setTimeout(() => {
+
+          // hide_all_sections
+          sections.forEach(sec => sec.classList.add('hidden'));
+
+          // show_selected_section
+          document.getElementById(targetId).classList.remove('hidden');
+
+          // update_button_styles
+          buttons.forEach(btn => {
+            btn.classList.remove('bg-green-500', 'text-white');
+            btn.classList.add('bg-white', 'text-gray-800');
+          });
+
+          // highlight_active_button
+          document.querySelector(`[data-target="${targetId}"]`)
+            .classList.remove('bg-white', 'text-gray-800');
+          document.querySelector(`[data-target="${targetId}"]`)
+            .classList.add('bg-green-500', 'text-white');
+
+          // fade in
+          container.classList.remove('opacity-0');
+
+        }, 150);
+      }
+
+      buttons.forEach(btn => {
+        btn.addEventListener('click', () => {
+          const sectionID = btn.getAttribute('data-target');
+          showSection(sectionID);
+        });
+      });
+
+      // logout_confirm
+      const confirmLogout = document.getElementById('confirm-logout');
+      if (confirmLogout) {
+        confirmLogout.addEventListener('click', () => {
+          window.location.href = "login.html";
+        });
+      }
+
+      // cancel logout → go back to personal info
+      const cancelLogout = document.getElementById('cancel-logout');
+      if (cancelLogout) {
+        cancelLogout.addEventListener('click', () => showSection('personal-info'));
+      }
+
+      // default selection
+      showSection('personal-info');
+
+    });
+  </script>
 
 </body>
 
