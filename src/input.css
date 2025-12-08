@@ -21,3 +21,6 @@ html{
     @apply scroll-smooth
 }
 
+body::-webkit-scrollbar {
+  display: none; /* Chrome, Safari */
+}
