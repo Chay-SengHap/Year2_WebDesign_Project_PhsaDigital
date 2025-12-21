@@ -329,9 +329,6 @@
   <!-- Healthy Sets Card -->
   <div id="cartBudget" class="flex flex-col border border-gray-300 rounded-xl p-5 hover:opacity-90">
     
-    
-    
-    
   </div>
 </div>
   
@@ -396,6 +393,7 @@
     });
   </script>
   <script src="../js/include.js"></script>
+<!--Card Display with JSON data --> 
   <script>
     fetch('../cart/budget.json')
     .then(res=>res.json())
@@ -407,43 +405,45 @@
         const card =`
           <div class="flex flex-col border border-gray-300 rounded-xl p-5 hover:shadow-lg hover:border-gray-400 transition-all duration-300">
             
-            <div class="grid grid-cols-1 md:flex md:flex-row md:gap-2">
-              <!-- Image -->
-              <img src="${item.image}" alt="${item.title}" class="w-full md:w-1/3 h-48 object-cover rounded-xl mb-4 md:mb-0 md:mt-2">
-          
-              <!-- Details -->
-              <div class="flex-1 flex flex-col overflow-hidden">
-                <div class="between md:px-2 px-5">
-                  <div class="center">
-                    <h3 class="font-semibold text-lg mb-1">${item.title}</h3>
-                  </div>
-                  <div class="center">
-                    <p class="text-orange-600 font-semibold text-lg mb-1">$${item.price.toFixed(2)}</p>
-                  </div>
-                </div>
-          
-                <div class="text-md text-gray-400 md:text-sm space-y-2 px-5 md:p-2 flex gap-2 ">
-                  <div class="font-semibold">
-                    Ingredient:
-                  </div>
-
-                  ${item.ingredients.map(ingredient => `
-                    <div class="">
-                      <span>${ingredient}</span>
+            <a href="./budgetdetail.html?id=${item.id}" class="block cursor-pointer hover:opacity-90 transition-opacity">
+              <div class="grid grid-cols-1 md:flex md:flex-row md:gap-2">
+                <!-- Image -->
+                <img src="${item.image}" alt="${item.title}" class="w-full md:w-1/3 h-48 object-cover rounded-xl mb-4 md:mb-0 md:mt-2">
+            
+                <!-- Details -->
+                <div class="flex-1 flex flex-col overflow-hidden">
+                  <div class="between md:px-2 px-5">
+                    <div class="center">
+                      <h3 class="font-semibold text-lg mb-1">${item.title}</h3>
                     </div>
-                  `).join('')}
-                </div>
-                <div class="text-md text-gray-400 md:text-sm space-y-2 mb-4 px-5 md:p-2 flex gap-2 ">
-                  <div class="text-sm">
-                    <span class="font-semibold">Description</span> : ${item.description}
+                    <div class="center">
+                      <p class="text-orange-600 font-semibold text-lg mb-1">$${item.price.toFixed(2)}</p>
+                    </div>
+                  </div>
+            
+                  <div class="text-md text-gray-400 md:text-sm space-y-2 px-5 md:p-2 flex gap-2 ">
+                    <div class="font-semibold">
+                      Ingredient:
+                    </div>
+
+                    ${item.ingredients.map(ingredient => `
+                      <div class="">
+                        <span>${ingredient}</span>
+                      </div>
+                    `).join('')}
+                  </div>
+                  <div class="text-md text-gray-400 md:text-sm space-y-2 mb-4 px-5 md:p-2 flex gap-2 ">
+                    <div class="text-sm">
+                      <span class="font-semibold">Description</span> : ${item.description}
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
+            </a>
             
-            <!-- Button -->
+            <!-- Button (outside the link to avoid navigation on click) -->
             <div class="center">
-              <button class="w-full h-10 addtoCart mt-4 bg-green-500 text-white text-sm px-4 py-1 rounded-full cursor-pointer hover:bg-green-600 transition-colors" data-id="${item.id}" data-title="${item.title}" data-price="${item.price}" data-img="${item.img}">
+              <button class="w-full h-10 addtoCart mt-4 bg-green-500 text-white text-sm px-4 py-1 rounded-full cursor-pointer hover:bg-green-600 transition-colors" data-id="${item.id}" data-title="${item.title}" data-price="${item.price}" data-img="${item.image}">
                 Add To Cart
               </button>
             </div>
@@ -452,12 +452,6 @@
         `
         cartBudget.innerHTML += card;
       })
-
-
-
-
-
-
     })
   </script>
   

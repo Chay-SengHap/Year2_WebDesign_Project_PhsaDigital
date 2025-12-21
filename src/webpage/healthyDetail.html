@@ -8,7 +8,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
-  <title>Product Detail</title>
+  <title>Healthy Detail</title>
 </head>
 <body class="font-[Montserrat]">
     <!-- Header -->
@@ -132,8 +132,8 @@
             <nav class="flex items-center gap-8">
               <a href="./homepage.html" class="text-gray-600 hover:text-gray-900 font-semibold text-sm transition">Home</a>
               <a href="./product.html"
-                class=" text-green-500 hover:text-green-600 font-medium text-sm transition">Products</a>
-              <a href="./healthy.html" class="text-gray-600 hover:text-gray-900 font-medium text-sm transition">Healthy
+                class="text-gray-600 hover:text-gray-900 font-medium text-sm transition">Products</a>
+              <a href="./healthy.html" class=" text-green-500 hover:text-green-600 font-medium text-sm transition">Healthy
                 Sets</a>
               <a href="./budget.html" class="text-gray-600 hover:text-gray-900 font-medium text-sm transition">Budget
                 Sets</a>
@@ -321,8 +321,8 @@
     <!-- Back Button -->
 
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3 flex justify-between">
-            <h1 class="text-xl font-medium">Product Detail</h1>
-            <a href="./product.html" class="text-2xl">
+            <h1 class="text-xl font-medium">Our Healthy Set Detail</h1>
+            <a href="./healthy.html" class="text-2xl">
                 <i class="fa-solid fa-xmark"></i>
             </a>
         
@@ -409,21 +409,15 @@
         const productId = params.get("id");
 
         // 2. Fetch your JSON
-        fetch("../cart/grocery.json")
+        fetch("../cart/healthy.json")
         .then(res => res.json())
         .then(data => {
-            // Find product by id in ALL categories
-            let product =
-            data.meat.find(p => p.id == productId) ||
-            data.fish.find(p => p.id == productId) ||
-            data.snack.find(p => p.id == productId) ||
-            data.seasoning.find(p => p.id == productId) ||
-            data.vegetable.find(p => p.id == productId) ||
-            data.fruit.find(p => p.id == productId);
+            // Find product by id in healthySets
+            let product = data.healthySets.find(p => p.id == productId);
             
             if (!product) {
             document.getElementById("productDetail").innerHTML =
-                "<p>Product not found.</p>";
+                "<p>Healthy Set not found.</p>";
             return;
             }
 
@@ -434,19 +428,29 @@
 
                 <div>
                 <h1 class="text-3xl font-bold mb-2">${product.title}</h1>
-                <p class="text-xl text-green-600 font-semibold mb-4">$${product.price}</p>
-                <p class="text-gray-600 mb-6">${product.short_description|| "No description available."}</p>
+                <p class="text-xl text-green-600 font-semibold mb-4">$${product.price.toFixed(2)}</p>
 
-                <button class="px-6 py-3 addtoCart text-white rounded-lg">
+                <div class="mb-6">
+                  <h3 class="text-xl font-semibold text-gray-800 mb-3">Ingredients Included:</h3>
+                  <ul class="space-y-3 text-gray-700">
+                    ${product.ingredients.map(ing => `
+                      <li class="flex justify-between border-b border-gray-200 pb-2">
+                        <span class="font-medium">${ing.name}</span>
+                        <span class="text-gray-500">${ing.quantity}</span>
+                      </li>
+                    `).join('')}
+                  </ul>
+                </div>
+
+                <button class="px-6 py-3 addtoCart text-white rounded-lg" data-id="${product.id}" data-title="${product.title}" data-price="${product.price}" data-img="${product.img}">
                     Add to Cart
                 </button>
                 </div>
             </div>
             `;
 
-            const categories = ['meat' , 'fish' , 'seafood' , 'vegetable' , 'snack' , 'fruit' , 'seasoning']
-            let productCategory = categories.find(cat => data[cat].some(p =>p.id == product.id))
-            const similarProduct = data[productCategory].filter(p => p.id !=product.id).slice(0 , 4)
+            // Similar products from healthySets (exclude current)
+            const similarProduct = data.healthySets.filter(p => p.id != product.id).slice(0 , 4)
 
             const container = document.getElementById("similarProducts");
             container.innerHTML = "";
@@ -455,17 +459,17 @@
                 const div = document.createElement('div')
                 div.className=''
                     div.innerHTML = `
-                            <a href="./productdetail.html?id=${item.id}" class="group">
+                            <a href="./healthydetail.html?id=${item.id}" class="group">
                                 <img src="${item.img}"
                                 alt="${item.title}"
                                 class="aspect-square w-full rounded-lg bg-gray-200 object-cover group-hover:opacity-75 xl:aspect-7/8" />
                                 <div class="flex flex-col gap-2">
                                 <div>
                                     <h3 class="mt-4 text-sm text-gray-700">${item.title}</h3>
-                                    <p class="mt-1 text-lg font-medium text-gray-900">$${item.price}</p>
+                                    <p class="mt-1 text-lg font-medium text-gray-900">$${item.price.toFixed(2)}</p>
                                 </div>
                                 <div class="flex w-full">
-                                    <Button class="w-full bg-[#38cb82] hover:bg-[#41dc8e] p-1 rounded-lg font-medium text-white">Add to Cart</Button>
+                                    <button class="w-full bg-[#38cb82] hover:bg-[#41dc8e] p-1 rounded-lg font-medium text-white">Add to Cart</button>
                                 </div>
                                 </div>
                         </a>
