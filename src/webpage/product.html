@@ -324,7 +324,29 @@
 
   </div>
 
-  <!-- Hero Section -->
+</div>
+<!-- Add to Cart Toast -->
+<div id="cartToastContainer" class="fixed top-20 lg:top-36 right-4 sm:right-6 z-50 w-auto max-w-[calc(100vw-2rem)] sm:max-w-sm">
+  <div id="cartToast" class="hidden transform transition-all duration-300 ease-in-out">
+    <div class="flex items-center justify-between p-4 sm:p-5 text-green-600 bg-green-100 rounded-lg shadow-lg">
+      <div class="flex items-center gap-3">
+        <svg class="w-5 h-5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+          <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+        </svg>
+        <p id="toastText" class="text-sm sm:text-base font-medium">Successfully Add to Cart</p>
+      </div>
+      <button onclick="hideToast()" class="ml-4 text-green-600 hover:text-green-800 transition-colors flex-shrink-0">
+        <svg class="w-4 h-4 sm:w-5 sm:h-5" fill="currentColor" viewBox="0 0 20 20">
+          <path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+</div>
+
+
+
+   <!-- Hero Section -->
   <main class="pt-24 lg:pt-34 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <!-- for navigate 1 to another category -->
     <section>
@@ -684,6 +706,73 @@
   <script>
     lucide.createIcons();
     fetch('../cart/grocery.json')
+  // Close mobile category on outside click (optional enhancement)
+  document.addEventListener('click', (e) => {
+    if (!mobileCategoryToggle.contains(e.target) && !mobileCategoryMenu.contains(e.target)) {
+      mobileCategoryMenu.classList.add('hidden');
+      mobileCategoryArrow.classList.remove('rotate-180');
+    }
+  });
+    </script>
+    <script>
+
+      const successAddtoCart = document.getElementById('cartToastContainer')
+
+      let toastTimeout;
+
+      function showCartToast() {
+        const toast = document.getElementById("cartToast");
+
+        toast.classList.remove("hidden");
+        toast.classList.add("opacity-0", "translate-x-10");
+
+        requestAnimationFrame(() => {
+          toast.classList.remove("opacity-0", "translate-x-10");
+          toast.classList.add("transition", "duration-300", "opacity-100", "translate-x-0");
+        });
+
+        clearTimeout(toastTimeout);
+        toastTimeout = setTimeout(hideToast, 2000);
+      }
+
+      function hideToast() {
+        const toast = document.getElementById("cartToast");
+
+        toast.classList.remove("opacity-100", "translate-x-0");
+        toast.classList.add("opacity-0", "translate-x-10");
+
+        setTimeout(() => {
+          toast.classList.add("hidden");
+        }, 300);
+      }
+
+
+      function addtoCart(id, title, img, price) {
+        let cart = JSON.parse(localStorage.getItem('cart')) || [];
+
+        // Check if the item already exists
+        const existItem = cart.find(item => item.id === id);
+
+        if (existItem) {
+          // If it exists, increase quantity
+          existItem.quantity += 1;
+        } else {
+          // If it doesn't exist, add new item with quantity = 1
+          const product = { id, title, img, price, quantity: 1 };
+          cart.push(product);
+        }
+
+        // Save updated cart to localStorage
+        localStorage.setItem('cart', JSON.stringify(cart));
+
+        // Show toast and reload cart display
+        showCartToast();
+        loadCartItems(); // make sure this updates your cart table
+      }
+
+
+      lucide.createIcons();
+      fetch('../cart/grocery.json')
       .then(res => res.json())
       .then(data => {
 
@@ -692,7 +781,7 @@
         const snackSection = document.getElementById('snackSection')
         const seasoningSection = document.getElementById('seasoningSection')
         const vegetableSection = document.getElementById('vegetableSection')
-        const seafoodSection = document.getElementById('seafoodSection')
+        const seafoodSection = document.getElementById('seafoodSection') 
         const fruitSection = document.getElementById('fruitSection')
 
         data.meat.map(item => {
@@ -708,11 +797,13 @@
                     <h3 class="mt-4 text-sm text-gray-700">${item.title}</h3>
                     <p class="mt-1 text-lg font-medium text-gray-900">$${item.price}</p>
                   </div>
-                  <div class="flex w-full">
-                    <Button class="w-full bg-[#38cb82] hover:bg-[#41dc8e] p-1 rounded-lg font-medium text-white">Add to Cart</Button>
-                  </div>
                 </div>
-            </a>
+              </a>
+                  <div class="flex w-full">
+                    <button class="w-full bg-[#38cb82] hover:bg-[#41dc8e] p-1 rounded-lg font-medium text-white" onclick="addtoCart(${item.id}, '${item.title}', '${item.img}', ${item.price})"
+>Add to Cart</button>
+                  </div>
+            
           
           `
           meatSection.appendChild(card)
@@ -729,11 +820,12 @@
                     <h3 class="mt-4 text-sm text-gray-700">${item.title}</h3>
                     <p class="mt-1 text-lg font-medium text-gray-900">$${item.price}</p>
                   </div>
-                  <div class="flex w-full">
-                    <Button class="w-full bg-[#38cb82] hover:bg-[#41dc8e] p-1 rounded-lg font-medium text-white">Add to Cart</Button>
                   </div>
-                </div>
             </a>
+                  <div class="flex w-full">
+                    <button class="w-full bg-[#38cb82] hover:bg-[#41dc8e] p-1 rounded-lg font-medium text-white" onclick="addtoCart(${item.id}, '${item.title}', '${item.img}', ${item.price})"
+>Add to Cart</button>
+                  </div>
           
           `
           fishSection.appendChild(card)
@@ -750,11 +842,12 @@
                     <h3 class="mt-4 text-sm text-gray-700">${item.title}</h3>
                     <p class="mt-1 text-lg font-medium text-gray-900">$${item.price}</p>
                   </div>
-                  <div class="flex w-full">
-                    <Button class="w-full bg-[#38cb82] hover:bg-[#41dc8e] p-1 rounded-lg font-medium text-white">Add to Cart</Button>
                   </div>
-                </div>
-            </a>
+                  </a>
+                  <div class="flex w-full">
+                    <button class="w-full bg-[#38cb82] hover:bg-[#41dc8e] p-1 rounded-lg font-medium text-white" onclick="addtoCart(${item.id}, '${item.title}', '${item.img}', ${item.price})"
+>Add to Cart</button>
+                  </div>
           
           `
           snackSection.appendChild(card)
@@ -771,11 +864,12 @@
                     <h3 class="mt-4 text-sm text-gray-700">${item.title}</h3>
                     <p class="mt-1 text-lg font-medium text-gray-900">$${item.price}</p>
                   </div>
-                  <div class="flex w-full">
-                    <Button class="w-full bg-[#38cb82] hover:bg-[#41dc8e] p-1 rounded-lg font-medium text-white">Add to Cart</Button>
                   </div>
-                </div>
-            </a>
+                  </a>
+                  <div class="flex w-full">
+                    <button class="w-full bg-[#38cb82] hover:bg-[#41dc8e] p-1 rounded-lg font-medium text-white" onclick="addtoCart(${item.id}, '${item.title}', '${item.img}', ${item.price})"
+>Add to Cart</button>
+                  </div>
           
           `
           seasoningSection.appendChild(card)
@@ -792,11 +886,12 @@
                     <h3 class="mt-4 text-sm text-gray-700">${item.title}</h3>
                     <p class="mt-1 text-lg font-medium text-gray-900">$${item.price}</p>
                   </div>
-                  <div class="flex w-full">
-                    <Button class="w-full bg-[#38cb82] hover:bg-[#41dc8e] p-1 rounded-lg font-medium text-white">Add to Cart</Button>
                   </div>
-                </div>
-            </a>
+                  </a>
+                  <div class="flex w-full">
+                    <button class="w-full bg-[#38cb82] hover:bg-[#41dc8e] p-1 rounded-lg font-medium text-white" onclick="addtoCart(${item.id}, '${item.title}', '${item.img}', ${item.price})"
+>Add to Cart</button>
+                  </div>
           
           `
           vegetableSection.appendChild(card)
@@ -813,11 +908,13 @@
                     <h3 class="mt-4 text-sm text-gray-700">${item.title}</h3>
                     <p class="mt-1 text-lg font-medium text-gray-900">$${item.price}</p>
                   </div>
-                  <div class="flex w-full">
-                    <Button class="w-full bg-[#38cb82] hover:bg-[#41dc8e] p-1 rounded-lg font-medium text-white">Add to Cart</Button>
                   </div>
-                </div>
-            </a>
+                  </a>
+                  <div class="flex w-full">
+                    <button class="w-full bg-[#38cb82] hover:bg-[#41dc8e] p-1 rounded-lg font-medium text-white" onclick="addtoCart(${item.id}, '${item.title}', '${item.img}', ${item.price})"
+>Add to Cart</button>
+                  </div>
+          
           `
           seafoodSection.appendChild(card)
         })
@@ -833,17 +930,19 @@
                     <h3 class="mt-4 text-sm text-gray-700">${item.title}</h3>
                     <p class="mt-1 text-lg font-medium text-gray-900">$${item.price}</p>
                   </div>
-                  <div class="flex w-full">
-                    <Button class="w-full bg-[#38cb82] hover:bg-[#41dc8e] p-1 rounded-lg font-medium text-white">Add to Cart</Button>
                   </div>
-                </div>
-            </a>
+                  </a>
+                  <div class="flex w-full">
+                    <button class="w-full bg-[#38cb82] hover:bg-[#41dc8e] p-1 rounded-lg font-medium text-white" onclick="addtoCart(${item.id}, '${item.title}', '${item.img}', ${item.price})"
+>Add to Cart</button>
+                  </div>
           
           `
           fruitSection.appendChild(card)
         })
 
       })
+      
 
   </script>
 </body>
