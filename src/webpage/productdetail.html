@@ -436,7 +436,8 @@
             data.snack.find(p => p.id == productId) ||
             data.seasoning.find(p => p.id == productId) ||
             data.vegetable.find(p => p.id == productId) ||
-            data.fruit.find(p => p.id == productId);
+            data.fruit.find(p => p.id == productId) ||
+            data.seafood.find(p=> p.id == productId);
             
             if (!product) {
             document.getElementById("productDetail").innerHTML =

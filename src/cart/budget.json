@@ -107,6 +107,27 @@
       "ingredients": ["Noodles", "Green onion", "Broth"],
       "description": "A light and inexpensive noodle soup made with simple ingredients. It's warm, filling, and perfect for a budget-friendly lunch or dinner.",
       "benefits": ["Low cost", "Warm and comforting", "Easy to prepare"]
+    },
+    {
+      "id": 13,
+      "title": "Budget Sets",
+      "price": 1.99,
+      "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+      "ingredients": [
+        "Rice",
+        "Carrots",
+        "Onion",
+        "Tomato"
+        
+      ],
+      "description": "A simple and affordable budget meal made with basic ingredients. This set is designed for people who want a low-cost, nutritious, and filling meal without sacrificing taste.",
+      "benefits": [
+        "Very affordable",
+        "Uses simple ingredients",
+        "Easy and quick to prepare",
+        "Suitable for daily meals"
+      ]
     }
+
   ]
 }
