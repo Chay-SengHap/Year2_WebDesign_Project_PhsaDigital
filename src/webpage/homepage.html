@@ -40,7 +40,7 @@
             <svg class="w-5 h-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
             </svg>
-            <input id="desktopSearch type="text" placeholder="Search items..." class="bg-transparent ml-3 outline-none w-full text-sm text-gray-700 placeholder-gray-500 border-0">
+            <input id="desktopSearch" type="text" placeholder="Search items..." class="bg-transparent ml-3 outline-none w-full text-sm text-gray-700 placeholder-gray-500 border-0">
           </div>
         </div>
 
@@ -141,6 +141,23 @@
       </div>
     </div>
   </header>
+  <div id="cartToastContainer" class="fixed top-20 lg:top-36 right-4 sm:right-6 z-50 w-auto max-w-[calc(100vw-2rem)] sm:max-w-sm">
+  <div id="cartToast" class="hidden transform transition-all duration-300 ease-in-out">
+    <div class="flex items-center justify-between p-4 sm:p-5 text-green-600 bg-green-100 rounded-lg shadow-lg">
+      <div class="flex items-center gap-3">
+        <svg class="w-5 h-5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+          <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+        </svg>
+        <p id="toastText" class="text-sm sm:text-base font-medium">Successfully Add to Cart</p>
+      </div>
+      <button onclick="hideToast()" class="ml-4 text-green-600 hover:text-green-800 transition-colors flex-shrink-0">
+        <svg class="w-4 h-4 sm:w-5 sm:h-5" fill="currentColor" viewBox="0 0 20 20">
+          <path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+</div>
 
   <!-- Mobile Overlay Menu -->
   <div id="mobileOverlay" class="fixed inset-0 bg-[] z-50 hidden transition-opacity duration-300">
@@ -392,66 +409,99 @@
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 gap-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
 
     <!-- Meat Category: Beef Sirloin -->
-    <div class="border border-gray-300  rounded-xl p-3 flex flex-col cursor-pointer">
-      <img src="https://target.scene7.com/is/image/Target/GUEST_c2fa703e-539b-4228-bb19-9c83b95ffb22?wid=1200&hei=1200&qlt=80" alt="Beef Sirloin" class="rounded-lg object-contain h-40 w-full">
-      <h3 class="mt-3 mb-3 font-semibold">Beef Sirloin</h3>
-      <p class="text-orange-600 font-bold text-sm mt-3 mb-3">$9.50</p>
-      <button class="mt-auto bg-green-500 text-white text-sm px-4 py-1 rounded-full">
-        Add To Cart
-      </button>
-    </div>
+     <div class="border border-gray-300  rounded-xl p-3 flex flex-col cursor-pointer">
+        <a href="./productdetail.html?id=57">
+          <img src="https://i.pinimg.com/1200x/e5/d7/2c/e5d72c693fb945009a0ab3d1979e0d27.jpg" alt="Asparagus"
+            class="rounded-lg object-contain h-40 w-full hover:scale-108 tansition">
+          <h3 class="mt-3 mb-3 font-semibold">Asparagus</h3>
+        </a>
+        <p class="text-orange-600 mt-3 mb-3 font-bold text-sm">$2.00</p>
+        <button
+          onclick="addtoCart(57 ,'Asparagus','https://i.pinimg.com/1200x/e5/d7/2c/e5d72c693fb945009a0ab3d1979e0d27.jpg' , 2)"
+          class="mt-auto bg-green-500 hover:bg-green-600 text-white text-sm px-4 py-1 rounded-full">
+          Add To Cart
+        </button>
+      </div>
+    
+
     
 
     <!-- Vegetable Category: Broccoli Florets -->
-<div class="border border-gray-300  rounded-xl p-3 flex flex-col cursor-pointer">
-      <img src="https://i.pinimg.com/1200x/e5/d7/2c/e5d72c693fb945009a0ab3d1979e0d27.jpg" alt="Asparagus" class="rounded-lg object-contain h-40 w-full">
-      <h3 class="mt-3 mb-3 font-semibold">Asparagus</h3>
-      <p class="text-orange-600 mt-3 mb-3 font-bold text-sm">$2.00</p>
-      <button class="mt-auto bg-green-500 text-white text-sm px-4 py-1 rounded-full">
-        Add To Cart
-      </button>
-    </div>
+      <div class="border border-gray-300  rounded-xl p-3 flex flex-col cursor-pointer">
+        <a href="./productdetail.html?id=57">
+          <img src="https://i.pinimg.com/1200x/e5/d7/2c/e5d72c693fb945009a0ab3d1979e0d27.jpg" alt="Asparagus"
+            class="rounded-lg object-contain h-40 w-full">
+          <h3 class="mt-3 mb-3 font-semibold">Asparagus</h3>
+        </a>
+        <p class="text-orange-600 mt-3 mb-3 font-bold text-sm">$2.00</p>
+        <button
+          onclick="addtoCart(57 ,'Asparagus','https://i.pinimg.com/1200x/e5/d7/2c/e5d72c693fb945009a0ab3d1979e0d27.jpg' , 2)"
+          class="mt-auto bg-green-500 hover:bg-green-600 text-white text-sm px-4 py-1 rounded-full">
+          Add To Cart
+        </button>
+      </div>
 
     <!-- Fruit Category: Apple (Gala) -->
-    <div class="border border-gray-300  rounded-xl p-3 flex flex-col cursor-pointer">
-      <img src="https://i.pinimg.com/1200x/73/bc/81/73bc81da7760784d1da1139ed403687d.jpg" alt="Apple (Gala)" class="rounded-lg object-contain h-40 w-full">
-      <h3 class="mt-3 mb-3 font-semibold">Apple (Gala)</h3>
-      <p class="text-orange-600 mt-3 mb-3 font-bold text-sm">$1.50</p>
-      <button class="mt-auto bg-green-500 text-white text-sm px-4 py-1 rounded-full">
-        Add To Cart
-      </button>
-    </div>
+     
+       <div class="border border-gray-300  rounded-xl p-3 flex flex-col cursor-pointer">
+        <a href="./productdetail.html?id=57">
+          <img src="https://i.pinimg.com/1200x/e5/d7/2c/e5d72c693fb945009a0ab3d1979e0d27.jpg" alt="Asparagus"
+            class="rounded-lg object-contain h-40 w-full">
+          <h3 class="mt-3 mb-3 font-semibold">Asparagus</h3>
+        </a>
+        <p class="text-orange-600 mt-3 mb-3 font-bold text-sm">$2.00</p>
+        <button
+          onclick="addtoCart(57 ,'Asparagus','https://i.pinimg.com/1200x/e5/d7/2c/e5d72c693fb945009a0ab3d1979e0d27.jpg' , 2)"
+          class="mt-auto bg-green-500 hover:bg-green-600 text-white text-sm px-4 py-1 rounded-full">
+          Add To Cart
+        </button>
+      </div>
+     
 
     <!-- Snack Category: Potato Chips -->
     <div class="border border-gray-300  rounded-xl p-3 flex flex-col cursor-pointer">
-      <img src="https://i.pinimg.com/1200x/b9/be/03/b9be03f5a04c5d13d164a722816f9dee.jpg" alt="Potato Chips" class="rounded-lg object-contain h-40 w-full">
-      <h3 class="mt-3 mb-3 font-semibold">Potato Chips</h3>
-      <p class="text-orange-600  mt-3 mb-3 font-bold text-sm">$1.25</p>
-      <button class="mt-auto bg-green-500 text-white text-sm px-4 py-1 rounded-full">
-        Add To Cart
-      </button>
-    </div>
+        <a href="./productdetail.html?id=57">
+          <img src="https://i.pinimg.com/1200x/e5/d7/2c/e5d72c693fb945009a0ab3d1979e0d27.jpg" alt="Asparagus"
+            class="rounded-lg object-contain h-40 w-full">
+          <h3 class="mt-3 mb-3 font-semibold">Asparagus</h3>
+        </a>
+        <p class="text-orange-600 mt-3 mb-3 font-bold text-sm">$2.00</p>
+        <button
+          onclick="addtoCart(57 ,'Asparagus','https://i.pinimg.com/1200x/e5/d7/2c/e5d72c693fb945009a0ab3d1979e0d27.jpg' , 2)"
+          class="mt-auto bg-green-500 hover:bg-green-600 text-white text-sm px-4 py-1 rounded-full">
+          Add To Cart
+        </button>
+      </div>
 
     <!-- Fish Category: Salmon Fillet -->
     <div class="border border-gray-300  rounded-xl p-3 flex flex-col cursor-pointer">
-      <img src="https://i.pinimg.com/1200x/cc/e8/13/cce8136d5f6885b53a11ff911eb7fe5c.jpg" alt="Salmon Fillet" class="rounded-lg object-contain h-40 w-full">
-      <h3 class="mt-3 mb-3 font-semibold">Salmon Fillet</h3>
-      <p class="text-orange-600 mt-3 mb-3 font-bold text-sm">$14.00</p>
-      <button class="mt-auto bg-green-500 text-white text-sm px-4 py-1 rounded-full">
-        Add To Cart
-      </button>
-    </div>
+        <a href="./productdetail.html?id=57">
+          <img src="https://i.pinimg.com/1200x/e5/d7/2c/e5d72c693fb945009a0ab3d1979e0d27.jpg" alt="Asparagus"
+            class="rounded-lg object-contain h-40 w-full">
+          <h3 class="mt-3 mb-3 font-semibold">Asparagus</h3>
+        </a>
+        <p class="text-orange-600 mt-3 mb-3 font-bold text-sm">$2.00</p>
+        <button
+          onclick="addtoCart(57 ,'Asparagus','https://i.pinimg.com/1200x/e5/d7/2c/e5d72c693fb945009a0ab3d1979e0d27.jpg' , 2)"
+          class="mt-auto bg-green-500 hover:bg-green-600 text-white text-sm px-4 py-1 rounded-full">
+          Add To Cart
+        </button>
+      </div>
 
     <!-- Seafood Category: Shrimp (Prawns) -->
-<div class="border border-gray-300  rounded-xl p-3 flex flex-col cursor-pointer">
-      <img src="https://i.pinimg.com/1200x/67/9f/a2/679fa27243692c9d86ffd36fb7a9f363.jpg" alt="Clams (Littleneck)" class="rounded-lg object-contain h-40 w-full">
-      <h3 class="mt-3 mb-3 font-semibold">Clams (Littleneck)</h3>
-      <p class="text-orange-600 mt-3 mb-3 font-bold text-sm">$6.00</p>
-      <button class="mt-auto bg-green-500 text-white text-sm px-4 py-1 rounded-full">
-        Add To Cart
-      </button>
-    </div>
-  </div>
+      <div class="border border-gray-300  rounded-xl p-3 flex flex-col cursor-pointer hover:opacity-90">
+        <a href="./productdetail.html?id=57">
+          <img src="https://i.pinimg.com/1200x/e5/d7/2c/e5d72c693fb945009a0ab3d1979e0d27.jpg" alt="Asparagus"
+            class="rounded-lg object-contain h-40 w-full">
+          <h3 class="mt-3 mb-3 font-semibold">Asparagus</h3>
+        </a>
+        <p class="text-orange-600 mt-3 mb-3 font-bold text-sm">$2.00</p>
+        <button
+          onclick="addtoCart(57 ,'Asparagus','https://i.pinimg.com/1200x/e5/d7/2c/e5d72c693fb945009a0ab3d1979e0d27.jpg' , 2)"
+          class="mt-auto bg-green-500 hover:bg-green-600 text-white text-sm px-4 py-1 rounded-full">
+          Add To Cart
+        </button>
+      </div>
 </section>
 
 
@@ -657,6 +707,59 @@
   <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
   <script src="https://unpkg.com/lucide@latest"></script>
   <script>
+    let toastTimeout;
+
+      function showCartToast() {
+        const toast = document.getElementById("cartToast");
+
+        toast.classList.remove("hidden");
+        toast.classList.add("opacity-0", "translate-x-10");
+
+        requestAnimationFrame(() => {
+          toast.classList.remove("opacity-0", "translate-x-10");
+          toast.classList.add("transition", "duration-300", "opacity-100", "translate-x-0");
+        });
+
+        clearTimeout(toastTimeout);
+        toastTimeout = setTimeout(hideToast, 2000);
+      }
+
+      function hideToast() {
+        const toast = document.getElementById("cartToast");
+
+        toast.classList.remove("opacity-100", "translate-x-0");
+        toast.classList.add("opacity-0", "translate-x-10");
+
+        setTimeout(() => {
+          toast.classList.add("hidden");
+        }, 300);
+      }
+
+
+      function addtoCart(id, title, img, price) {
+        let cart = JSON.parse(localStorage.getItem('cart')) || [];
+
+        // Check if the item already exists
+        const existItem = cart.find(item => item.id === id);
+
+        if (existItem) {
+          // If it exists, increase quantity
+          existItem.quantity += 1;
+        } else {
+          // If it doesn't exist, add new item with quantity = 1
+          const product = { id, title, img, price, quantity: 1 };
+          cart.push(product);
+        }
+
+        // Save updated cart to localStorage
+        localStorage.setItem('cart', JSON.stringify(cart));
+
+        // Show toast and reload cart display
+        showCartToast();
+        loadCartItems(); // make sure this updates your cart table
+      }
+  </script>
+  <script>
   lucide.createIcons();
     // Mobile menu toggle functionality
   const menuToggle = document.getElementById('menuToggle');
@@ -710,6 +813,7 @@
     }
   });
   </script>
+ 
 
 
 
