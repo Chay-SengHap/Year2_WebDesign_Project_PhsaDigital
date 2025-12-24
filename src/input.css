@@ -20,4 +20,7 @@
 html{
     @apply scroll-smooth
 }
-
+ .category-item {
+    flex-shrink: 0;
+    transition: all 0.3s ease;
+  }
